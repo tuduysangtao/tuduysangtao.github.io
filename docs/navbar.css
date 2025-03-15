@@ -1,47 +1,64 @@
-/* Reset navbar styles */
+/* Reset navbar styles with more specific selectors */
 .navbar {
-    background-color: #1a3a5f;
+    background-color: white;
     width: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: block;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
     box-sizing: border-box;
 }
 
+/* Use more specific selectors to prevent overrides */
 .navbar ul {
     display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+    list-style-type: none !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    max-width: 1000px;
+    justify-content: center !important;
     box-sizing: border-box;
 }
 
 .navbar li {
-    display: block;
-    width: 120px;
-    /* Fixed width for all navbar items */
-    box-sizing: border-box;
+    display: block !important;
+    width: 180px !important;
+    box-sizing: border-box !important;
 }
 
 .navbar a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px 0;
-    text-decoration: none;
-    font-weight: 500;
-    background-color: #1a3a5f;
-    width: 100%;
-    box-sizing: border-box;
+    display: block !important;
+    color: #1a3a5f !important;
+    text-align: center !important;
+    padding: 16px 0 !important;
+    text-decoration: none !important;
+    font-weight: 700 !important; /* Changed from 500 to 700 to make text bold */
+    background-color: white !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    /* Protected font styling */
+    font-family: Arial, sans-serif !important;
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    letter-spacing: normal !important;
+    text-transform: none !important;
 }
 
 /* Make hover subtle but visible */
 .navbar a:hover {
-    background-color: #254b76;
+    background-color: #f0f5fa !important;
+    color: #0d2b4c !important;
 }
 
 /* Remove active styling */
 .navbar a.active {
-    background-color: #1a3a5f;
+    background-color: white !important;
+    font-weight: 900 !important; /* Increased from 700 to 900 for active items to stand out more */
+}
+
+/* Add padding to body to prevent content from hiding behind navbar */
+body {
+    padding-top: 52px;
 }
