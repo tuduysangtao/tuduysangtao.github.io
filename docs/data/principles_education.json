@@ -1,0 +1,899 @@
+{
+    "industry": "education",
+    "principles": [
+      {
+        "id": 1,
+        "name": "Segmentation",
+        "examples": [
+          [
+            "Conduct site-based management. (A)",
+            "Offer separate programs to meet the diverse needs of students. (A)",
+            "Utilize task analyses when planning instruction. (C)"
+          ],
+          [
+            "Create flexible class scheduling that supports student choice of classes. (A)",
+            "Create project teams. (A)",
+            "Create review boards. (A)",
+            "Use partitions to create sectional classrooms. (A)",
+            "Utilize flexible grouping. (A)",
+            "Use block scheduling. (A) (See also Principle 30)",
+            "Create homogeneous (track) or heterogeneous (un-track) grouping. (A)",
+            "Use curricular modules/units. (C)"
+          ],
+          [
+            "Identify key areas of concern in conducting teacher contract negotiations. (A)",
+            "Set short-term and long-term goals for successful reform efforts. (A)",
+            "Employ mass customization - each student is a market. (A)",
+            "Break down teaching goals (objectives) into sub-goals. (A)",
+            "Condense a full year course into one semester or quarter. (A)",
+            "Create individual standards-based modules. (A)"
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Taking Out",
+        "examples": [
+          [
+            "Create needs-based professional development plans/programs that meet staff needs accordingly. (A)",
+            "Create virtual educational programs. (A) (Take out the classroom) (See also Principle 26)",
+            "Offer clinical supervision to teachers requiring remediation. (A)",
+            "Create or single out remedial programs. (A)",
+            "Create or single out alternative programs. (A)",
+            "Utilize online searches for books, periodicals, etc., in libraries. (A)",
+            "Eliminate non-purposeful physical and psychological barriers. (A/C)",
+            "Utilize data to make decisions. (Take out the emotion) (A/C)",
+            "Enable auditing or testing out for students who believe they have met course requirements. (A/C)",
+            "Make use of time-outs. (C)"
+          ],
+          [
+            "Set up a mentoring/peer coaching program for teachers. (A)",
+            "Use data-driven budgeting process. (A)",
+            "Match new programming and curricula to AYP (Adequate Yearly Progress). (A)",
+            "Separate 'troubled' students from the general student population. (A)",
+            "Match curricula and instruction to ‘high stakes’ tests. (A)",
+            "Use matrices to identify key skills to be taught. (A/C)",
+            "Teach to the curricula or test. (C)",
+            "Use College Outline Series books. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Local Quality",
+        "examples": [
+          [
+            "Set up class scheduling to avoid student tracking. (A)",
+            "Provide handicapped entry to schools and classrooms. (A)",
+            "Create differentiated professional development programs. (A)",
+            "Use differentiated supervision models. (A)",
+            "Provide choices and options in curricula, schedule, and auxiliary services. (A)"
+          ],
+          [
+            "Create multiple ways that parents can interact with the school. (A)",
+            "Lobby for flexibility in funding streams. (A)",
+            "Establish strong, ongoing, wide-ranging relationships with the community. (A)",
+            "Organize the classroom with worktables, movable seats, and resource centers versus podiums, lecterns, and raised platforms at the front of the room. (A/C)"
+          ],
+          [
+            "Utilize flexible grouping to meet individual student needs. (A)",
+            "Employ schools without walls. (A)",
+            "Locate schools in heavily populated areas to maximize tax revenues. (A)",
+            "Locate continuing education centers in locations near to customers. (A)",
+            "Use multiple times for parent training programs. (A)",
+            "Utilize summer school, weekend, and evenings. (Year-round schooling) (A)",
+            "Create varying time schedules for classes and school. (A)",
+            "Create educational modules different in content and duration for different organizational levels. (A/C)"
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Asymmetry",
+        "examples": [
+          [
+            "Utilize portfolio assessment to represent a running record of students' intellectual progress versus a standardized report card. (A)",
+            "Offer asynchronous opportunities to learn. (A) (See also Principles 19 and 35)",
+            "Utilize flexible seating in classrooms. (C)",
+            "Use differentiated instruction. (C)",
+            "Create interest in learning through unexpected events. (C) (Asymmetrical with respect to the normal schedule)",
+            "Use cognitive dissonance strategies to create student interest and higher level thinking. (C)"
+          ],
+          [
+            "Start classes for secondary education later in the day. (A)",
+            "Create incentives and support for non-traditional stakeholders. (A)",
+            "Create an engaging and welcoming environment. (A/C)",
+            "Create a warm atmosphere in classroom and school (Colors, design, furniture). (A)"
+          ],
+          [
+            "Provide student differentiation by offering advanced placement classes. (A)",
+            "Use asymmetrical body language when dealing with classroom management problems. (C)",
+            "Increase the randomness of student response. (C)",
+            "For disaffected students increase emphasis of student-based relevance. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Merging (Combining)",
+        "examples": [
+          [
+            "Hire paraprofessionals to assist classroom teachers in meeting the diverse needs of students. (A)",
+            "Structure staffing assignments to support team teaching initiatives. (A)",
+            "Engage in instructional team planning and teaching. (A)",
+            "Employ multi-purpose classrooms. (A)",
+            "Create a cafeteria/auditorium. (A)",
+            "In universities and private schools locate the Registrar and Bursar offices close together. (A)",
+            "Encourage collaboration between teachers and parents. (A)",
+            "Organize action research groups to study influences, practices, and results of curriculum design. (A/C)",
+            "Combine skill based experiences within fundraiser activities. (A/C) (See also Principle 7)"
+          ],
+          [
+            "Use team teaching to capitalize on teacher expertise. (A)",
+            "Create inclusive classrooms with a co-teaching structure. (A)",
+            "Coordinate library and media centers. (A)",
+            "Incorporate interdisciplinary curricula and instruction. (A)",
+            "Offer internships, shadowing, and cooperative education opportunities. (A)",
+            "Locate computers in classrooms. (A/C)"
+          ]
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Universality",
+        "examples": [
+          [
+            "Recruit and employ teachers with dual/multiple areas of certification. (A)",
+            "Break down barriers between departments. (W. E. Deming) (A)",
+            "Create multidisciplinary teams. (A)",
+            "Use data collected for accreditation purposes for continuous school improvement. (A)",
+            "Merge and standardize accreditation processes. (A)",
+            "Employ 'Lunch and Learn' events. (A/C)",
+            "Utilize test scores for regulatory statistics as well as student grading (Program evaluation as well as individual student evaluation). (A/C) (See also Principle 23)"
+          ],
+          [
+            "Use multidisciplinary teams to develop standardized tests. (A)",
+            "Create computerized templates. (A)",
+            "Consider using department and grade level examinations. (A/C)",
+            "Use state testing standards and curricula as district standards and lesson plan objectives. (C)",
+            "Use rubrics, checklists, and other scoring tools to standardize expectations. (C)",
+            "Use parallel tasks and experiences to match state standards and examinations. (C)",
+            "Use common lesson elements. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Nested Doll (Matreshka)",
+        "examples": [
+          [
+            "Write curriculum with K-12 faculty versus by grade or school level ensuring a seamless set of teaching and learning experiences. (A)",
+            "Include CDs inside textbooks. (A)",
+            "Align national, state, and local educational standards. (A/C)",
+            "Combine skill based experiences within fundraiser activities. (A/C) (See also Principle 5)",
+            "Use practice, homework, and assessment techniques to make students accountable. (C)",
+            "Create purpose for learning through communicating authentic real world experiences. (C)",
+            "Provide cognitive dissonance during classroom teaching. (C)"
+          ],
+          [
+            "Operations in the Main (Principal's) Office should not be isolated from the classrooms. (A)",
+            "Create channels that allow direct communication throughout the line and staff organization. (A)",
+            "Create professional development schools and internships. (A)",
+            "Consider differentiated staffing including apprenticeship periods. (A)",
+            "Create meaningful parent-teacher organizations. (A)",
+            "Articulate the desired ends of the School Board through the Superintendent and building principal to the classroom teacher for implementation. (A/C)"
+          ]
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Anti-weight (Counterweight)",
+        "examples": [
+          [
+            "Group students with mixed abilities. (A)",
+            "Invite consulting firms to identify and enable development activities. (A)",
+            "Merge classes and curricula to combine unique strengths. (A)",
+            "Create special events to reward student effort. (A)",
+            "Adopt inclusion to integrate special education with regular education. (A)",
+            "Create flex professional development programs that allow for individual choice. (A)",
+            "Support learning experiences that incorporate peer tutoring. (A/C)",
+            "Use special events to showcase student talents. (A/C)"
+          ],
+          [
+            "Group students to learn academic content. (A)",
+            "Encourage cooperation between traditional and charter schools. (A)",
+            "Use technology to create interest and to minimize non-essential tasks. (A/C)",
+            "Create interesting homework assignments. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Preliminary Anti-Action (Prior Counter-Action)",
+        "examples": [
+          [
+            "Conduct random drug searches to ensure safety and commitment to laws and regulations. (A)",
+            "Use innovative instructional media to satisfy both academic and safety requirements. (A)",
+            "Use virtual modules to test out of annual professional development requirements. (A) (See also Principle 27)"
+          ],
+          [
+            "Identify focus areas for teacher observations/evaluations. (A)",
+            "Engage in open, active communication to avoid future misunderstanding. (A)",
+            "Understand, respond to, and influence the political, social, economic, legal, and cultural contexts of the larger community. (A)",
+            "Maintain student records. (A/C)",
+            "Build/present a rubric to be used to assess student work prior to creation/submission of product. (A/C)",
+            "Separate and pre-locate challenging students. (C)",
+            "Use quizzes before major examinations. (C)",
+            "Share scoring rubric when assigning projects, papers, etc. (C)",
+            "Use parallel tasks to prepare for ‘high stakes’ testing. (C)",
+            "Create needs-based learning. (C)",
+            "Use diagnostic assessment. (C)",
+            "Use best practice theory to determine developmentally appropriate times and ways to teach content. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Preliminary Action",
+        "examples": [
+          [
+            "Model desired behaviors throughout the building/organization. (A)",
+            "Create and utilize emergency preparedness plans. (A)",
+            "Create long-range as well as annual plans (NCLB – No Child Left Behind). (A)",
+            "Establish a proactive rather than reactive process for decision-making (Strategic planning). (A)",
+            "Prepare lesson plans for substitute teachers. (C)"
+          ],
+          [
+            "Provide sign posters and route maps as directions for students and parents. (A)",
+            "Ensure that there is sufficient lead-time for demands made on families and the community. (A)",
+            "Create a common calendar. (A)",
+            "Create a climate for learning that is collaborative, supportive, challenging, and fair. (C)",
+            "Have students express concerns/pose questions/offer potential solutions prior to learning. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Beforehand Cushioning",
+        "examples": [
+          [
+            "Develop an emergency management plan. (A)",
+            "Create ongoing communication tools to allow for continuous update. (A)",
+            "Train faculty and staff in use of emergency equipment (e.g., Automatic External Defibrillator). (A)",
+            "Identify emergency resources needed and method of accessibility. (A)",
+            "Create a safe drop-off and pickup plan for students at beginning and end of day. (A)",
+            "Use metal detectors and guards to maintain safe learning environment. (A)"
+          ],
+          [
+            "Have students conduct peer assessments prior to submission of work for grading. (C)",
+            "Identify areas of assessment at the onset of learning. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Equipotentiality",
+        "examples": [
+          [
+            "Utilize flexible bleacher seating for assemblies. (A)",
+            "Utilize satellite campuses for 'Lifelong Learning'. (A)",
+            "Structure so students stay put, teachers move between classrooms. (A)",
+            "Purchase equipment that can be adapted to meet varying student needs. (A)"
+          ]
+        ]
+      },
+      {
+        "id": 13,
+        "name": "The Other Way Round (Inversion)",
+        "examples": [
+          [
+            "Provide for student feedback for course and teacher evaluations. (A)",
+            "Blame the process rather than the teacher. (A)",
+            "Students assess their own and other student’s examinations and homework assignments. (C)",
+            "Allow students to choose preferred learning experiences within course requirements. (C)",
+            "Let the students teach and the teachers learn. (C)"
+          ],
+          [
+            "Try teachers moving between classes vs. students moving between classes. (A)",
+            "Implement home visits to provide teaching for homebound students. (A)",
+            "Incorporate Management by Walking Around. (A)",
+            "Conduct PTA and PTO meetings in the community rather than in the school. (A)"
+          ],
+          [
+            "Develop outcome-based rather than education-based structure. (A)",
+            "Have students teach classes. (C)",
+            "Incorporate independent learning experiences and contract learning. (C)",
+            "Have students assess themselves. (C)",
+            "Have students help develop classroom rules. (C)",
+            "Create cognitive dissonance with classroom instruction. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Spheroidality - Curvature",
+        "examples": [
+          [
+            "Use rounded personalities as interface to parents. (A/C)",
+            "Use smoothing techniques for conflict resolution - encourage joint problem solving opportunities. (A/C)",
+            "Establish deviation request protocols as a formal method for circumventing the rules. (A/C)",
+            "Use educational globes rather than maps for instruction. (C)",
+            "Use 3D virtual computer models rather than 2D equations. (C)",
+            "Use ‘manipulatives’ in teaching mathematics. (C)",
+            "Use 'hands-on' activities. (C)"
+          ],
+          [
+            "Employ quality circles. (A)",
+            "Build the curriculum in a spiral manner that enables students to continually build on what they have already learned. (A/C)",
+            "Use biosphere environmental enclosures rather than terrariums. (A/C)",
+            "Use Bloom’s taxonomy to emphasize creative and reflective thinking. (C)"
+          ],
+          [
+            "Go from linear to rotary motion, use centrifugal forces. (C)",
+            "Use site-based management. (A)",
+            "Encourage lateral or pattern (Out of the Box) thinking rather than linear thinking. (A/C)",
+            "Build a collaborative context for learning that stimulates the construction of knowledge, reflection, and social awareness. (C)",
+            "Use constructivism as an instructional approach. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Dynamics",
+        "examples": [
+          [
+            "Make creative use of all resources - people, time, and money - to support school improvement. (A)",
+            "Create alternative programs. (A)",
+            "Adopt a participatory change process. (A)",
+            "Use self-paced learning. (C)"
+          ],
+          [
+            "Utilize site-based management teams for decision-making. (A)",
+            "Use cross-functional and cross-department teaching, and offer interdisciplinary degree programs. (A)",
+            "Employ team-teaching and co-teaching models and methodologies. (A)"
+          ],
+          [
+            "Provide learning opportunities for teachers and students via technology-based, asynchronous systems. (A)",
+            "Create flexible curricula (Chaocracy). (A)",
+            "Employ permanent substitute teachers. (A)",
+            "Utilize flex and comp time as well as stipends to compensate teachers. (A)",
+            "Provide inter-, intra-, and interscholastic co-curricular programs. (A)",
+            "Modify written curriculum to accommodate learners with special needs. (A/C)"
+          ],
+          [
+            "Offer Advanced Placement or Regents programs. (A)",
+            "Enable asynchronous distance learning. (A)",
+            "Have students only attend school during class time. (A)",
+            "Create an open campus. (A)",
+            "Create an individualized education plan for each student. (A/C)",
+            "Use interactive teleconferencing to connect with distant museums, classrooms, etc. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Partial or Excessive Actions",
+        "examples": [
+          [
+            "Use retirement incentives to complement anticipated teacher attrition. (A)",
+            "Create study halls. (A)",
+            "Utilize teacher aides. (A)",
+            "Recruit ten volunteers, then use only the five best. (A/C)",
+            "Offer enrichment and remedial opportunities to meet individual learning needs. (C)",
+            "Grade all questions then average the top scores on examinations. (C)",
+            "Teach to the test. (C)",
+            "Work to contract. (C)",
+            "Give no homework assignments. (C)",
+            "Re-teach students who do not achieve mastery. (C)"
+          ],
+          [
+            "Schedule extra practice sessions. (C)",
+            "Inspect every head in classroom for head lice. (C)",
+            "Provide extra test time for students who need it. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Another Dimension",
+        "examples": [
+          [
+            "Offer instructional programming delivered via the Internet or computer linkages to students outside a traditional classroom setting. (A)"
+          ],
+          [
+            "Celebrate special events in other cultures (e.g., Cinco de Mayo, Hanukkah). (C)",
+            "Use experiential learning rather than theoretical learning. (C)",
+            "Incorporate field trips. (C)",
+            "Utilize guest speakers. (C)"
+          ],
+          [
+            "Use multi-dimensional parent satisfaction surveys. (A)",
+            "Open facilities during evenings and weekends. (A)",
+            "Create homework hotlines and virtual support beyond school day. (A/C)",
+            "Vary teaching for different learning styles. (C)"
+          ],
+          [
+            "Differentiate and segment students on the basis of their needs, behaviors, ages, etc. (A/C)",
+            "Use cooperative learning and constructivism. (C)",
+            "Use multiple examples and practice opportunities. (C)",
+            "Tilt or re-orient the event; assign classroom instructional responsibilities to the building principal; encourage horizontal communication among teachers; use 'Library on a Cart' concept. (A/C)",
+            "Work with parents, school board members, and other interested groups to share and interpret achievement results; view school from another side by using external consultants; establish two-way communication among teachers, parents, and other stakeholders; coordinate use of facilities between school and community; use peer tutoring among buildings and grade levels. (A)"
+          ]
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Mechanical Vibration",
+        "examples": [
+          [
+            "Utilize mid-term interim report cards. (A)",
+            "Re-assign teachers to different grade levels. (A)",
+            "Re-organize classroom seating assignments. (C)",
+            "Utilize ‘anticipatory set’ in instruction. (C)",
+            "Use cooperative learning, hands-on activities, stations, and centers for classroom instruction. (C)"
+          ],
+          [
+            "Communicate frequently in multiple modes - newsletters, telephone, report cards, etc. (A/C)",
+            "Reorganize classroom seating assignments periodically. (C)"
+          ],
+          [
+            "Have outside consultants work in harmony with school administrators. (A)",
+            "Coordinate scheduling to avoid conflicts and overload. (A)",
+            "Instruct to different learning styles. (C)",
+            "Use a variety of motivational techniques. (C)",
+            "Use piezoelectric vibrators instead of mechanical ones. (C)",
+            "Utilize third party external assessments. (A)",
+            "Utilize data-driven decision-making. (A)",
+            "Embrace accountability models. (A/C)"
+          ]
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Periodic Action",
+        "examples": [
+          [
+            "Monitor periodically the impact of the curriculum on teaching and learning. (A)",
+            "Offer evening or weekend classes for continuing education students. (A)",
+            "Monitor and evaluate the daily processes of teaching and learning. (A)",
+            "Offer asynchronous opportunities to learn. (A) (See also Principles 4 and 35)",
+            "Use randomized questioning techniques. (C)"
+          ],
+          [
+            "Conduct quarterly teacher assessment reviews instead of annually. (A)",
+            "Use adjustable reporting, IEP, requisitions, inventories, and other paperwork frequencies. (A)"
+          ],
+          [
+            "Offer teacher training during pauses in teaching. (A)",
+            "Offer enrichment/remediation activities during vacations or off-periods in year-round scheduling. (A)",
+            "Conduct preventative maintenance on school facilities during vacations. (A)",
+            "Conduct quick reviews of basic skills while waiting in line. (C)",
+            "Employ reflective thinking strategies. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Continuity of Useful Action",
+        "examples": [
+          [
+            "Maintain class size. (A)",
+            "Bring the services for special education students to the classroom rather than have students go elsewhere for services. (A)",
+            "Utilize retired teachers and staff for student teacher evaluations. (A)",
+            "Reduce paperwork load. (A)"
+          ],
+          [
+            "Use mobile phones. (A)",
+            "Use intercoms. (A)",
+            "Create life-long learning opportunities. (A)",
+            "Institute 12-month school schedules or varied year-round models. (A)",
+            "Increase length of teacher workday to allow time to do extra tasks that take away from student time. (A)"
+          ]
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Skipping (Rushing Through)",
+        "examples": [
+          [
+            "Create efficient procedures for routine activities (e.g., avoid diesel fuel vapors, fire drills, etc.). (A/C)",
+            "Listen to intuitive sense when making decisions. (A/C)",
+            "Utilize formative assessment (e.g., fail fast - learn fast). (C)",
+            "Use brainstorming as an instructional technique. (C)",
+            "'Cram' (conduct intense review) for exams. (C)",
+            "Answer questions quickly to avoid psychological inertia. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 22,
+        "name": "\"Blessing in Disguise\" (Turn Lemons into Lemonade)",
+        "examples": [
+          [
+            "Use parents’ complaints to improve the quality of educational delivery. (A)",
+            "Employ rapid re-grading of faulty, inaccurate ‘high stakes’ examinations. (A)",
+            "Establish policies that allow students to revise work to improve grades. (A/C)"
+          ],
+          [
+            "Eliminate fear of change by substituting fear of competition. (A/C)",
+            "Recognize that the accountability demands of State and Federal mandates have led to acceptance of district policies. (A/C)"
+          ],
+          [
+            "Realize that the greater the cost for consultants, the greater the perception of value. (A)"
+          ]
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Feedback",
+        "examples": [
+          [
+            "Provide opportunities for educators to work together on issues of teaching and learning, enabling colleagues to give and receive feedback on teaching performances. (A)",
+            "Collect and use data from a variety of sources to inform school improvement decisions. (A)",
+            "Use RFID technology in school bookstores. (A)",
+            "Use comprehensive assessment – diagnostic, formative, and summative. (C)",
+            "Study student work samples and reflect on how improvements might occur. (C)",
+            "Utilize test scores for regulatory statistics as well as student grading (Program evaluation as well as individual student evaluation). (A/C) (See also Principle 6)"
+          ],
+          [
+            "Anticipate potential obstacles to school reform efforts by including stakeholders from various positions in the planning/implementation process. (A)",
+            "Increase frequency of report cards. (A)",
+            "Utilize five-week interim notices. (A)",
+            "Vary length of report card periods. (A)",
+            "Move from letter and number grades to standards-based reporting. (A)",
+            "Create a sense of urgency about improving learning for students and teachers. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Intermediary",
+        "examples": [
+          [
+            "Encourage satisfied parents to be emissaries of educational programs. (A)",
+            "Recruit and nurture parents to be active members of Parent-Teacher Associations. (A)",
+            "Use arbitrators for sensitive discussions. (A)",
+            "Accept advocates as part of the IEP process. (A)",
+            "Use facilitators at group, brainstorming, and problem solving sessions. (A/C)"
+          ],
+          [
+            "Utilize temporary aides. (A)",
+            "Utilize support staff. (A)",
+            "Hire consultants. (A)",
+            "Train substitute teachers. (A)",
+            "Create interdisciplinary teams. (A)",
+            "Create a core group of volunteers. (A)"
+          ]
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Self-Service",
+        "examples": [
+          [
+            "Conduct self-assessment of teaching practices by previewing videotapes of classroom activities. (A)",
+            "Employ faculty self-evaluations. (A)",
+            "Utilize self-directed work teams. (A)",
+            "Combine classroom and program assessment. (A/C)",
+            "Utilize rubrics and quantifiable scoring systems. (A/C)",
+            "Build in reflective experiences for students. (C)"
+          ],
+          [
+            "Analyze poor teacher evaluations to improve performance. (A)",
+            "Evaluate recurrence of negative behaviors by expelled students to measure 'waste' remediation efforts. (A)",
+            "Conduct exit interviews with teachers leaving the profession. (A)",
+            "Conduct exit interviews of students who drop out. (A)",
+            "Recycle books. (A)"
+          ]
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Copying",
+        "examples": [
+          [
+            "Benchmark competitors (e.g., charter schools). (A)",
+            "Benchmark similar projects/proposals to identify improvement opportunities. (A)",
+            "Create virtual educational programs. (A) (See also Principle 2)",
+            "Borrow images or 3D simulations of items from local museums, corporations, etc. (A/C)",
+            "Use local resources (e.g., town historians, government officials as speakers). (A/C)",
+            "Utilize teacher-made worksheets. (C)"
+          ],
+          [
+            "Offer professional coursework online. (A)",
+            "Use an electronic database rather than paper records. (A/C)",
+            "Provide learning syllabi in CD format. (A/C)",
+            "Use electronic course management software. (A/C)",
+            "Use projectors and transparency copies in lecturing. (C)",
+            "Use visuals to support lectures. (C)"
+          ],
+          [
+            "Evaluate student and parent satisfaction using multiple techniques. (A)",
+            "Use black lights for demonstrating fluorescent and phosphorescent phenomena. (C)",
+            "Use simulations, case studies and games instead of lecture-style training. (C)",
+            "Import graphical and visual representations in information-giving segments. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Cheap Short-Living Objects",
+        "examples": [
+          [
+            "Develop early retirement incentives to replace expensive staff with less expensive staff. (A)",
+            "Hire back retired staff at lower salaries. (A)",
+            "Use disposable cutlery and plates during influenza outbreaks. (A)",
+            "Consider differentiated staffing models. (A)",
+            "Use virtual modules to test out of annual professional development requirements. (A) (See also Principle 9)",
+            "Use trial software for a trial period or limited times for free. (A/C)",
+            "Use volunteers in place of paid staff. (A/C)",
+            "Use the Internet for virtual field trips. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Mechanics Substitution",
+        "examples": [
+          [
+            "Use distance learning. (A)",
+            "Videotape lectures and use CD recordings as a substitute for physical attendance. (A)",
+            "Use electronic communication. (A/C)",
+            "Develop multi-sensory experiences in science. (C)",
+            "Use learning style responsive activities rather than lectures. (C)",
+            "Attach a sensory response to an educational concept or practice. (C)"
+          ],
+          [
+            "Create problem-solving teams for site-based management. (A)",
+            "Substitute electronic communication for physical travel (e.g., online classes, video conferences). (A/C)",
+            "Use online physical education courses. (A/C)",
+            "Use cooperative learning groups. (C)"
+          ],
+          [
+            "Enable real-time communication with visual images through Internet technologies. (A/C)",
+            "Create opportunities for older students to teach/tutor younger ones. (C)"
+          ],
+          [
+            "Utilize new teacher mentoring programs—the new teacher is activated by the aura of the mentor. (A)"
+          ]
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Pneumatics and Hydraulics (Intangibility)",
+        "examples": [
+          [
+            "Utilize flexible (fluid) organizational structures vs. fixed hierarchical structures. (A)",
+            "View competitors as collaborators (Charter Schools/Traditional Schools). (A)",
+            "Introduce binding arbitration into contracts. (A)",
+            "Share teachers between schools and school districts. (A)",
+            "Consider benefits of traditional vs. virtual education. (A)",
+            "Introduce breathing spaces into contracts (Buyer's remorse clauses). (A)",
+            "Encourage peripheral stakeholders’ positive perception of schools. (A)",
+            "Encourage high school students to take college courses. (A/C)"
+          ]
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Flexible Shells and Thin Films",
+        "examples": [
+          [
+            "Have students mentor other students. (A)",
+            "Have administrators make themselves available to students during non-instructional periods. (A)",
+            "Have principals develop an open door policy. (A)",
+            "Allow parents direct access to teachers. (A/C)",
+            "Have teachers participate in after-school clubs and activities. (C)"
+          ],
+          [
+            "Employ block scheduling. (A) (See also Principle 1)",
+            "Use breakout areas for students. (A)",
+            "Facilitate home schooling. (A)",
+            "Use multiple locations and structures for study hall. (A)",
+            "Use one-on-one teaching (teaching aides). (C)"
+          ]
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Porous Materials",
+        "examples": [
+          [
+            "Improve communications by providing for Internet and intranet accessibility. (A)",
+            "Set up and maintain a website. (A)"
+          ],
+          [
+            "Set up faculty profiles on the school website. (A/C)",
+            "Create community and business partnerships to enhance classroom instruction. (A/C)",
+            "Create advanced assignments for students who already understand the basic concepts. (C)",
+            "Create online tutorials to support classroom instruction. (C)",
+            "Use high school students as technology resource people in elementary school classes. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Color Changes",
+        "examples": [
+          [
+            "Increase student diversity in the classroom. (A)",
+            "Use school colors to increase student spirit or solidarity. (A)",
+            "Foster employee diversity. (A)",
+            "Develop community and business partnerships to enhance diversity. (A)",
+            "Utilize lighting effects to change the mood in the classroom. (A/C)"
+          ],
+          [
+            "Provide clear and concise vision and mission statements for parents. (A)",
+            "Provide visibility to school cafeterias, auto shops, etc. (A)",
+            "Pre-group students to work in activity centers. (C)"
+          ],
+          [
+            "Use desktop or graphic presentations. (C)",
+            "Use temporarily colored glue that dries clear. (C)",
+            "Match color in materials to desired effect. (C)"
+          ],
+          [
+            "Develop behavioral and environmental modifications to meet the needs of challenged students. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Homogeneity",
+        "examples": [
+          [
+            "Provide for common planning time for teachers. (A)",
+            "Use students to talk with visiting students and parents to improve enrollment and retention rates. (A)",
+            "Treat teachers and staff as external parents (customers). (A)",
+            "Create different center activities leading to common unit goals. (A)",
+            "Use external guidance/professional standards to direct curriculum design. (A/C)",
+            "Develop peer-tutoring opportunities. (C)",
+            "Use cooperative learning strategies. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Discarding and Recovering (Rejecting and Regenerating Parts)",
+        "examples": [
+          [
+            "Conduct clinical supervisory practices and/or counsel ineffective teachers out of the profession. (A)",
+            "Eliminate redundant, duplicated, and non-value added activities, programs, and classes. (A/C)",
+            "Change instructional activities to maintain student interest. (C)",
+            "Develop activities and assessments congruent with standards. (C)"
+          ],
+          [
+            "Introduce periodic re-training. (A)",
+            "Periodically re-energize and refocus continuous improvement initiatives. (A)",
+            "Implement cyclical development programs. (A)",
+            "Encourage revising and sharing lesson plans. (A/C)"
+          ]
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Parameter Changes (Transformation of Properties)",
+        "examples": [
+          [
+            "Create an organizational culture that embraces and supports change. (A)",
+            "Turn brick-and-mortar schools into virtual schools. (A)",
+            "Convert paper tasks to online systems. (A/C)"
+          ],
+          [
+            "Focus on specialties to be more efficient and competitive (e.g., Schools of music, technology, culinary institutes, etc.). (A)",
+            "Change team structures. (A)",
+            "Encourage charter schools. (A)",
+            "Change length of day, week, course, and school year to meet student needs. (A)"
+          ],
+          [
+            "Engage staff in shaping the content and conditions of personal learning needs. (A)",
+            "Provide flexible variable-sized teams. (A)",
+            "Periodically review standard practices to determine relevance. (A/C)",
+            "Provide multiple remediation structures. (C)",
+            "Provide an individual teaching approach for different student sectors. (C)"
+          ],
+          [
+            "Offer asynchronous opportunities to learn. (A) (See also Principles 4 and 19)",
+            "Motivate students by providing them honors degrees and certificates. (A/C)",
+            "Provide alternative classroom designs. (A/C)",
+            "Encourage student excitement by providing ownership of change. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Phase Transitions",
+        "examples": [
+          [
+            "Use hall monitors for supervision of students going from homeroom to other subject classrooms. (A)",
+            "Develop transitional support programs between attendance unit levels. (A)",
+            "Develop effective procedures that allow adequate time for moving between classrooms. (A)",
+            "Develop protocol for field trips. (A/C)",
+            "Employ 'Stages of learning - unconscious incompetence, conscious incompetence, conscious competence, unconscious competence' (W. E. Deming). (A/C)",
+            "Provide transition events for students moving from elementary to secondary education. (A/C)",
+            "Attempt to convert empty minds to open minds. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Thermal Expansion (Expansion of Events or Processes)",
+        "examples": [
+          [
+            "Consider year-round schooling. (A)",
+            "Offer summer programs. (A)",
+            "Employ self-paced studies. (A/C)",
+            "Provide academic enrichment for students. (A/C)",
+            "Provide differentiated instruction. (A/C)",
+            "Utilize methods to encourage students to be excited about their subjects. (C)"
+          ],
+          [
+            "Encourage empowerment—share authority and responsibility with students, teachers, and parents. (A)",
+            "Expand or contract curricula depending on the student’s interest and academic ability. (A/C)",
+            "Develop differentiated materials. (C)",
+            "Get synergy by mixing motivated students (mentors) with less motivated students. (C)"
+          ]
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Strong Oxidants (Boosted Interactions)",
+        "examples": [
+          [
+            "Create and articulate a vision of high standards for learning for all to share and support. (A)",
+            "Continually address and improve customer (student and parent) perceived quality of schools. (A)",
+            "Create an interactive learning environment. (C)"
+          ],
+          [
+            "Delegate responsibility and develop leadership in others to monitor strategic planning processes. (A)",
+            "Ensure total commitment to vision and mission statements. (A)",
+            "Implement site-based management. (A)",
+            "Allow students to become teachers. (C)"
+          ],
+          [
+            "Encourage and support the attendance of staff members at professional conferences and meetings; revise vision based on effective research. (A)"
+          ],
+          [
+            "Consider radical reorganization. (A)",
+            "Support charter school development. (A)",
+            "Facilitate home schooling. (A)"
+          ]
+        ]
+      },
+      {
+        "id": 39,
+        "name": "Inert Atmosphere",
+        "examples": [
+          [
+            "Develop an emergency management plan. (A)",
+            "Encourage alternative passive systems for educating disaffected students. (A)",
+            "Maintain an atmosphere free of judgment and criticism at brainstorming sessions. (A/C)",
+            "Encourage multi-cultural acceptance. (A/C)"
+          ],
+          [
+            "Use neutral third parties during difficult negotiations. (A)",
+            "Introduce 'quiet areas' into the school environment. (A/C)",
+            "Use time-out during negotiations. (A/C)",
+            "Encourage reflection on the part of all stakeholders. (A/C)"
+          ]
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Composite Materials",
+        "examples": [
+          [
+            "Develop interdisciplinary teams for teaching and learning. (A)",
+            "Consider differentiated staffing. (A)",
+            "Send follow-up notes as physical reminders of telephone conversations, etc. (A)",
+            "Utilize multiple modes (newsletter, intranet, staff meetings, etc.) for effective communications. (A)",
+            "Use multi-disciplinary, cross-functional teams. (A)",
+            "Introduce training/teaching with a combination of lecture, simulations, online learning, etc. (A/C)",
+            "Use multi-media for instruction—lecture with music and video. (C)",
+            "Combine high risk and low risk teaching methodologies and strategies. (C)"
+          ]
+        ]
+      }
+    ]
+  }
+  

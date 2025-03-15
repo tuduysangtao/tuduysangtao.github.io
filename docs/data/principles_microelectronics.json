@@ -1,0 +1,537 @@
+{
+    "industry": "microelectronics",
+    "principles": [
+      {
+        "id": 1,
+        "name": "Segmentation/Fragmentation/Division",
+        "examples": [
+          [
+            "Divide an object into independent parts: Individual dies on Si wafer; Two-stage diffusion process; Beam splitting."
+          ],
+          [
+            "Make an object easy to disassemble: Integrated Circuits (IC) and passive components assembly on Multi-Chip Module (MCM); Multi-chip modules assembly on ‘daughter’ board; ‘Daughter’ boards assembly on ‘mother’ board."
+          ],
+          [
+            "Increase the degree of fragmentation or segmentation: Increase in number of gates per microprocessor chip (1.35 times per year); Increase in number of bits per memory chip (1.5 times per year); Increase in number of inputs/outputs per chip and pins per package; Sea of Lands (SOL) – ultra-high density packaging."
+          ],
+          [
+            "Transition to micro-level: Spray development and spray etching; Sub-layers with different inherent stress at MEMS; Decrease of feature size (to 0.05 microns and less); Molecular Beam Epitaxy (MBE); Atomic Layer Deposition (ALD); Nanometry."
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Taking out/Separation/Removal/Extraction/Segregation",
+        "examples": [
+          [
+            "Separate an interfering part or property from an object, or single out the only necessary part: Clean rooms; Isolation of Copper areas at wafer fab; Separation of wafers from people; Cluster tooling; Single wafer processing; Impurities segregation at Si crystal growth (CZ process); LOCOS isolation; Barrier for Copper diffusion prevention; Ion separation at ion implantation; Etch stop layer; Polarized light microscopy; Die separation by grooves at Chip Scale Packaging (CSP); Electrical and visual screening; Burn-in."
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Local quality",
+        "examples": [
+          [
+            "Change an object's structure from uniform to non-uniform: Temperature gradient at CZ process, epitaxy, oxidation, diffusion; Pressure gradient at Chemical Vapor Deposition (CVD); Selectivity and anisotropy at wet and dry etching; Impurities concentration gradient with diverse doping profiles (exponent, power-law, step, grade); Depletion layer; FET with arbitrary charge distribution."
+          ],
+          [
+            "Make each part function in conditions most suitable for its operation: Single wafer processing (CVD, PVD, dry etching, etc.)."
+          ],
+          [
+            "Make each part fulfill a different and useful function: Buried layer with opposite impurity type; P-n-p pocket in n-p-n substrate at CMOS IC."
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Asymmetry/Symmetry change",
+        "examples": [
+          [
+            "Change the shape of an object from symmetrical to asymmetrical: SEMI standard for Si wafers crystallographic orientation marking (<111>, <110>, <100>); P-n junction asymmetry."
+          ],
+          [
+            "Change the shape or properties of an object to suit external asymmetries: Anisotropic plasma etching."
+          ],
+          [
+            "If an object is asymmetrical, increase its degree of asymmetry: Increasing feature aspect ratio."
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Merging/Combining/Composition/Integration/Agglomeration",
+        "examples": [
+          [
+            "Bring closer together (or merge) identical or similar objects: Subtracting images from neighboring dies for visual defects detection; Integrated circuit; Multi-chip module; Giga-scale Integration (GSI)."
+          ],
+          [
+            "Make operations contiguous or parallel: Multi-beam electron writing; Wafer level clean rooms operations; Wafer level SMD termination; Wafer level burn-in; Wafer Level Packaging (WLP)."
+          ],
+          [
+            "Agglomerate objects to Bi- and Poly- system: Bi-layers (Ti/TiN, Ta/TaN); Chemical Mechanical Polishing (CMP); Electrochemical Mechanical Deposition (ECMD); Agglomeration via mechanical, electrical, magnetic, and plasma fields."
+          ]
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Universality/Multi-functionality",
+        "examples": [
+          [
+            "Make a part perform multiple functions: Multi-task dispensing system; Multiple targets in sputtering machine; Electron beam direct writing (no mask needed); Plasma CF4 with Oxygen for both photoresist strip and surface cleaning; IC package substrate multi-function (multi-layer connection, heat dissipation, escaping I/O traces, controlled impedance, ground return); Components packaging that offers protection, transportation, and presentation to pick-and-place machine."
+          ],
+          [
+            "Use standardized features: International standards in Semiconductors and Microelectronics; Visual workmanship standards; Calibration and specifications for incoming, in-process, and final quality inspection and testing."
+          ]
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Nesting/‘Nested doll’/Recess/Embedding",
+        "examples": [
+          [
+            "Place one object inside another: Clean rooms and clean areas multi-step nesting; P-n-p pocket in n-p-n substrate for CMOS; Buried layer; Inverse conductivity type area by diffusion or ion implantation; Multi-layer termination structure; Electrical tolerances nesting; Embedded air-gap region within SOL; Recessed contact pad at D-BGA packaging; Embedding integrated passives into LTCC substrate at CSP; Packaging hierarchy: chip - module - card - board - system; Micro- and meso-packaging integration at MEMS (die - device - system)."
+          ],
+          [
+            "Make one part pass (dynamically) through a cavity in the other: MEMS micro-machines."
+          ]
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Counterweight/Anti-weight/Weight compensation/Levitation",
+        "examples": [
+          [
+            "Merge with objects that provide lift: Levitation of wafer by air or Nitrogen cushion; Transportation of ultra-thin wafer by floating."
+          ],
+          [
+            "Make it interact with the environment: Capillary effects for cleaning and chemical treatment in trenches and vias; Capillary action for solder drawing from tip to PCB pad."
+          ]
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Preliminary anti-action/Prior counteraction",
+        "examples": [
+          [
+            "Replace an action with anti-actions to control harmful effects: Si3N4 masking for LOCOS; LOCOS masking for ion implantation; Silicon oxide and poly-silicon masking for diffusion; Resist masking for lithography; Buffered oxide etchant; Pre-cleaning before epitaxy, oxidation, diffusion, metallization, etc.; Infra-red wafer surface drying before photoresist coating; Priming before polyimide or epoxy dispensing; PCB masking by tape; Burn-in."
+          ]
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Preliminary action/Prior action/Do it advance",
+        "examples": [
+          [
+            "Perform required change before it is needed: Substrate cleaning; Sputter target pre-cleaning; Photomask pre-cleaning; Equipment set-up; Functional tests for raw materials; Preparation of chemicals and baths; Dummy runs for CVD, PVD, CMP, etc.; Pre-formed solder balls for BGA; Pre-fabricated film or tape-based interposer for chip connection to PCB."
+          ],
+          [
+            "Pre-arrange objects for timely action: Process flow chart; Batch route card; Set-up time decrease using SMED techniques."
+          ]
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Beforehand cushioning/Cushion in advance/Beforehand compensation",
+        "examples": [
+          [
+            "Prepare emergency means beforehand: Design for reliability; Electrical circuit redundancy; Derating; Safety margins for dimensions and layers thickness; Clean room air ionization for ESD prevention; Scrubber for Hydrogen neutralization at epitaxy, CVD, plasma etching; Passivation, protection, encapsulation, and stress compensation layers; Polymer collar around solder balls at BGA; Burn-in, HASS, ESS for sorting marginal parts prone to failure."
+          ]
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Equipotentiality/Remove Tension",
+        "examples": [
+          [
+            "Limit position changes: Tunnel effect devices; Step smoothing (local planarization, PSG melting, laser ablation); ESD elimination by providing continuous discharge paths."
+          ]
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Inversion/Reverse/‘The other way round’",
+        "examples": [
+          [
+            "Invert the action: Dark field microscopy; Positive vs negative photoresist; Substractive vs additive lithography."
+          ],
+          [
+            "Make movable parts fixed and fixed parts movable: Electron motion interpretation by ‘hole’ motion."
+          ],
+          [
+            "Turn the object or process upside down: MOS structure inversion; Lift-off lithography; Stress-Free Polishing (SFP) as reverse process to Electrochemical Deposition (ECD)."
+          ]
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Spheroidality/Sphericity/Curvilinearity",
+        "examples": [
+          [
+            "Use curvilinear forms: Circular Si wafer; Wafer edge rounding to prevent chipping; Step smoothing to prevent contact disruption; Rounded element features; Copper deposition in rings at partial electroplating; Micro-via drilling; J and S terminal shapes; Ball Grid Array (BGA); Octagonal window for solder ball; Cylinder and disk button packages."
+          ],
+          [
+            "Use rollers, balls, spirals, domes: Cylinder chamber with dome lid; Spiral bawl at tape-and-reel machine."
+          ],
+          [
+            "Go from linear to rotary motion: Rotary motion at chemical treatment, drying, development, etching; Bath liquid circulation; Rotary or planetary motion at PVD, CVD, CMP, ion implantation; Spin-Etching Planarization (SEP); Rotary squeegee, paste rolling."
+          ],
+          [
+            "Use centrifugal forces: Spin-on resist dispensing; Spin-on polyimide coating; Spin-On Glass (SOG); Spin-On Dielectric (SOD); Spin-on sol-gel coating."
+          ]
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Dynamics/Dynamicity/Dynamization/Optimization",
+        "examples": [
+          [
+            "Allow characteristics to change for optimum conditions: Adjustable lithography exposure, development, and etching time; Adjustable coating, plating, CVD, PVD deposition rate."
+          ],
+          [
+            "Divide an object into parts capable of movement: MEMS micro-machines; MEMS variable capacitors."
+          ],
+          [
+            "Make a rigid process movable: Rotary motion of ingot for better convection at CZ process; Agitation at development, etching, stripping, electroplating; Linear, rotary, or planetary motion of wafers at CVD, PVD, CMP, etc.; X-axis nozzle scanning and Y-axis wafer scanning in scan-coating technology."
+          ],
+          [
+            "Increase degree of free motion: Ultrasonic agitation at cleaning and plating."
+          ]
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Partial or excessive actions/Excess or shortage",
+        "examples": [
+          [
+            "Use slightly less or more: Excessive spin-on coated material removal by centrifugal forces; Extended etch time to compensate for non-uniform layer thickness; Excessive Phosphorus removal by PSG boiling; Excessive resistor area removal by laser trimming; Excessive screen printed paste removal by squeegee; Safety margins for electrical parameters."
+          ]
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Another dimension/Change dimension/Moving to a new dimension",
+        "examples": [
+          [
+            "Move an object in 2D space: 2D arrays for flip chip terminal ports (PGA, BGA, LGA, CGA); 2D bar-code data matrix on components and PCB; Redistribution of ports at WLP from peripheral to array arrangement."
+          ],
+          [
+            "Use 3D arrangements: 3D photolithography; 3D microscope; 3D X-ray board test system; 3D MEMS."
+          ],
+          [
+            "Use multi-story arrangement: Multi-layer resist; Multi-story IC structure; Build-up Multi-layer (BUM) micro-via packaging substrate; Multi-layer flip-chip package; Stacked flip-chip package; Multi-story MCM structure; Multi-layer PCB."
+          ],
+          [
+            "Tilt or re-orient an object: SMD 2-port components with reverse (long side) termination (e.g., 0306, 0508, 0612)."
+          ],
+          [
+            "Use 'another side': Double-sided mask aligner; Double-sided ‘mother’ PCB assembly."
+          ]
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Mechanical vibration/Oscillation",
+        "examples": [
+          [
+            "Cause an object to oscillate: Agitation by shaking; Random vibration testing."
+          ],
+          [
+            "Increase its frequency: Ultrasonic cleaning; Ultrasonic electroless plating; Ultrasonic and thermo-sonic bonding."
+          ],
+          [
+            "Use resonant frequency: Microwave drying for water residue removal; Quartz resonator for coating thickness measurement."
+          ],
+          [
+            "Use piezoelectric vibrators: Piezoelectric vibrators at spray development and etching."
+          ],
+          [
+            "Use combined ultrasonic and electromagnetic field oscillations."
+          ]
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Periodic action",
+        "examples": [
+          [
+            "Use periodic or pulsating actions instead of continuous: Batch manufacture; Multiple process runs; Impulses at voltage sorting; Temperature shock cycling; Periodical in-process control (analysis, inspection, testing); Periodical reliability testing."
+          ],
+          [
+            "If an action is periodic, change its magnitude or frequency: Single wafer processing at CVD, PVD, CMP, dry etching; Step-and-repeat projection lithography; Pulsed laser cutting."
+          ],
+          [
+            "Use pauses between impulses: SMED techniques for set-up during process phase."
+          ]
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Continuity of useful action/Steady useful action",
+        "examples": [
+          [
+            "Carry on work continuously: Seven days a week, 24 hours a day processing at wafer fab."
+          ],
+          [
+            "Eliminate idle or intermittent actions: Streamline internal and external setups to reduce total set-up time (SMED); Wafer level clean room processes; Wafer level SMD termination; Wafer level burn-in; Wafer level packaging."
+          ]
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Skipping/Rushing through/Hurrying",
+        "examples": [
+          [
+            "Conduct a process at high speed: Flash PVD for ultra-thin metallization layers; Minimized positive photoresist development time."
+          ]
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Blessing in disguise/Turn lemons into lemonade/Convert harm into benefit/Turn minus into plus",
+        "examples": [
+          [
+            "Use harmful factors to achieve a positive effect: Controllable undercut; Avalanche effect semiconductor devices."
+          ],
+          [
+            "Eliminate the primary harmful action by adding it to another harmful action: Buffering anti-corrosive solution."
+          ],
+          [
+            "Amplify a harmful factor so it is no longer harmful: Burn-in, HASS, ESS for sorting marginal parts prone to failure."
+          ]
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Feedback",
+        "examples": [
+          [
+            "Introduce feedback to improve a process: End-point detection at CMP and dry etching; Thermostat for optimal temperature stabilization; Test runs for process parameter adjustment; First article inspection; In-process, final, and periodical quality inspection and testing; Statistical Process Control (SPC); FMEA and FTA."
+          ],
+          [
+            "If feedback is already used, change its magnitude: In-line wafer measurements using test structures."
+          ]
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Intermediary/Mediator/Insertion",
+        "examples": [
+          [
+            "Use an intermediary carrier or process: Adhesion layer of Ti, Ta, Cr; Barrier layer of TiW, TiN, TaN, SiN, W2N; Adhesion promoter for coating and bonding; Primer for polyimide or epoxy dispensing; LOCOS masking for ion implantation; Silicon oxide and poly-silicon masking for diffusion; Compliant polymer layer for stress reduction under solder balls; Chip underfill process for thermally induced strain compensation; Interposer for chip connection to PCB; Footprint conversion adapter for fine pitch (0201, BGA) SMD components."
+          ],
+          [
+            "Merge one object temporarily with another: Resists for photo-, deep UV, extreme UV, X-ray and e-beam lithography; Photomask; Si3N4 masking for LOCOS; Temporary wafer carriers; Sacrificial layer removal to leave a cavity at MEMS micro-machining; Filling recess with temporary material, depositing movable charge plate and wet etching filler at MEMS variable capacitors."
+          ]
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Self-service/Self-organization",
+        "examples": [
+          [
+            "Make an object serve itself by performing auxiliary functions: Wafer self-masking by Si oxidation; Auto-doping; Impurities segregation at material or phase boundaries; Gate self-alignment in MOS transistors; Self-Ionized Plasma (SIP) directional PVD; Etch-stop layer; Self-assembly of micro-scale parts at MEMS."
+          ],
+          [
+            "Use waste resources: DI water recycling system; Use of scrapped wafers and chips for dummy runs and experiments."
+          ]
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Copying",
+        "examples": [
+          [
+            "Use simpler and inexpensive copies: ‘Holes’ movement model; Virtual prototyping; IC design and complex process modeling; Dummy wafers and components; Test structures."
+          ],
+          [
+            "Replace an object or process with optical copies: Photomask; Projection lithography; Optical comparator for component dimension measurement; Image processing for visual sorting."
+          ],
+          [
+            "If optical copies are used, move to IR or UV: UV light for photoresist or polyimide exposure; Deep UV and EUV lithography; Deep UV reflectometry; Infrared interferometry; Infrared spectroscopic ellipsometry; Laser ellipsometry; Optoacoustics; Polarized light microscopy; Photoluminescence; Spectrophotometry; Scatterometry; X-ray fluorescence (XRF); X-ray diffraction (XRD); X-ray PCB test system."
+          ]
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Cheap short-living objects/Cheap disposables",
+        "examples": [
+          [
+            "Replace an expensive object with multiples of inexpensive objects: Single-use face masks, gloves, and shoe covers for clean room; Dummy wafers and components; Test PCB cards; Plastic or carton boxes, vials, bags, cassettes, or tape for product handling, storage, and transportation."
+          ]
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Mechanics Substitution/Replacement of mechanical system/Redesigning/Replace mechanical system with fields",
+        "examples": [
+          [
+            "Replace a mechanical means with a sensory means: End-point detection at CMP and dry etching by optical reflection; Optical comparator for component dimension measurement; Bar coding, 2D matrix data coding."
+          ],
+          [
+            "Use electric, magnetic, and electromagnetic fields to interact with the object: Electrophoretic resist coating; End-point detection methods (plasma impedance measurement, by-products emission spectrometry, Eddy current)."
+          ],
+          [
+            "Change from static to movable fields: Microwave (plasma, cleaning, drying, curing); ExB plasma drift directional PVD; Glow charge dry etching; Vacuum arc deposition; Electron beam direct writing lithography; Scanning electron microscopy; Laser (ellipsometry, annealing, scribing, trimming)."
+          ],
+          [
+            "Use fields with field-activated particles: Magnetic field at ion separation and sputtering; Point-cusp magnetic PVD; Plasma (CVD, descum, anodic oxidation, sputter etching, spraying); Ion beam (PVD, lithography, milling, sputtering, implantation); Reactive ion etching; Ionized directional PVD; Electron gun for MBE; Electron Cyclotron Resonance (ECR) plasma PVD."
+          ]
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Pneumatics and Hydraulics/Fluid system",
+        "examples": [
+          [
+            "Use gas and liquid parts instead of solid parts: Laminar air flow at clean rooms and hoods; Air shower; Cascade DI water; DI water or bath liquid turbulence by Nitrogen bubbles; Vacuum chuck for wafer holding; Air or Nitrogen cushion for touch-less wafer handling and transportation; Transportation of ultra-thin wafer by floating; Nitrogen gun for drying; Heating or cooling fan; Vacuum degassing; Vacuum pick-and-place."
+          ]
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Flexible shells and thin films/Flexible membranes",
+        "examples": [
+          [
+            "Use flexible shells and thin films instead of three-dimensional structures: Thin-film dielectrics; Thin-film epitaxy, oxidation, poly-silicon, metallization and other layers on planar Si wafers."
+          ],
+          [
+            "Isolate the object from the external environment: Thin-film passivation, protection, encapsulation and stress compensation layers; Air gap with polymer encapsulation as a cushion at SOL; Plastic bags; Cover tape for tape-and-reel."
+          ]
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Porous materials",
+        "examples": [
+          [
+            "Make an object porous or add porous elements: Multi-step air filtration at clean rooms; Multipore filters for DI water; Polypropylene and carbon filters for chemicals; Porous chuck for wafer holding; Porous tampon for marking; Metal web baskets, barrels, sieves."
+          ],
+          [
+            "If already porous, use the pores: Capillary effects for cleaning and chemical treatment in vias and trenches; Metal web for screen printing of solder paste; Capillary action for solder drawing from tip to PCB pad."
+          ]
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Color change/Optical properties change",
+        "examples": [
+          [
+            "Change the color of an object or its external environment: Yellow light in photolithography room; Illumination scheme for optical microscopy; Color scanner AOI; Color addition-subtraction in image processing; Polarized light microscope."
+          ],
+          [
+            "Change transparency: Anti-reflection coating; Obscure-transparent patterns at photomask; Fiducials and marking for multi-layer alignment; Transparent cover glass substrate at CSP for CMOS image sensor; Transparent tape-and-reel cover tape."
+          ],
+          [
+            "Improve observability using additives: Photoluminescence thin-film measurement; Luminescent marking; Fluorescent molecules at LED display; Gold sputtering for SEM."
+          ]
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Homogeneity",
+        "examples": [
+          [
+            "Make objects interacting with a given object of the same material: Silicon wafer polishing using colloid mixture with SiO2 particles; Alumina substrate grinding with colloid mixture of Al2O3 sand; Silicon rubber for Si die isolation."
+          ]
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Discarding and recovering/Rejection and regeneration",
+        "examples": [
+          [
+            "Make portions that have fulfilled their functions go away: Resist strip; S3N4 temporary mask removal; LOCOS temporary mask removal; Thick wafer backside grinding after processing, handling and transportation in clean room operations; Discard temporary wafer carriers; PCB masking tape removal."
+          ],
+          [
+            "Conversely, restore consumable parts directly: DI water recycling system; Self-sharpening cutting blades."
+          ]
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Parameter change/Changing properties/Transformation of physical and chemical states",
+        "examples": [
+          [
+            "Change an object's physical state: Liquid-solid transformation of resist, polyimide, and coating layers; Liquid Oxygen, Nitrogen; Solid diffusion sources."
+          ],
+          [
+            "Change the concentration or consistency: Exposure to dilute Silane for Silicide passivation; Encapsulation glue; Screen printable paste."
+          ],
+          [
+            "Change the degree of flexibility: Damping of vibration for precise equipment; Air gap with polymer encapsulation as a cushion at SOL."
+          ],
+          [
+            "Change the temperature: Decreased process temperature using plasma at PECVD."
+          ],
+          [
+            "Change the pressure: Low pressure CVD; Vacuum at PVD, ion implantation, dry etching; High pressure CVD; High pressure oxidation; Variable Argon pressure at sputtering for sub-layer stress control (MEMS)."
+          ]
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Phase transitions/Use of phase changes",
+        "examples": [
+          [
+            "Use phase transition phenomena: Liquid-solid phase transition at CZ process; Gas-solid, liquid-gas-solid and solid-gas-solid phase transitions at oxidation, epitaxy, CVD, PVD, diffusion, and ion implantation."
+          ]
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Thermal expansion",
+        "examples": [
+          [
+            "Use thermal expansion (or contraction): Thermal expansion drive at variable MEMS capacitors."
+          ],
+          [
+            "If used, employ multiple materials with different coefficients: Leaf spring thermostat; Bi-metallic sensor."
+          ]
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Strong oxidants/Enriched atmosphere/Accelerated oxidation",
+        "examples": [
+          [
+            "Replace common air with oxygen-enriched air: Si oxidation by wet Oxygen; Diffusion enhancement by wet Oxygen."
+          ],
+          [
+            "Replace enriched air with pure oxygen: Si oxidation by high pressure dry Oxygen."
+          ],
+          [
+            "Expose air or oxygen to ionizing radiation."
+          ],
+          [
+            "Use ionized oxygen: Oxygen plasma descum."
+          ],
+          [
+            "Replace ozonized (or ionized) oxygen with ozone: UV-Ozone dry cleaning; Ozone at reactive ion etching."
+          ]
+        ]
+      },
+      {
+        "id": 39,
+        "name": "Inert environment/Inert atmosphere",
+        "examples": [
+          [
+            "Replace a normal environment with an inert one: Clean rooms; Deionized water; Teflon jigs and cassettes; Desiccators; Nitrogen turbulence for rinsing water; Nitrogen drying gun; Nitrogen atmosphere at photoresist exposure; Nitrogen atmosphere at polyimide exposure, drying, curing; Argon or Nitrogen atmosphere for wafer storage; Hermetically closed plastic bags."
+          ],
+          [
+            "Add neutral parts or inert additives: Argon at magnetron sputtering."
+          ]
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Composite materials",
+        "examples": [
+          [
+            "Change from uniform to composite materials: Silicon-on-Insulator (SOI); Silicon-on-Sapphire (SOS); Binary metallization alloys; Inorganic resist – polymer bi-level scheme lithography; Silicon Oxynitride composite dielectric; Sol-gel dielectrics; MOS, HMOS, CMOS structures; Compound semiconductors; Hetero-structures."
+          ]
+        ]
+      }
+    ]
+  }
+  

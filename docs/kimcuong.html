@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="double-diamond.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">TRIZ 39 45 50</a></li>
+            <li><a href="matrix.html">40 Thủ Thuật</a></li>
+            <li><a href="system_model.html">Mô Hình Hệ</a></li>
+            <li><a href="9w.html">Màn Hình 9 Hệ</a></li>
+            <li><a href="5w.html">5Whys</a></li>
+            <li><a href="kimcuong.html">Kim Cương Đôi</a></li>
+            <li><a href="ariz.html">About</a></li>
+            <li><a href="table_40.html">Matrix 39</a></li>
+        </ul>
+    </nav>
+    <div class="container" id="main-content">
+        <!-- Enhanced header section -->
+        <header class="fade-in">
+            <h1 class="title">DIVERGENCE-CONVERGENCE CYCLES</h1>
+            <p class="subtitle">A systematic framework for solving complex problems in adaptive systems</p>
+        </header>
+
+        <!-- Framework label with animation -->
+        <h2 class="framework-label fade-in-up">The Double Diamond Model</h2>
+
+        <!-- Icon container for visual appeal -->
+        <div class="icon-container fade-in">
+            <div class="icon problem-icon tooltip" aria-label="Problem Space">
+                <i class="fas fa-search" aria-hidden="true"></i>
+                <span class="tooltip-text">Explore and define the problem</span>
+                <span class="sr-only">Problem Space</span>
+            </div>
+            <div class="icon solution-icon tooltip" aria-label="Solution Space">
+                <i class="fas fa-lightbulb" aria-hidden="true"></i>
+                <span class="tooltip-text">Develop and deliver solutions</span>
+                <span class="sr-only">Solution Space</span>
+            </div>
+        </div>
+
+        <!-- Enhanced diamond section headers -->
+        <div class="section-headers fade-in-up">
+            <div class="section-header problem-header" id="problem-header" tabindex="0"
+                aria-controls="problem-explanation">
+                <span>PROBLEM SPACE</span>
+            </div>
+            <div class="section-header solution-header" id="solution-header" tabindex="0"
+                aria-controls="solution-explanation">
+                <span>SOLUTION SPACE</span>
+            </div>
+        </div>
+
+        <!-- Explanation sections -->
+        <div id="problem-explanation" class="explanation-container problem-explanation">
+            <div class="explanation-close" aria-label="Close explanation">
+                <i class="fas fa-times" aria-hidden="true"></i>
+            </div>
+            <h3 class="explanation-title">Understanding Problem Space</h3>
+            <div class="explanation-text">
+                <p>The Problem Space is where we seek to understand the challenge at hand through research, exploration,
+                    and careful definition. It consists of two phases:</p>
+                <ul>
+                    <li><strong>Divergent thinking:</strong> Expand the scope to discover insights by gathering user
+                        data, analyzing market trends, and exploring multiple perspectives.</li>
+                    <li><strong>Convergent thinking:</strong> Narrow down to define the core problem that needs solving,
+                        creating a focused problem statement that guides solution development.</li>
+                </ul>
+                <p>This dual approach ensures that we fully understand what we're solving before attempting to solve it.
+                </p>
+            </div>
+        </div>
+
+        <div id="solution-explanation" class="explanation-container solution-explanation">
+            <div class="explanation-close" aria-label="Close explanation">
+                <i class="fas fa-times" aria-hidden="true"></i>
+            </div>
+            <h3 class="explanation-title">Understanding Solution Space</h3>
+            <div class="explanation-text">
+                <p>The Solution Space is where we develop responses to the defined problem through ideation,
+                    prototyping, and refinement. It also consists of two phases:</p>
+                <ul>
+                    <li><strong>Divergent thinking:</strong> Generate many potential solutions through brainstorming,
+                        ideation workshops, and creative exploration without judgment.</li>
+                    <li><strong>Convergent thinking:</strong> Evaluate ideas against criteria, test prototypes, and
+                        refine toward an optimal solution that can be implemented.</li>
+                </ul>
+                <p>This approach ensures we consider a wide range of possibilities before committing to a specific
+                    solution path.</p>
+            </div>
+        </div>
+
+        <!-- Enhanced diamond visualization -->
+        <div class="diamonds-container">
+            <!-- Left diamond (Problem Space) with animation -->
+            <div class="diamond diamond-left fade-in-left" id="problem-diamond">
+                <div class="diamond-shape" aria-hidden="true">
+                    <div class="diamond-half left-half"></div>
+                    <div class="diamond-half right-half"></div>
+                </div>
+                <div class="diamond-content">
+                    <div class="diamond-side" tabindex="0" aria-label="Problem Space: Diverge phase">
+                        <div class="side-title">DIVERGE</div>
+                        <div class="side-description">Explore multiple<br>perspectives</div>
+                    </div>
+                    <div class="diamond-side" tabindex="0" aria-label="Problem Space: Converge phase">
+                        <div class="side-title">CONVERGE</div>
+                        <div class="side-description">Define clear<br>problem</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Connector between diamonds with animation -->
+            <div class="connector fade-in" aria-hidden="true"></div>
+
+            <!-- Right diamond (Solution Space) with animation -->
+            <div class="diamond diamond-right fade-in-right" id="solution-diamond">
+                <div class="diamond-shape" aria-hidden="true">
+                    <div class="diamond-half left-half"></div>
+                    <div class="diamond-half right-half"></div>
+                </div>
+                <div class="diamond-content">
+                    <div class="diamond-side" tabindex="0" aria-label="Solution Space: Diverge phase">
+                        <div class="side-title">DIVERGE</div>
+                        <div class="side-description">Generate diverse<br>solutions</div>
+                    </div>
+                    <div class="diamond-side" tabindex="0" aria-label="Solution Space: Converge phase">
+                        <div class="side-title">CONVERGE</div>
+                        <div class="side-description">Select optimal<br>solution</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Enhanced process cards with animations -->
+        <div class="process-container">
+            <!-- Problem Exploration -->
+            <div class="process-card problem-card fade-in-up" id="card-1">
+                <div class="card-accent" aria-hidden="true"></div>
+                <div class="process-number problem-number" aria-hidden="true">1</div>
+                <h3 class="process-title problem-title">Problem Exploration</h3>
+                <div class="process-description">
+                    Broaden understanding by exploring multiple perspectives & gathering diverse inputs
+                </div>
+            </div>
+
+            <!-- Problem Definition -->
+            <div class="process-card problem-card fade-in-up" id="card-2">
+                <div class="card-accent" aria-hidden="true"></div>
+                <div class="process-number problem-number" aria-hidden="true">2</div>
+                <h3 class="process-title problem-title">Problem Definition</h3>
+                <div class="process-description">
+                    Consolidate findings into a clear, actionable problem statement with focused scope
+                </div>
+            </div>
+
+            <!-- Solution Generation -->
+            <div class="process-card solution-card fade-in-up" id="card-3">
+                <div class="card-accent" aria-hidden="true"></div>
+                <div class="process-number solution-number" aria-hidden="true">3</div>
+                <h3 class="process-title solution-title">Solution Generation</h3>
+                <div class="process-description">
+                    Generate a wide range of potential solutions without early judgment or constraints
+                </div>
+            </div>
+
+            <!-- Solution Selection -->
+            <div class="process-card solution-card fade-in-up" id="card-4">
+                <div class="card-accent" aria-hidden="true"></div>
+                <div class="process-number solution-number" aria-hidden="true">4</div>
+                <h3 class="process-title solution-title">Solution Selection</h3>
+                <div class="process-description">
+                    Evaluate solutions against criteria and select the most appropriate to implement
+                </div>
+            </div>
+        </div>
+
+        <!-- Enhanced process flow visualization -->
+        <div class="process-flow fade-in" aria-hidden="true">
+            <div class="flow-line"></div>
+            <div class="flow-arrow arrow-1"></div>
+            <div class="flow-arrow arrow-2"></div>
+            <div class="flow-arrow arrow-3"></div>
+        </div>
+
+        <!-- Enhanced iteration path visualization -->
+        <div class="iteration-container fade-in-up">
+            <div class="iteration-path" aria-hidden="true">
+                <svg width="100%" height="60" viewBox="0 0 900 60" role="img" aria-labelledby="iteration-title">
+                    <title id="iteration-title">Iteration path looping back from solution to problem</title>
+                    <path d="M 800,0 Q 900,0 900,60 T 450,60 T 0,60 Q 0,0 100,0" fill="none" stroke="#64748b"
+                        stroke-width="1.5" stroke-dasharray="6,3" />
+                    <polygon points="100,0 105,5 110,0 105,-5" fill="#64748b" />
+                </svg>
+            </div>
+            <p class="iteration-text">
+                In complex adaptive systems, this process may iterate multiple times as implementation reveals new
+                insights and changing conditions
+            </p>
+        </div>
+
+        <!-- Real-world examples section -->
+        <section class="examples-section fade-in-up">
+            <h2 class="examples-title">Real-World Applications</h2>
+            <div class="examples-container">
+                <div class="example-card">
+                    <div class="example-header">
+                        <h3 class="example-title">Product Development</h3>
+                    </div>
+                    <div class="example-content">
+                        <ul class="example-steps">
+                            <li class="example-step example-problem-step">
+                                <div class="example-step-number">1</div>
+                                <div class="example-step-text"><strong>Diverge:</strong> Conduct user research, analyze
+                                    market trends, and collect stakeholder input</div>
+                            </li>
+                            <li class="example-step example-problem-step">
+                                <div class="example-step-number">2</div>
+                                <div class="example-step-text"><strong>Converge:</strong> Identify core user needs and
+                                    formulate problem statements</div>
+                            </li>
+                            <li class="example-step example-solution-step">
+                                <div class="example-step-number">3</div>
+                                <div class="example-step-text"><strong>Diverge:</strong> Brainstorm many possible
+                                    solutions through sketching and ideation</div>
+                            </li>
+                            <li class="example-step example-solution-step">
+                                <div class="example-step-number">4</div>
+                                <div class="example-step-text"><strong>Converge:</strong> Prototype, test, and refine
+                                    toward a viable product solution</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="example-card">
+                    <div class="example-header">
+                        <h3 class="example-title">Business Strategy</h3>
+                    </div>
+                    <div class="example-content">
+                        <ul class="example-steps">
+                            <li class="example-step example-problem-step">
+                                <div class="example-step-number">1</div>
+                                <div class="example-step-text"><strong>Diverge:</strong> Analyze market forces, gather
+                                    competitive intelligence, explore industry trends</div>
+                            </li>
+                            <li class="example-step example-problem-step">
+                                <div class="example-step-number">2</div>
+                                <div class="example-step-text"><strong>Converge:</strong> Define strategic challenges
+                                    and prioritize critical business problems</div>
+                            </li>
+                            <li class="example-step example-solution-step">
+                                <div class="example-step-number">3</div>
+                                <div class="example-step-text"><strong>Diverge:</strong> Generate strategic options,
+                                    business models, and potential initiatives</div>
+                            </li>
+                            <li class="example-step example-solution-step">
+                                <div class="example-step-number">4</div>
+                                <div class="example-step-text"><strong>Converge:</strong> Select strategic direction and
+                                    develop implementation roadmap</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section fade-in-up">
+            <h2 class="faq-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question" tabindex="0" aria-expanded="false">
+                        <span>How is the Double Diamond different from other problem-solving frameworks?</span>
+                        <i class="fas fa-chevron-down faq-icon" aria-hidden="true"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="faq-answer-text">
+                            Unlike linear problem-solving approaches, the Double Diamond explicitly separates problem
+                            understanding from solution development, with distinct divergent and convergent thinking
+                            phases for each. It emphasizes deep problem exploration before jumping to solutions, helping
+                            teams avoid solving the wrong problems.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" tabindex="0" aria-expanded="false">
+                        <span>When should you cycle back in the process?</span>
+                        <i class="fas fa-chevron-down faq-icon" aria-hidden="true"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="faq-answer-text">
+                            You should consider cycling back when: solution testing reveals misunderstandings about the
+                            problem; new insights emerge that challenge your problem definition; initial solution
+                            concepts don't address the core problem effectively; or when the context or requirements
+                            change significantly during the process.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" tabindex="0" aria-expanded="false">
+                        <span>How do you balance divergent and convergent thinking?</span>
+                        <i class="fas fa-chevron-down faq-icon" aria-hidden="true"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="faq-answer-text">
+                            Balance is achieved by setting clear timeboxes for each phase, establishing criteria for
+                            convergence before diverging, involving diverse perspectives in divergent phases, using
+                            structured methods to facilitate transitions, and documenting insights throughout to
+                            maintain continuity between phases.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer with gradient -->
+        <div class="footer fade-in"></div>
+
+        <!-- Attribution -->
+        <div class="attribution fade-in">
+            © Double Diamond Framework - Interactive Visualization
+        </div>
+    </div>
+
+    <script src="double-diamond.js"></script>
+</body>
+
+</html>

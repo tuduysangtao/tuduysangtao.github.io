@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="TRIZ Principles Explorer - Browse and learn the 40 TRIZ principles with industry-specific examples">
+    <title>TRIZ Principles Explorer</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">TRIZ 39 45 50</a></li>
+            <li><a href="matrix.html">40 Thủ Thuật</a></li>
+            <li><a href="system_model.html">Mô Hình Hệ</a></li>
+            <li><a href="9w.html">Màn Hình 9 Hệ</a></li>
+            <li><a href="5w.html">5Whys</a></li>
+            <li><a href="kimcuong.html">Kim Cương Đôi</a></li>
+            <li><a href="ariz.html">About</a></li>
+            <li><a href="table_40.html">Matrix 39</a></li>
+        </ul>
+    </nav>
+
+
+        <!-- Notification container for alerts -->
+        <div id="notification-container"></div>
+
+        <!-- Header with navigation -->
+        <header class="bg-light py-3 shadow-sm">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h1 class="h4 mb-0">TRIZ Principles Explorer</h1>
+                    <div>
+                        <a href="#about" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal"
+                            data-bs-target="#aboutModal">
+                            <i class="fas fa-info-circle me-1"></i> About TRIZ
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="container my-4">
+            <div class="row g-4 mb-5">
+                <!-- Left column: Selection & Search -->
+                <div class="col-lg-4">
+                    <div class="card shadow-sm">
+                        <div class="card-header bg-light">
+                            <h2 class="h5 mb-0">Find Principles</h2>
+                        </div>
+                        <div class="card-body">
+                            <!-- Search -->
+                            <div class="mb-3">
+                                <label for="principle-search" class="form-label">
+                                    <i class="fa-solid fa-search"></i> Search
+                                </label>
+                                <input type="text" class="form-control" id="principle-search"
+                                    placeholder="Search by keyword or principle number">
+                                <div id="search-results" class="search-suggestions"></div>
+                            </div>
+
+                            <!-- Category Filters -->
+                            <div class="mb-4">
+                                <label class="form-label d-block">Filter by category:</label>
+                                <div class="btn-group w-100" role="group" aria-label="Category filters">
+                                    <button type="button" class="btn btn-sm btn-outline-primary category-filter active"
+                                        data-category="all">All</button>
+                                    <button type="button" class="btn btn-sm btn-outline-primary category-filter"
+                                        data-category="spatial">Spatial</button>
+                                    <button type="button" class="btn btn-sm btn-outline-primary category-filter"
+                                        data-category="material">Material</button>
+                                    <button type="button" class="btn btn-sm btn-outline-primary category-filter"
+                                        data-category="timing">Timing</button>
+                                </div>
+                            </div>
+
+                            <!-- Principle Selection -->
+                            <div class="mb-3">
+                                <label for="principle-select" class="form-label">
+                                    <i class="fa-solid fa-lightbulb"></i> Select Principle
+                                </label>
+                                <select class="form-select" id="principle-select">
+                                    <option value="" selected disabled>Select a principle (1-40)</option>
+                                    <!-- Will be populated by JavaScript -->
+                                </select>
+                            </div>
+
+                            <!-- Industry Selection -->
+                            <div class="mb-3">
+                                <label for="industry-select" class="form-label">
+                                    <i class="fa-solid fa-industry"></i> Industry Examples
+                                </label>
+                                <select class="form-select" id="industry-select" disabled>
+                                    <option value="general" selected>General</option>
+                                    <!-- Will be populated by JavaScript -->
+                                </select>
+                                <div class="form-text">Choose the industry domain for specialized examples.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Info Card -->
+                    <div class="card mt-4 shadow-sm">
+                        <div class="card-header bg-light">
+                            <h2 class="h5 mb-0">About TRIZ Principles</h2>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                The 40 TRIZ principles are problem-solving strategies derived from the Theory of
+                                Inventive Problem Solving.
+                            </p>
+                            <p class="mb-0">
+                                <strong>How to use:</strong>
+                            </p>
+                            <ol class="mb-0">
+                                <li>Select a principle from the dropdown menu</li>
+                                <li>View the general description and examples</li>
+                                <li>Choose an industry to see specialized examples</li>
+                                <li>Explore related principles to discover connections</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right column: Content Display -->
+                <div class="col-lg-8">
+                    <!-- Introduction -->
+                    <div id="introduction-text" class="card shadow-sm mb-4">
+                        <div class="card-body">
+                            <h2 class="h4 mb-3">Welcome to the TRIZ Principles Explorer</h2>
+                            <p>TRIZ (the Theory of Inventive Problem Solving) is a systematic approach to innovation
+                                that helps identify and solve technical contradictions.</p>
+                            <p>At the heart of TRIZ are 40 inventive principles that represent patterns observed across
+                                thousands of patents and innovations.</p>
+                            <div class="alert alert-info mt-3">
+                                <strong>Multi-Industry Examples:</strong> You can now view domain-specific examples for
+                                TRIZ principles!
+                                <div class="row mt-2">
+                                    <div class="col-md-6">
+                                        <ul class="mb-0">
+                                            <li><strong>Software Engineering</strong></li>
+                                            <li><strong>Business</strong></li>
+                                            <li><strong>Design</strong></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="mb-0">
+                                            <li><strong>Education</strong></li>
+                                            <li><strong>Finance</strong></li>
+                                            <li><strong>And many more...</strong></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Loading Spinner -->
+                    <div id="loading-spinner" class="text-center my-5" style="display:none;">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                        <p class="mt-2">Loading principle information...</p>
+                    </div>
+
+                    <!-- No Results Message -->
+                    <div id="no-results" class="text-center my-5 alert alert-warning" style="display:none;">
+                        <i class="fa-solid fa-magnifying-glass fa-2x mb-3"></i>
+                        <h4>No principles found</h4>
+                        <p>Try selecting a different principle</p>
+                    </div>
+
+                    <!-- Principle Information Container -->
+                    <div id="principle-container" class="mb-4" style="display:none;">
+                        <!-- Principle Card -->
+                        <div class="card shadow">
+                            <div class="card-header bg-primary text-white position-relative py-3">
+                                <h3 id="principle-title" class="mb-1"></h3>
+                                <div class="small text-light" id="principle-industry-label">
+                                    Examples for: <span id="current-industry">General</span>
+                                </div>
+                                <!-- Compare checkbox will be added here by JS -->
+                            </div>
+                            <div class="card-body" id="principle-content">
+                                <!-- Will be populated by JavaScript including the principle content and related principles -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Comparison Container - Will be created dynamically -->
+                    <div id="comparison-container" class="mb-4" style="display:none;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Modal -->
+        <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="aboutModalLabel">About TRIZ</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h5>What is TRIZ?</h5>
+                        <p>TRIZ (теория решения изобретательских задач, or Theory of Inventive Problem Solving) is a
+                            problem-solving methodology based on logic, data, and research, not intuition. It was
+                            developed by Genrich Altshuller and his colleagues in the former USSR starting in 1946.</p>
+
+                        <h5>The 40 Principles</h5>
+                        <p>The 40 TRIZ principles represent patterns of invention found across many fields. They help
+                            solve contradictions — situations where improving one parameter would worsen another.</p>
+
+                        <h5>Principle Relationships</h5>
+                        <p>The principles are interconnected, with some naturally complementing or extending others.
+                            Exploring related principles can help you find the best solution for your specific problem.
+                        </p>
+
+                        <h5>Using This Tool</h5>
+                        <p>This explorer helps you learn about the principles and see how they apply in different
+                            industries. Use it to:</p>
+                        <ul>
+                            <li>Browse all 40 principles</li>
+                            <li>See examples from different industries</li>
+                            <li>Find principles by keyword search</li>
+                            <li>Discover related principles</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back to Top Button -->
+        <div id="back-to-top" class="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </div>
+
+        <!-- JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+        <!-- App Logic -->
+        <script src="apptriz40.js"></script>
+    </body>
+
+</html>

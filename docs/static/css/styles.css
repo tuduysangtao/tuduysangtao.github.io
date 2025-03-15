@@ -1,0 +1,225 @@
+:root {
+    /* Primary color palette */
+    --primary: #2b2d42;
+    --primary-light: #3a3d57;
+    --primary-dark: #1a2130;
+    --secondary: #8d99ae;
+    --accent: #d90429;
+    --accent-light: #ef233c;
+    --light: #edf2f4;
+    --light-alt: #f8f9fa;
+    --dark: #2b2d42;
+    --text: #2b2d42;
+    --text-light: #8d99ae;
+    --border: rgba(43, 45, 66, 0.1);
+    --shadow: rgba(43, 45, 66, 0.08);
+    --hover: rgba(43, 45, 66, 0.03);
+    --gradient-primary: linear-gradient(135deg, #2b2d42 0%, #3a3d57 100%);
+    --gradient-accent: linear-gradient(135deg, #d90429 0%, #ef233c 100%);
+
+    /* Success, info, warning, danger preserved */
+    --success: #198754;
+    --info: #0dcaf0;
+    --warning: #ffc107;
+    --danger: #dc3545;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text);
+    background-color: var(--light);
+}
+
+.banner {
+    background: var(--gradient-primary);
+    color: white;
+    padding: 3rem 0;
+    margin-bottom: 2rem;
+}
+
+.innovant {
+    font-weight: 300;
+}
+
+.subline {
+    color: var(--accent);
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.step-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    border: none;
+    padding: 1.5rem;
+}
+
+.step-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.step-number {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: var(--accent);
+    color: white;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.pulse-btn {
+    animation: pulse 2s infinite;
+    position: relative;
+    overflow: hidden;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(217, 4, 41, 0.7);
+    }
+
+    70% {
+        box-shadow: 0 0 0 15px rgba(217, 4, 41, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(217, 4, 41, 0);
+    }
+}
+
+.solution-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px var(--shadow);
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.solution-card-header {
+    background-color: var(--primary);
+    color: white;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+.solution-card-body {
+    padding: 1.5rem;
+}
+
+.solution-item {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.solution-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.solution-item-title {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.footer {
+    background-color: var(--light-alt);
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+.lang-selector {
+    display: inline-flex;
+    align-items: center;
+}
+
+.lang-selector img {
+    width: 24px;
+    height: 16px;
+    margin-left: 5px;
+}
+
+select.form-select {
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+}
+
+#principles-container {
+    transition: all 0.3s ease;
+}
+
+.principle-explanation {
+    background-color: var(--light-alt);
+    border-left: 4px solid var(--accent);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.principle-examples {
+    padding-left: 2rem;
+    background-color: rgba(240, 240, 240, 0.5);
+    border-radius: 0.25rem;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.principle-example {
+    margin-bottom: 0.5rem;
+}
+
+/* Industry-specific styling */
+.industry-badge {
+    margin-bottom: 0.5rem;
+}
+
+.industry-badge .badge {
+    font-size: 0.85rem;
+    padding: 0.35rem 0.65rem;
+}
+
+/* Different color for different industries */
+.industry-software .badge {
+    background-color: var(--primary);
+}
+
+.industry-education .badge {
+    background-color: var(--success);
+}
+
+.industry-chemical .badge {
+    background-color: var(--accent);
+}
+
+/* Animation for industry changes */
+#principles-container {
+    transition: opacity 0.3s ease;
+}
+
+/* Industry icon in dropdown */
+.industry-icon {
+    margin-right: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .banner {
+        padding: 2rem 0;
+    }
+
+    .step-card {
+        margin-bottom: 1.5rem;
+    }
+
+    .principle-examples {
+        padding-left: 1rem;
+    }
+}

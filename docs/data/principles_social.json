@@ -1,0 +1,638 @@
+{
+    "industry": "social",
+    "principles": [
+      {
+        "id": 1,
+        "name": "Segmentation",
+        "examples": [
+          [
+            "Divide an event into independent persons.",
+            "Divide education subject into bit sized units.",
+            "Organize a complex task into subtasks.",
+            "A large project can be broken into smaller units for individuals to perform."
+          ],
+          [
+            "Make an event easy to disassemble.",
+            "Products are designed for easy disassembly to satisfy Germany's recycling program."
+          ],
+          [
+            "Increase the degree of fragmentation or segmentation.",
+            "A cause and effect chain can be used to describe a system to identify an exhaustive set of problem statements. Tens of problem statements replace a single problem."
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Taking Out",
+        "examples": [
+          [
+            "Separate an interfering component or property from an event, or single out the only necessary component (or property) of an event.",
+            "Use the four separation principles to eliminate conflicting requirements.",
+            "Ask what is the purpose of the event and only pursue that activity. A discussion is simplified by eliminating all the extraneous topics."
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Local Quality",
+        "examples": [
+          [
+            "Change an event’s structure from uniform to non-uniform, change an external environment (or external influence) from uniform to non-uniform.",
+            "Select a variety of activities for different muscle groups for cross training.",
+            "Develop additional ankle strength by running on trails rather than roads."
+          ],
+          [
+            "Make each person/system of an event function in conditions most suitable for its operation.",
+            "Assign work schedules to match employees' normal awake times.",
+            "Practice before competing.",
+            "Match personality types to the task to be performed."
+          ],
+          [
+            "Make each person/system of an event fulfill a different and useful function.",
+            "Hire a separate person/system for each function to be performed in a restaurant."
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Asymmetry",
+        "examples": [
+          [
+            "Change the shape of an event from symmetrical to asymmetrical.",
+            "Select a workforce which is heterogeneous in all dimensions.",
+            "Mix pedagogy for effective learning."
+          ],
+          [
+            "If an event is asymmetrical, increase its degree of asymmetry.",
+            "Normal classes in school have students with different abilities. Select additional students for more diversity by considering native language, age, physical and mental abilities, religion etc."
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Merging",
+        "examples": [
+          [
+            "Bring closer together (or merge) identical or similar events, assemble identical or similar persons/systems to perform parallel operations.",
+            "The affinity diagram can be used to identify natural clusters of the voice of the customer."
+          ],
+          [
+            "Make operations contiguous or parallel; bring them together in time.",
+            "Use a PERT chart to arrange the event to complete a complex project."
+          ]
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Universality",
+        "examples": [
+          [
+            "Make a person/system or event perform multiple functions; eliminate the need for other persons.",
+            "Replace specialist on an assembly line with generalist."
+          ]
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Nested Doll",
+        "examples": [
+          [
+            "Place one event inside another; place each event, in turn, inside the other.",
+            "Create an organization with several levels and with several people within each organizational unit."
+          ],
+          [
+            "Make one person/system pass through a cavity in the other.",
+            "Allow anyone in an organization to communicate directly to any higher level."
+          ]
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Anti-weight",
+        "examples": [
+          [
+            "To compensate for the weight of an event, merge it with other events that provide lift.",
+            "Assign teacher aids to provide better coverage of the students."
+          ],
+          [
+            "To compensate for the weight of an event, make it interact with the environment (e.g. use aerodynamic, hydrodynamic, buoyancy and other forces).",
+            "Send juvenile offenders to a boot camp environment."
+          ]
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Preliminary Anti-Action",
+        "examples": [
+          [
+            "If it will be necessary to do an action with both harmful and useful effects, this action should be replaced with anti-actions to control harmful effects.",
+            "Have a vaccination before going to unhealthy places."
+          ],
+          [
+            "Create beforehand stresses in an event that will oppose known undesirable working stresses later on.",
+            "Any boot camp environment for military applications, peace corps, cross cultural training and immersion programs for language."
+          ]
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Preliminary Action",
+        "examples": [
+          [
+            "Perform, before it is needed, the required change of an event (either fully or partially).",
+            "Anticipate future staffing requirements by either hiring new employees or providing training for existing employees."
+          ],
+          [
+            "Pre-arrange events such that they can come into action from the most convenient place and without losing time for their delivery.",
+            "Just in time delivery and manufacturing.",
+            "In California temporary staffing agency pre-trains people in OSHA regulations, ISO9000 so they are productive the first hour of work on short notice."
+          ]
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Beforehand Cushioning",
+        "examples": [
+          [
+            "Prepare emergency means beforehand to compensate for the relatively low reliability of an event.",
+            "Learn CPR."
+          ]
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Equipotentiality",
+        "examples": [
+          [
+            "In a potential field, limit position changes (e.g. change operating conditions to eliminate the need to raise or lower events to match requirements).",
+            "Some schools make their classes homogeneous in ability and interest, which reduces the need for adjustment by the teacher."
+          ]
+        ]
+      },
+      {
+        "id": 13,
+        "name": "The Other Way Round",
+        "examples": [
+          [
+            "Invert the action(s) used to solve the problem (e.g. instead of cooling an event, heat it).",
+            "Home visits by the medical doctor."
+          ],
+          [
+            "Make movable persons/systems (or the external environment) fixed, and fixed persons/systems movable.",
+            "Have the student teach the class.",
+            "Design the instructions to be self-explanatory without reading.",
+            "Programmed learn adapts to the level of the student.",
+            "Just in time delivery system.",
+            "Use PERT to schedule events.",
+            "When the pupil is ready the teacher will appear.",
+            "Meals on wheels program."
+          ],
+          [
+            "Turn the event (or process) ‘upside down’.",
+            "Have the boss report to the subordinate.",
+            "Nordstroms and GE have the customer at the top of the organization chart and the CEO at the bottom."
+          ]
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Spheroidality - Curvature",
+        "examples": [
+          [
+            "Instead of using rectilinear persons, surfaces, or forms, use curvilinear ones; move from flat surfaces to spherical ones; from persons/systems shaped as a cube (parallelepiped) to ball-shaped structures.",
+            "Have overweight people cuddle troubled children and premature babies, ala Leo Pesqalia.",
+            "Rounded personalities providing customer service."
+          ],
+          [
+            "Use rollers, balls, spirals, domes.",
+            "Sweet talk the customer into satisfaction."
+          ],
+          [
+            "Go from linear to rotary motion, use centrifugal forces.",
+            "Use a continuously changing ranking of jobs to be completed."
+          ]
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Dynamics",
+        "examples": [
+          [
+            "Allow (or design) the characteristics of an event, external environment, or process to change to be optimal or to find an optimal operating condition.",
+            "Build a 'Learning Organization' as suggested by Peter Senge.",
+            "Use fuzzy logic for decision making."
+          ],
+          [
+            "Divide an event into persons/systems capable of movement relative to each other.",
+            "Project team selects and deselects its own members throughout the project life."
+          ],
+          [
+            "If an event (or process) is rigid or inflexible, make it movable or adaptive.",
+            "Increase the percentage of workforce that are generalists rather than specialists.",
+            "Hire creative people."
+          ]
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Partial or Excessive Actions",
+        "examples": [
+          [
+            "If 100 percent of an event is hard to achieve using a given solution method then, by using ‘slightly less’ or ‘slightly more’ of the same method, the problem may be considerably easier to solve.",
+            "Use stretch goals for employees.",
+            "Overstaff a project."
+          ]
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Another Dimension",
+        "examples": [
+          [
+            "To move an event in two- or three-dimensional space.",
+            "Manage an organization with LOVE. Tom Hanson has been offering helping organizations such as the UN use this model.",
+            "Create holograms of staff members for a virtual organization."
+          ],
+          [
+            "Use a multi-story arrangement of events instead of a single-story arrangement.",
+            "Use a matrix organization structure."
+          ],
+          [
+            "Tilt or re-orient the event, lay it on its side.",
+            "Have the boss behave as if the employee was their customer."
+          ],
+          [
+            "Use ‘another side’ of a given area.",
+            "Introduce McGregor's 'Human Side of the Organization.'"
+          ]
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Mechanical Vibration",
+        "examples": [
+          [
+            "Cause an event to oscillate or vibrate.",
+            "Re-organize every six months."
+          ],
+          [
+            "Increase its frequency (even up to the ultrasonic).",
+            "Re-organize every week."
+          ],
+          [
+            "Use an event’s resonant frequency.",
+            "Since we all have a new body every seven years, re-organize every seven years."
+          ],
+          [
+            "Use piezoelectric vibrators instead of mechanical ones.",
+            "Have natural phenomenon indicate when to re-organize."
+          ],
+          [
+            "Use combined ultrasonic and electromagnetic field oscillations.",
+            "Consult an Oracle and listen to your gut."
+          ]
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Periodic Action",
+        "examples": [
+          [
+            "Instead of continuous action, use periodic or pulsating actions.",
+            "Random checking for drug testing.",
+            "Random reinforcement."
+          ],
+          [
+            "If an action is already periodic, change the periodic magnitude or frequency.",
+            "Vary the interval training for a runner."
+          ],
+          [
+            "Use pauses between impulses to perform a different action.",
+            "A hotel Concierge has free time that can be used to study Japanese to better interact with the hotel guests."
+          ]
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Continuity of Useful Action",
+        "examples": [
+          [
+            "Carry on work continuously; make all persons/systems of an event work at full load, all the time.",
+            "Downsize."
+          ],
+          [
+            "Eliminate all idle or intermittent actions or work.",
+            "Carry a cell phone.",
+            "Carry notebook computer."
+          ]
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Skipping",
+        "examples": [
+          [
+            "Conduct a process, or certain stages (e.g. destructive, harmful or hazardous operations) at high speed.",
+            "Answer questions quickly, without thinking, to prevent rationalization.",
+            "Listen to your gut when making decisions.",
+            "Answer all e-mail when received to prevent building up a 'to do' list."
+          ]
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Blessing in Disguise",
+        "examples": [
+          [
+            "Use harmful factors (particularly, harmful effects of the environment or surroundings) to achieve a positive effect.",
+            "Make mowing the lawn a workout rather than a chore.",
+            "Hire a computer hacker to prevent others damaging your system.",
+            "Use waste heat to generate electric power."
+          ],
+          [
+            "Eliminate the primary harmful action by adding it to another harmful action to resolve the problem.",
+            "Make a team of two dysfunctional individuals such as an extremely structured individual and a space cadet.",
+            "The Odd Couple movie and TV show."
+          ],
+          [
+            "Amplify a harmful factor to such a degree that it is no longer harmful.",
+            "Use the Peter Principle and promote the individual.",
+            "The pointy haired boss in the Dilbert cartoon."
+          ]
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Feedback",
+        "examples": [
+          [
+            "Introduce feedback (referring back, cross-checking) to improve a process or action.",
+            "Monthly annual review with employee.",
+            "Monthly review of Hoshin process."
+          ],
+          [
+            "If feedback is already used, change its magnitude or influence.",
+            "Get your big brother to talk to the bully.",
+            "Increase the number of dimensions used for reviewing employee or Hoshin."
+          ]
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Intermediary",
+        "examples": [
+          [
+            "Use an intermediary carrier article or intermediary process.",
+            "Have the union representative talk to management.",
+            "Have your religious leader talk to your God.",
+            "Medians claim to provide this function between the living and the dead.",
+            "An Ombudsman in town government.",
+            "A place for witnesses to call to give information about a crime without revealing their name."
+          ],
+          [
+            "Merge one event temporarily with another (which can be easily removed).",
+            "Use an arbitrator for a sensitive discussion.",
+            "Hire temporary workers."
+          ]
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Self-Service",
+        "examples": [
+          [
+            "Make an event serve itself by performing auxiliary helpful functions.",
+            "Customers at fast food restaurants pick up their order, remove tray from table and deposit garbage in can.",
+            "Gasoline pumps accept credit cards and purchaser fills vehicle.",
+            "A soda fountain pump that runs on the pressure of the carbon dioxide used to 'fizz' drinks, assuring that drinks will not be flat and eliminating the need for sensors."
+          ],
+          [
+            "Use waste resources, energy, or substances.",
+            "Hire ex-cons and current convicts."
+          ]
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Copying",
+        "examples": [
+          [
+            "Instead of an unavailable, expensive, or fragile event, use simpler and inexpensive copies.",
+            "Ignore, NIH (not invented here) and use competitor's design.",
+            "Buy the no-name brand."
+          ],
+          [
+            "Replace an event, or process with optical copies.",
+            "Conduct team meeting using video conferencing, fax, e-mail and picture phone."
+          ],
+          [
+            "If visible optical copies are already used, move to infrared or ultraviolet copies."
+          ]
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Cheap Short-Living Replacement Events",
+        "examples": [
+          [
+            "Replace an expensive event with multiple inexpensive events, compromising certain qualities (such as service life, for instance).",
+            "Lay off senior employees and hire back as temporaries or replace with junior employees."
+          ]
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Substitution for Mechanical Means",
+        "examples": [
+          [
+            "Replace a mechanical means with sensory (optical, acoustic, taste or smell) means.",
+            "Eliminate face-to-face communications within the organization and outside the organization."
+          ],
+          [
+            "Use electric, magnetic and electromagnetic fields to interact with the event.",
+            "Replace the office with a virtual office with everyone working from home."
+          ],
+          [
+            "Change from static to movable fields, from unstructured fields to those having structure.",
+            "The classic floating crap game.",
+            "Mobile Library.",
+            "Meals on wheels."
+          ],
+          [
+            "Use fields in conjunction with field-activated (e.g. ferromagnetic) particles.",
+            "Integrate humans with internet inputs.",
+            "\"Eyeglasses\" that have a computer screen projected on one lens, or that support the projector that focuses on one retina.",
+            "Scuba diving computer that attaches to the mask. Voice tells you depth, time, rate of ascent, and if you have done something that requires a decompression stop."
+          ]
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Pneumatics and Hydraulics",
+        "examples": [
+          [
+            "Use gas and liquid persons/systems of an event instead of solid persons/systems (e.g. inflatable, filled with liquids, air cushion, hydrostatic, hydro-reactive).",
+            "Look at work flow and information flow as fluid flow, a hydraulic model rather than a flow chart."
+          ]
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Flexible Shells and Thin Films",
+        "examples": [
+          [
+            "Use flexible shells and thin films instead of three-dimensional structures.",
+            "Flat organization chart."
+          ],
+          [
+            "Isolate the event from the external environment using flexible shells and thin films.",
+            "Have engineering talk directly to the customer and go to the customer location rather than through marketing."
+          ]
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Porous Materials",
+        "examples": [
+          [
+            "Make an event porous or add porous elements (inserts, coatings, etc.).",
+            "Encourage open mindedness of employees to new ideas."
+          ],
+          [
+            "If an event is already porous, use the pores to introduce a useful substance or function.",
+            "Provide training directed towards new corporate directions."
+          ]
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Color Changes",
+        "examples": [
+          [
+            "Change the color of an event or its external environment.",
+            "Increase employee diversity.",
+            "Use grow lights in the office."
+          ],
+          [
+            "Change the transparency of an event or its external environment.",
+            "Design an organization which is transparent to customers, they come and get what they want (information, books or ...)."
+          ]
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Homogeneity",
+        "examples": [
+          [
+            "Make events interacting with a given event of the same material (or material with identical properties).",
+            "Provide uniform service for customers."
+          ]
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Discarding and Recovering",
+        "examples": [
+          [
+            "Make portions of an event that have fulfilled their functions go away (discard by dissolving, evaporating, etc.) or modify these directly during operation.",
+            "Encourage and make lazy employees transfer."
+          ],
+          [
+            "Conversely, restore consumable persons/systems of an event directly in operation.",
+            "Employees keep up with the latest thinking, technology and philosophy."
+          ]
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Parameter Changes",
+        "examples": [
+          [
+            "Change an event’s physical state (e.g. to a gas, liquid, or solid).",
+            "One of the models for personal growth describes the personality thawing for change and refreezing for a new unchangeable behavior."
+          ],
+          [
+            "Change concentration or consistency.",
+            "Design a rapid for rapid staffing changes on a project."
+          ],
+          [
+            "Change the degree of flexibility.",
+            "Create Senge's learning organization."
+          ],
+          [
+            "Change the temperature.",
+            "Employees own the company."
+          ]
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Phase Transitions",
+        "examples": [
+          [
+            "Use phenomena occurring during phase transitions (e.g. volume changes, loss or absorption of heat, etc.).",
+            "Necessity is the mother of invention.",
+            "During times of disaster human compassion reaches a high level."
+          ]
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Thermal Expansion",
+        "examples": [
+          [
+            "Use thermal expansion (or contraction) of materials.",
+            "Self regulating organization."
+          ],
+          [
+            "If thermal expansion is being used, use multiple materials with different coefficients of thermal expansion.",
+            "Team members should represent a range of personalities such as Ned Herman's four quadrants of the brain."
+          ]
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Strong Oxidants",
+        "examples": [
+          [
+            "Replace common air with oxygen-enriched air.",
+            "Select a team of abrasive personalities."
+          ],
+          [
+            "Replace enriched air with pure oxygen.",
+            "Staff with high performers."
+          ],
+          [
+            "Replace ozonized (or ionized) oxygen with ozone.",
+            "Highly creative individuals who understand the voice of the customer."
+          ]
+        ]
+      },
+      {
+        "id": 39,
+        "name": "Inert Atmosphere",
+        "examples": [
+          [
+            "Replace a normal environment with an inert one.",
+            "Develop disaster procedures (flood, hurricane etc.) which are robust against sources of variation."
+          ],
+          [
+            "Add neutral persons, or inert additives to an event.",
+            "When setting up a blind date at a party, invite other guests ('inert' guests) – sort of an old 'I love Lucy' plot.",
+            "Staff customer service, the complaint department with individuals with the patience of Job."
+          ]
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Composite Materials",
+        "examples": [
+          [
+            "Change from uniform to composite (multiple) materials.",
+            "Instead of having a homogeneous workforce hire Renaissance workers."
+          ]
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,47 @@
+/* Reset navbar styles */
+.navbar {
+    background-color: #1a3a5f;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar li {
+    display: block;
+    width: 120px;
+    /* Fixed width for all navbar items */
+    box-sizing: border-box;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 0;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #1a3a5f;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Make hover subtle but visible */
+.navbar a:hover {
+    background-color: #254b76;
+}
+
+/* Remove active styling */
+.navbar a.active {
+    background-color: #1a3a5f;
+}

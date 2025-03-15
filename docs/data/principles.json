@@ -1,0 +1,853 @@
+[
+    {
+      "id": 1,
+      "name": "Segmentation",
+      "descriptions": [
+        {
+          "text": "Divide an object into independent parts.",
+          "examples": [
+            "Replace mainframe computer by personal computers.",
+            "Replace a large truck by a truck and trailer.",
+            "Use a work breakdown structure for a large project."
+          ]
+        },
+        {
+          "text": "Make an object easy to disassemble.",
+          "examples": [
+            "Modular furniture",
+            "Quick disconnect joints in plumbing"
+          ]
+        },
+        {
+          "text": "Increase the degree of fragmentation or segmentation.",
+          "examples": [
+            "Replace solid shades with Venetian blinds.",
+            "Use powdered welding metal instead of foil or rod to get better penetration of the joint."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Taking out",
+      "descriptions": [
+        {
+          "text": "Separate an interfering part or property from an object, or single out the only necessary part (or property) of an object.",
+          "examples": [
+            "Locate a noisy compressor outside the building where compressed air is used.",
+            "Use fiber optics or a light pipe to separate the hot light source from the location where light is needed.",
+            "Use the sound of a barking dog, without the dog, as a burglar alarm."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Local quality",
+      "descriptions": [
+        {
+          "text": "Change an object's structure from uniform to non-uniform, change an external environment (or external influence) from uniform to non-uniform.",
+          "examples": [
+            "Use a temperature, density, or pressure gradient instead of constant temperature, density or pressure."
+          ]
+        },
+        {
+          "text": "Make each part of an object function in conditions most suitable for its operation.",
+          "examples": [
+            "Lunch box with special compartments for hot and cold solid foods and for liquids."
+          ]
+        },
+        {
+          "text": "Make each part of an object fulfill a different and useful function.",
+          "examples": [
+            "Pencil with eraser",
+            "Hammer with nail puller",
+            "Multi-function tool that scales fish, acts as a pliers, a wire stripper, a flat-blade screwdriver, a Phillips screwdriver, manicure set, etc."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Asymmetry",
+      "descriptions": [
+        {
+          "text": "Change the shape of an object from symmetrical to asymmetrical.",
+          "examples": [
+            "Asymmetrical mixing vessels or asymmetrical vanes in symmetrical vessels improve mixing (cement trucks, cake mixers, blenders).",
+            "Put a flat spot on a cylindrical shaft to attach a knob securely."
+          ]
+        },
+        {
+          "text": "If an object is asymmetrical, increase its degree of asymmetry.",
+          "examples": [
+            "Change from circular O-rings to oval cross-section to specialized shapes to improve sealing.",
+            "Use astigmatic optics to merge colors."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Merging",
+      "descriptions": [
+        {
+          "text": "Bring closer together (or merge) identical or similar objects, assemble identical or similar parts to perform parallel operations.",
+          "examples": [
+            "Personal computers in a network",
+            "Thousands of microprocessors in a parallel processor computer",
+            "Vanes in a ventilation system",
+            "Electronic chips mounted on both sides of a circuit board or subassembly"
+          ]
+        },
+        {
+          "text": "Make operations contiguous or parallel; bring them together in time.",
+          "examples": [
+            "Link slats together in Venetian or vertical blinds.",
+            "Medical diagnostic instruments that analyze multiple blood parameters simultaneously",
+            "Mulching lawnmower"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Universality",
+      "descriptions": [
+        {
+          "text": "Make a part or object perform multiple functions; eliminate the need for other parts.",
+          "examples": [
+            "Handle of a toothbrush contains toothpaste",
+            "Child's car safety seat converts to a stroller",
+            "Mulching lawnmower",
+            "Team leader acts as recorder and timekeeper",
+            "CCD with micro-lenses formed on the surface"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Nested doll",
+      "descriptions": [
+        {
+          "text": "Place one object inside another; place each object, in turn, inside the other.",
+          "examples": [
+            "Measuring cups or spoons",
+            "Russian dolls",
+            "Portable audio system (microphone fits inside transmitter, which fits inside amplifier case)"
+          ]
+        },
+        {
+          "text": "Make one part pass through a cavity in the other.",
+          "examples": [
+            "Extending radio antenna",
+            "Extending pointer",
+            "Zoom lens",
+            "Seat belt retraction mechanism",
+            "Retractable aircraft landing gear stow inside the fuselage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Anti-weight",
+      "descriptions": [
+        {
+          "text": "To compensate for the weight of an object, merge it with other objects that provide lift.",
+          "examples": [
+            "Inject foaming agent into a bundle of logs, to make it float better.",
+            "Use helium balloon to support advertising signs."
+          ]
+        },
+        {
+          "text": "To compensate for the weight of an object, make it interact with the environment (e.g. use aerodynamic, hydrodynamic, buoyancy and other forces).",
+          "examples": [
+            "Aircraft wing shape reduces air density above the wing, increases density below wing, to create lift.",
+            "Vortex strips improve lift of aircraft wings.",
+            "Hydrofoils lift ship out of the water to reduce drag."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Preliminary anti-action",
+      "descriptions": [
+        {
+          "text": "If it will be necessary to do an action with both harmful and useful effects, this action should be replaced with anti-actions to control harmful effects.",
+          "examples": [
+            "Buffer a solution to prevent harm from extremes of pH."
+          ]
+        },
+        {
+          "text": "Create beforehand stresses in an object that will oppose known undesirable working stresses later on.",
+          "examples": [
+            "Pre-stress rebar before pouring concrete.",
+            "Masking anything before harmful exposure: Use a lead apron on parts of the body not being exposed to X-rays."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Preliminary action",
+      "descriptions": [
+        {
+          "text": "Perform, before it is needed, the required change of an object (either fully or partially).",
+          "examples": [
+            "Pre-pasted wall paper",
+            "Sterilize all instruments needed for a surgical procedure on a sealed tray."
+          ]
+        },
+        {
+          "text": "Pre-arrange objects such that they can come into action from the most convenient place and without losing time for their delivery.",
+          "examples": [
+            "Kanban arrangements in a Just-In-Time factory",
+            "Flexible manufacturing cell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Beforehand cushioning",
+      "descriptions": [
+        {
+          "text": "Prepare emergency means beforehand to compensate for the relatively low reliability of an object.",
+          "examples": [
+            "Magnetic strip on photographic film that directs the developer to compensate for poor exposure",
+            "Back-up parachute",
+            "Alternate air system for aircraft instruments"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Equipotentiality",
+      "descriptions": [
+        {
+          "text": "In a potential field, limit position changes (e.g. change operating conditions to eliminate the need to raise or lower objects in a gravity field).",
+          "examples": [
+            "Spring loaded parts delivery system in a factory",
+            "Locks in a channel between 2 bodies of water (Panama Canal)",
+            "Skillets in an automobile plant that bring all tools to the right position"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "The other way round",
+      "descriptions": [
+        {
+          "text": "Invert the action(s) used to solve the problem (e.g. instead of cooling an object, heat it).",
+          "examples": [
+            "To loosen stuck parts, cool the inner part instead of heating the outer part.",
+            "Bring the mountain to Mohammed, instead of bringing Mohammed to the mountain."
+          ]
+        },
+        {
+          "text": "Make movable parts (or the external environment) fixed, and fixed parts movable.",
+          "examples": [
+            "Rotate the part instead of the tool.",
+            "Moving sidewalk with standing people.",
+            "Treadmill (for walking or running in place.)"
+          ]
+        },
+        {
+          "text": "Turn the object (or process) 'upside down'.",
+          "examples": [
+            "Turn an assembly upside down to insert fasteners (especially screws).",
+            "Empty grain from containers (ship or railroad) by inverting them."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Spheroidality - Curvature",
+      "descriptions": [
+        {
+          "text": "Instead of using rectilinear parts, surfaces, or forms, use curvilinear ones; move from flat surfaces to spherical ones; from parts shaped as a cube (parallelepiped) to ball-shaped structures.",
+          "examples": [
+            "Use arches and domes for strength in architecture."
+          ]
+        },
+        {
+          "text": "Use rollers, balls, spirals, domes.",
+          "examples": [
+            "Spiral gear (Nautilus) produces continuous resistance for weight lifting.",
+            "Ball point and roller point pens for smooth ink distribution"
+          ]
+        },
+        {
+          "text": "Go from linear to rotary motion, use centrifugal forces.",
+          "examples": [
+            "Produce linear motion of the cursor on the computer screen using a mouse or a trackball.",
+            "Replace wringing clothes to remove water with spinning clothes in a washing machine.",
+            "Use spherical casters instead of cylindrical wheels to move furniture."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Dynamics",
+      "descriptions": [
+        {
+          "text": "Allow (or design) the characteristics of an object, external environment, or process to change to be optimal or to find an optimal operating condition.",
+          "examples": [
+            "Adjustable steering wheel (or seat, or back support, or mirror position...)"
+          ]
+        },
+        {
+          "text": "Divide an object into parts capable of movement relative to each other.",
+          "examples": [
+            "The 'butterfly' computer keyboard"
+          ]
+        },
+        {
+          "text": "If an object (or process) is rigid or inflexible, make it movable or adaptive.",
+          "examples": [
+            "The flexible boroscope for examining engines",
+            "The flexible sigmoidoscope, for medical examination"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Partial or excessive actions",
+      "descriptions": [
+        {
+          "text": "If 100 percent of an object is hard to achieve using a given solution method then, by using 'slightly less' or 'slightly more' of the same method, the problem may be considerably easier to solve.",
+          "examples": [
+            "Over spray when painting, then remove excess.",
+            "Fill, then 'top off' when filling the gas tank of your car."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Another dimension",
+      "descriptions": [
+        {
+          "text": "To move an object in two- or three-dimensional space.",
+          "examples": [
+            "Infrared computer mouse moves in space, instead of on a surface, for presentations.",
+            "Five-axis cutting tool can be positioned where needed."
+          ]
+        },
+        {
+          "text": "Use a multi-story arrangement of objects instead of a single-story arrangement.",
+          "examples": [
+            "Cassette with 6 CD's to increase music time and variety",
+            "Electronic chips on both sides of a printed circuit board",
+            "Employees 'disappear' from the customers in a theme park, descend into a tunnel, and walk to their next assignment"
+          ]
+        },
+        {
+          "text": "Tilt or re-orient the object, lay it on its side.",
+          "examples": [
+            "Dump truck"
+          ]
+        },
+        {
+          "text": "Use 'another side' of a given area.",
+          "examples": [
+            "Stack microelectronic hybrid circuits to improve density."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Mechanical vibration",
+      "descriptions": [
+        {
+          "text": "Cause an object to oscillate or vibrate.",
+          "examples": [
+            "Electric carving knife with vibrating blades"
+          ]
+        },
+        {
+          "text": "Increase its frequency (even up to the ultrasonic).",
+          "examples": [
+            "Distribute powder with vibration."
+          ]
+        },
+        {
+          "text": "Use an object's resonant frequency.",
+          "examples": [
+            "Destroy gall stones or kidney stones using ultrasonic resonance."
+          ]
+        },
+        {
+          "text": "Use piezoelectric vibrators instead of mechanical ones.",
+          "examples": [
+            "Quartz crystal oscillations drive high accuracy clocks."
+          ]
+        },
+        {
+          "text": "Use combined ultrasonic and electromagnetic field oscillations.",
+          "examples": [
+            "Mixing alloys in an induction furnace"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Periodic action",
+      "descriptions": [
+        {
+          "text": "Instead of continuous action, use periodic or pulsating actions.",
+          "examples": [
+            "Hitting something repeatedly with a hammer",
+            "Replace a continuous siren with a pulsed sound."
+          ]
+        },
+        {
+          "text": "If an action is already periodic, change the periodic magnitude or frequency.",
+          "examples": [
+            "Use Frequency Modulation to convey information, instead of Morse code.",
+            "Replace a continuous siren with sound that changes amplitude and frequency."
+          ]
+        },
+        {
+          "text": "Use pauses between impulses to perform a different action.",
+          "examples": [
+            "In cardio-pulmonary respiration (CPR) breathe after every 5 chest compressions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Continuity of useful action",
+      "descriptions": [
+        {
+          "text": "Carry on work continuously; make all parts of an object work at full load, all the time.",
+          "examples": [
+            "Flywheel (or hydraulic system) stores energy when a vehicle stops, so the motor can keep running at optimum power.",
+            "Run the bottleneck operations in a factory continuously, to reach the optimum pace."
+          ]
+        },
+        {
+          "text": "Eliminate all idle or intermittent actions or work.",
+          "examples": [
+            "Print during the return of a printer carriage--dot matrix printer, daisy wheel printers, inkjet printers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Skipping",
+      "descriptions": [
+        {
+          "text": "Conduct a process, or certain stages (e.g. destructible, harmful or hazardous operations) at high speed.",
+          "examples": [
+            "Use a high speed dentist's drill to avoid heating tissue.",
+            "Cut plastic faster than heat can propagate in the material, to avoid deforming the shape."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Blessing in disguise",
+      "descriptions": [
+        {
+          "text": "Use harmful factors (particularly, harmful effects of the environment or surroundings) to achieve a positive effect.",
+          "examples": [
+            "Use waste heat to generate electric power.",
+            "Recycle waste (scrap) material from one process as raw materials for another."
+          ]
+        },
+        {
+          "text": "Eliminate the primary harmful action by adding it to another harmful action to resolve the problem.",
+          "examples": [
+            "Add a buffering material to a corrosive solution.",
+            "Use a helium-oxygen mix for diving, to eliminate both nitrogen narcosis and oxygen poisoning."
+          ]
+        },
+        {
+          "text": "Amplify a harmful factor to such a degree that it is no longer harmful.",
+          "examples": [
+            "Use a backfire to eliminate the fuel from a forest fire."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Feedback",
+      "descriptions": [
+        {
+          "text": "Introduce feedback (referring back, cross-checking) to improve a process or action.",
+          "examples": [
+            "Automatic volume control in audio circuits",
+            "Signal from gyrocompass is used to control simple aircraft autopilots.",
+            "Statistical Process Control (SPC) -- Measurements are used to decide when to modify a process.",
+            "Budgets --Measurements are used to decide when to modify a process."
+          ]
+        },
+        {
+          "text": "If feedback is already used, change its magnitude or influence.",
+          "examples": [
+            "Change sensitivity of an autopilot when within 5 miles of an airport.",
+            "Change sensitivity of a thermostat when cooling vs. heating, since it uses energy less efficiently when cooling."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Intermediary",
+      "descriptions": [
+        {
+          "text": "Use an intermediary carrier article or intermediary process.",
+          "examples": [
+            "Carpenter's nailset, used between the hammer and the nail"
+          ]
+        },
+        {
+          "text": "Merge one object temporarily with another (which can be easily removed).",
+          "examples": [
+            "Pot holder to carry hot dishes to the table"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Self-service",
+      "descriptions": [
+        {
+          "text": "Make an object serve itself by performing auxiliary helpful functions",
+          "examples": [
+            "A soda fountain pump that runs on the pressure of the carbon dioxide that is used to 'fizz' the drinks.",
+            "Halogen lamps regenerate the filament during use--evaporated material is redeposited."
+          ]
+        },
+        {
+          "text": "Use waste resources, energy, or substances.",
+          "examples": [
+            "Use heat from a process to generate electricity: 'Co-generation'.",
+            "Use animal waste as fertilizer.",
+            "Use food and lawn waste to create compost."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Copying",
+      "descriptions": [
+        {
+          "text": "Instead of an unavailable, expensive, fragile object, use simpler and inexpensive copies.",
+          "examples": [
+            "Virtual reality via computer instead of an expensive vacation",
+            "Listen to an audio tape instead of attending a seminar."
+          ]
+        },
+        {
+          "text": "Replace an object, or process with optical copies.",
+          "examples": [
+            "Do surveying from space photographs instead of on the ground.",
+            "Measure an object by measuring the photograph.",
+            "Make sonograms to evaluate the health of a fetus, instead of risking damage by direct testing."
+          ]
+        },
+        {
+          "text": "If visible optical copies are already used, move to infrared or ultraviolet copies.",
+          "examples": [
+            "Make images in infrared to detect heat sources, such as diseases in crops, or intruders in a security system."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Cheap short-living objects",
+      "descriptions": [
+        {
+          "text": "Replace an inexpensive object with a multiple of inexpensive objects, comprising certain qualities (such as service life, for instance).",
+          "examples": [
+            "Use disposable paper objects to avoid the cost of cleaning and storing durable objects. Plastic cups in motels, disposable diapers, many kinds of medical supplies."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Mechanics substitution",
+      "descriptions": [
+        {
+          "text": "Replace a mechanical means with a sensory (optical, acoustic, taste or smell) means.",
+          "examples": [
+            "Replace a physical fence to confine a dog or cat with an acoustic 'fence' (signal audible to the animal).",
+            "Use a bad smelling compound in natural gas to alert users to leakage, instead of a mechanical or electrical sensor."
+          ]
+        },
+        {
+          "text": "Use electric, magnetic and electromagnetic fields to interact with the object.",
+          "examples": [
+            "To mix 2 powders, electrostatically charge one positive and the other negative. Either use fields to direct them, or mix them mechanically and let their acquired fields cause the grains of powder to pair up."
+          ]
+        },
+        {
+          "text": "Change from static to movable fields, from unstructured fields to those having structure.",
+          "examples": [
+            "Early communications used omnidirectional broadcasting. We now use antennas with very detailed structure of the pattern of radiation."
+          ]
+        },
+        {
+          "text": "Use fields in conjunction with field-activated (e.g. ferromagnetic) particles.",
+          "examples": [
+            "Heat a substance containing ferromagnetic material by using varying magnetic field. When the temperature exceeds the Curie point, the material becomes paramagnetic, and no longer absorbs heat."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Pneumatics and hydraulics",
+      "descriptions": [
+        {
+          "text": "Use gas and liquid parts of an object instead of solid parts (e.g. inflatable, filled with liquids, air cushion, hydrostatic, hydro-reactive).",
+          "examples": [
+            "Comfortable shoe sole inserts filled with gel",
+            "Store energy from decelerating a vehicle in a hydraulic system, then use the stored energy to accelerate later."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Flexible shells and thin films",
+      "descriptions": [
+        {
+          "text": "Use flexible shells and thin films instead of three dimensional structures",
+          "examples": [
+            "Use inflatable (thin film) structures as winter covers on tennis courts."
+          ]
+        },
+        {
+          "text": "Isolate the object from the external environment using flexible shells and thin films.",
+          "examples": [
+            "Float a film of bipolar material (one end hydrophilic, one end hydrophobic) on a reservoir to limit evaporation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Porous materials",
+      "descriptions": [
+        {
+          "text": "Make an object porous or add porous elements (inserts, coatings, etc.).",
+          "examples": [
+            "Drill holes in a structure to reduce the weight."
+          ]
+        },
+        {
+          "text": "If an object is already porous, use the pores to introduce a useful substance or function.",
+          "examples": [
+            "Use a porous metal mesh to wick excess solder away from a joint.",
+            "Store hydrogen in the pores of a palladium sponge."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Color changes",
+      "descriptions": [
+        {
+          "text": "Change the color of an object or its external environment.",
+          "examples": [
+            "Use safe lights in a photographic darkroom."
+          ]
+        },
+        {
+          "text": "Change the transparency of an object or its external environment.",
+          "examples": [
+            "Use photolithography to change transparent material to a solid mask for semiconductor processing."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Homogeneity",
+      "descriptions": [
+        {
+          "text": "Make objects interacting with a given object of the same material (or material with identical properties).",
+          "examples": [
+            "Make the container out of the same material as the contents, to reduce chemical reactions.",
+            "Make a diamond cutting tool out of diamonds."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Discarding and recovering",
+      "descriptions": [
+        {
+          "text": "Make portions of an object that have fulfilled their functions go away (discard by dissolving, evaporating, etc.) or modify these directly during operation.",
+          "examples": [
+            "Use a dissolving capsule for medicine.",
+            "Sprinkle water on cornstarch-based packaging and watch it reduce its volume by more than 1000X!",
+            "Ice structures: use water ice or carbon dioxide (dry ice) to make a template for a rammed earth structure, such as a temporary dam."
+          ]
+        },
+        {
+          "text": "Conversely, restore consumable parts of an object directly in operation.",
+          "examples": [
+            "Self-sharpening lawn mower blades",
+            "Automobile engines that give themselves a 'tune up' while running"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Parameter changes",
+      "descriptions": [
+        {
+          "text": "Change an object's physical state (e.g. to a gas, liquid, or solid.)",
+          "examples": [
+            "Freeze the liquid centers of filled candies, then dip in melted chocolate, instead of handling the messy, gooey, hot liquid.",
+            "Transport oxygen or nitrogen or petroleum gas as a liquid, instead of a gas, to reduce volume."
+          ]
+        },
+        {
+          "text": "Change the concentration or consistency.",
+          "examples": [
+            "Liquid hand soap is concentrated and more viscous than bar soap at the point of use, making it easier to dispense in the correct amount."
+          ]
+        },
+        {
+          "text": "Change the degree of flexibility.",
+          "examples": [
+            "Use adjustable dampers to reduce the noise of parts falling into a container by restricting the motion of the walls of the container.",
+            "Vulcanize rubber to change its flexibility and durability."
+          ]
+        },
+        {
+          "text": "Change the temperature.",
+          "examples": [
+            "Raise the temperature above the Curie point to change a ferromagnetic substance to a paramagnetic substance.",
+            "Raise the temperature of food to cook it. (Changes taste, aroma, texture, chemical properties, etc.)",
+            "Lower the temperature of medical specimens to preserve them for later analysis."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Phase transitions",
+      "descriptions": [
+        {
+          "text": "Use phenomena occurring during phase transitions (e.g. volume changes, loss or absorption of heat, etc.).",
+          "examples": [
+            "Water expands when frozen, unlike most other liquids. Hannibal is reputed to have used this when marching on Rome, pouring water on rocks and letting it freeze to split them.",
+            "Heat pumps use the heat of vaporization and heat of condensation of a closed thermodynamic cycle to do useful work."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Thermal expansion",
+      "descriptions": [
+        {
+          "text": "Use thermal expansion (or contraction) of materials.",
+          "examples": [
+            "Fit a tight joint together by cooling the inner part to contract, heating the outer part to expand, putting the joint together, and returning to equilibrium."
+          ]
+        },
+        {
+          "text": "If thermal expansion is being used, use multiple materials with different coefficients of thermal expansion.",
+          "examples": [
+            "The basic leaf spring thermostat: (2 metals with different coefficients of expansion are linked so that it bends one way when warmer than nominal and the opposite way when cooler.)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Strong oxidants",
+      "descriptions": [
+        {
+          "text": "Replace common air with oxygen-enriched air.",
+          "examples": [
+            "Scuba diving with Nitrox or other non-air mixtures for extended endurance"
+          ]
+        },
+        {
+          "text": "Replace enriched air with pure oxygen.",
+          "examples": [
+            "Cut at a higher temperature using an oxy-acetylene torch.",
+            "Treat wounds in a high pressure oxygen environment to kill anaerobic bacteria and aid healing."
+          ]
+        },
+        {
+          "text": "Expose air or oxygen to ionizing radiation.",
+          "examples": [
+            "Ionize air to trap pollutants in an air cleaner."
+          ]
+        },
+        {
+          "text": "Use ionized oxygen.",
+          "examples": [
+            "Ionize air to trap pollutants in an air cleaner."
+          ]
+        },
+        {
+          "text": "Replace ozonized (or ionized) oxygen with ozone.",
+          "examples": [
+            "Speed up chemical reactions by ionizing the gas before use."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Inert atmosphere",
+      "descriptions": [
+        {
+          "text": "Replace a normal environment with an inert one.",
+          "examples": [
+            "Prevent degradation of a hot metal filament by using an argon atmosphere."
+          ]
+        },
+        {
+          "text": "Add neutral parts, or inert additives to an object.",
+          "examples": [
+            "Increase the volume of powdered detergent by adding inert ingredients. This makes it easier to measure with conventional tools."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Composite materials",
+      "descriptions": [
+        {
+          "text": "Change from uniform to composite (multiple) materials.",
+          "examples": [
+            "Composite epoxy resin/carbon fiber golf club shafts are lighter, stronger, and more flexible than metal. Same for airplane parts.",
+            "Fiberglass surfboards are lighter and more controllable and easier to form into a variety of shapes than wooden ones."
+          ]
+        }
+      ]
+    }
+  ]

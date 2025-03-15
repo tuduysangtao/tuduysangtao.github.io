@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Base styles first, then specific styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style_matrix.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">TRIZ 39 45 50</a></li>
+            <li><a href="matrix.html">40 Thủ Thuật</a></li>
+            <li><a href="system_model.html">Mô Hình Hệ</a></li>
+            <li><a href="9w.html">Màn Hình 9 Hệ</a></li>
+            <li><a href="5w.html">5Whys</a></li>
+            <li><a href="kimcuong.html">Kim Cương Đôi</a></li>
+            <li><a href="ariz.html">About</a></li>
+            <li><a href="table_40.html">Matrix 39</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>TRIZ Contradiction Matrix</h1>
+    </header>
+    
+    <main id="main-content">
+        <div class="matrix-container">
+            <div class="worsening-label">Worsening Feature</div>
+            <div class="improving-label">Improving Feature</div>
+            
+            <table class="triz-matrix" id="trizMatrix"></table>
+        </div>
+    </main>
+    
+    <div id="tooltip" class="tooltip"></div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>TRIZ Problem-Solving Tools &copy; 2025</p>
+        </div>
+    </footer>
+    
+    <script src="app_matrix.js"></script> 
+</body>
+</html>

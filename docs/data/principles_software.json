@@ -1,0 +1,478 @@
+{
+    "industry": "software",
+    "principles": [
+      {
+        "id": 1,
+        "name": "Segmentation",
+        "examples": [
+          [
+            "Top‐down design: Divide an application into smaller, less complex modules.",
+            "Build applications upon autonomous services (local or web‐based) or use commercially available components."
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Extraction",
+        "examples": [
+          [
+            "Calculate or measure background noise in an image and subtract it to enhance contrast.",
+            "Use MP3 compression to remove parts of the audio signal that are inaudible.",
+            "Apply lossy image compression (e.g., JPEG) to remove redundant information while preserving quality.",
+            "Use a tokenizer in a parser to convert keywords into smaller codes for machine processing."
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Local quality",
+        "examples": [
+          [
+            "In an AI blackboard model, have different workers solve parts of a problem in diverse ways (e.g., partly top‐down, partly bottom‐up).",
+            "Replace a linked list of specific objects with one of more abstract objects to allow heterogeneous storage."
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Asymmetry",
+        "examples": [
+          [
+            "Allow a program (e.g., a filter) to process different input formats without increasing output format diversity.",
+            "Approximate an average by sampling a random subset instead of the entire list.",
+            "Improve quicksort performance by using the median-of-three pivot selection.",
+            "Implement a weighted binary search that accounts for the statistical distribution of elements."
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Consolidation",
+        "examples": [
+          [
+            "Utilize multitasking operating systems, multithreaded applications, or multiprocessor systems.",
+            "Leverage distributed computing (e.g., Seti@home or BOINC) for massive parallel computation.",
+            "Use packet switching networks to interleave multiple data streams over one wire.",
+            "Employ optical network cables that carry multiple frequency waves simultaneously.",
+            "Construct web pages from multiple frames sourced from different servers to speed up loading.",
+            "Print multiple copies in parallel on more than one machine.",
+            "Implement RAID-5 disk arrays to retrieve and store files faster via parallel access.",
+            "Download file chunks from multiple remote PCs in peer-to-peer applications to increase throughput."
+          ]
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Universality",
+        "examples": [
+          [
+            "Use command line tools that change behavior based on startup parameters (e.g., XCOPY).",
+            "Employ applications like Norton Commander that embed multiple functions in one interface.",
+            "Extend a function designed for maximum value to also search for the minimum, especially when heavy I/O is involved."
+          ]
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Nesting (Matrioshka)",
+        "examples": [
+          [
+            "Design layered architectures such as the OSI model for network communications.",
+            "Adopt a top‐down design approach where high-level components become autonomous projects with defined interfaces.",
+            "Utilize multidimensional arrays (an array of arrays, e.g., a matrix).",
+            "Implement recursive data structures like trees, linked lists, or directories with subdirectories.",
+            "Employ recursive algorithms such as quicksort, tree-walking, or backtracking."
+          ]
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Counterweight",
+        "examples": [
+          [
+            "Divide a web page into multiple frames and store them on different disks or servers to improve performance.",
+            "Use hashing functions to distribute objects evenly across buckets."
+          ]
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Prior Counteraction",
+        "examples": [
+          [
+            "Inform the user of a longer expected wait time so that if the operation finishes sooner, stress is reduced (e.g., installation programs promising 2 seconds that take longer).",
+            "Load important database tables or indexes ahead of time during application startup."
+          ]
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Prior Action",
+        "examples": [
+          [
+            "Utilize a read‐ahead cache in disk drives to prepare for real reads.",
+            "Prefetch web page references (or resolve IP addresses) while the current page is still being viewed.",
+            "Prepare data sets in a database application by recognizing usage patterns in advance.",
+            "Test printer availability before the user finalizes settings."
+          ]
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Cushion in advance",
+        "examples": [
+          [
+            "Back up essential files before system use to avoid reinstallations in case of corruption.",
+            "Set timeouts for operations that might block (e.g., database queries or network connections).",
+            "Employ rollback-capable transactions in databases as a cushion.",
+            "Implement input handlers that filter or ignore badly formatted data.",
+            "Have a route planner calculate alternative routes based on historical traffic data.",
+            "Make intermediate document snapshots in a word processor to prevent data loss during a crash.",
+            "Use a trash can for deleted files to provide a safety net against accidental loss."
+          ]
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Equipotentiality",
+        "examples": [
+          [
+            "Implement intelligent memory swapping by replacing objects with low potential usage.",
+            "Retain intermediate results that are expensive to compute as long as they remain valid.",
+            "In non-deterministic applications, keep elements that are likely to be reused.",
+            "Maintain a gene pool in genetic algorithms by preserving potent solutions and discarding weaker ones.",
+            "Reorder database records only when explicitly needed, using flags to mark deletions."
+          ]
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Do it in reverse",
+        "examples": [
+          [
+            "Reverse scheduling algorithms to achieve faster processing.",
+            "Apply early restrictions on intermediate results (as in database joins) to reduce processing time.",
+            "Reorder calculations to prevent overflow or underflow (e.g., rearrange p = x * y / z).",
+            "Reverse dictionary strings to facilitate searching for words with common endings."
+          ]
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Spheroidality",
+        "examples": [
+          [
+            "Replace a linear search with a binary search.",
+            "Enhance binary search by implementing a weighted variant.",
+            "Convert Cartesian coordinates to Polar format to ease certain calculations.",
+            "Route printing through a server rather than direct PC-to-printer communication for better control."
+          ]
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Dynamicity",
+        "examples": [
+          [
+            "Implement an intelligent cache that adjusts its size based on recent usage.",
+            "Design a dynamic user interface that hides less-used functions and anticipates the next step.",
+            "Use a mathematical parser to simplify complex formulas before evaluation (e.g., converting sin/cos to tan).",
+            "Dynamically adjust local thresholds in image processing to optimize contrast.",
+            "Have a compiler reorganize its parsing tree to optimize generated code.",
+            "Allow view changes in applications like PowerPoint for easier editing and overview.",
+            "Enable graphics programs to self-adjust their scales."
+          ]
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Partial or excessive actions",
+        "examples": [
+          [
+            "Stop heuristic optimizers (e.g., for the traveling salesman problem) at 95% of optimality to save time.",
+            "Switch from quicksort to simpler sorting algorithms for small sub-arrays.",
+            "Improve reliability by having multiple processors compute the same value using different algorithms and comparing the results."
+          ]
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Transition into a new dimension",
+        "examples": [
+          [
+            "Offload new elements of an overgrown queue to disk when memory is insufficient.",
+            "In a 2D user interface, add a third dimension by placing less-used windows in the background (e.g., via rotation).",
+            "Convert a black and white image to grayscale before resizing.",
+            "Use hexadecimal notation to make bit-level operations clearer."
+          ]
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Vibration",
+        "examples": [
+          [
+            "In pipeline architectures, schedule filter processing times based on item processing times and queue lengths.",
+            "Adopt a 'resonance' scheduling mode so that data for the next filter is already in memory.",
+            "Refresh a screen based on the arrival or departure of data rather than on a fixed clock tick.",
+            "Alternate MIN-MAX algorithms in games or AI applications.",
+            "Read from multiple queues in a round-robin fashion.",
+            "Oscillate the disk read head to minimize average seek time.",
+            "Utilize disk technology with vibrating read-head arrays instead of traditional rotating disks."
+          ]
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Periodic action",
+        "examples": [
+          [
+            "Schedule jobs instead of continuous processing.",
+            "Implement batch processing for improved efficiency.",
+            "Poll at set intervals rather than continuously monitoring.",
+            "Adjust polling rates based on system load.",
+            "Use adaptive timeouts and exponential backoff algorithms for retries.",
+            "Run cleanup and maintenance tasks during low usage periods or scheduled downtimes.",
+            "Execute background tasks when the user interface is idle."
+          ]
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Continuity of useful action",
+        "examples": [
+          [
+            "Run background processes in multitasking operating systems (e.g., queries, printing, defragmentation, virus scanning).",
+            "Utilize idle processing (as seen in the Seti@home screensaver).",
+            "Perform grammar and spelling checks concurrently during text editing.",
+            "Enable auto-completion during typing or when entering spreadsheet formulas.",
+            "Continuously compile code in a programmer’s editor.",
+            "Regularly validate URLs in browser bookmarks and email addresses.",
+            "Use a pre-scan in flatbed scanners to prepare for a high-resolution final scan.",
+            "Decompress data ahead of time when reading compressed streams."
+          ]
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Rushing through",
+        "examples": [
+          [
+            "Rewrite loops so that they fit entirely in CPU cache, reducing memory I/O delays.",
+            "Disable database access during backups to complete the process faster.",
+            "Perform an immediate memory dump to disk upon detecting a power outage.",
+            "Make an instant full disk copy when disk error frequency rises."
+          ]
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Convert harm into benefit",
+        "examples": [
+          [
+            "Display a message suggesting the user fetch coffee or do stretch exercises during long operations to mitigate waiting stress.",
+            "Take multiple sensor readings and average them to cancel noise for improved quality.",
+            "Convert a slightly slow interactive process into batch processing to reset user expectations.",
+            "Lower communication speed on poor-quality lines to achieve higher throughput with fewer errors.",
+            "Add extra bytes to data on low-quality storage devices to enable error correction."
+          ]
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Feedback",
+        "examples": [
+          [
+            "Display a progress bar during lengthy calculations or queries.",
+            "Show initial route results while a route planner continues to optimize the route.",
+            "Present intermediate values during an approximation algorithm’s computation.",
+            "Display the best results found so far in genetic algorithms as iterations proceed."
+          ]
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Mediator",
+        "examples": [
+          [
+            "Apply the mediator design pattern to reduce direct communication between objects (e.g., for configuration management).",
+            "Have objects access database tables via a mediator to prevent ripple effects when changes occur.",
+            "Use a print server to temporarily hold print jobs when the printer is offline."
+          ]
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Self service",
+        "examples": [
+          [
+            "Implement security applications (firewalls, virus scanners) that check their own integrity before running.",
+            "Design databases that can self-repair using transactional information.",
+            "Configure web browsers to redirect to alternative websites if the requested server is unavailable.",
+            "Offer hostname suggestions when a server is not found.",
+            "Create clock objects that synchronize themselves using NTP.",
+            "Allow operating systems to automatically increase their own swap space.",
+            "Develop backup programs that include built-in restore functionality (e.g., self-extracting archives).",
+            "Permit computer viruses or worms to self-replicate."
+          ]
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Copying",
+        "examples": [
+          [
+            "Reuse existing components instead of building new applications from scratch, as demonstrated by Unix command pipelines."
+          ]
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Dispose inexpensive short living objects",
+        "examples": [
+          [
+            "Use disk space instead of high-speed memory, trading storage cost for access time.",
+            "Present simplified previews of complex pages to reduce computation time.",
+            "Utilize low-resolution images when possible.",
+            "Perform calculations with integers instead of floating point numbers for faster performance with acceptable precision.",
+            "Replace expensive functions with lookup tables (e.g., for sin and cos).",
+            "Build high-performance systems by networking multiple older PCs."
+          ]
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Replacement of a mechanical system",
+        "examples": [
+          [
+            "Replace a doctor's stethoscope with a microphone and headphones to enable recording and advanced signal processing (e.g., frequency analysis, heartbeat counting)."
+          ]
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Pneumatic or Hydraulic construction",
+        "examples": [
+          [
+            "Use variables instead of hard-coded constants by initializing them at startup for flexibility.",
+            "Adopt dynamic arrays or linked lists instead of fixed-dimension arrays to avoid buffer overflows and growing pains."
+          ]
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Flexile films or thin membranes",
+        "examples": [
+          [
+            "Design OO classes with fixed public interfaces that allow internal representation changes.",
+            "Utilize the proxy pattern as a shield for one or more objects."
+          ]
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Porous materials",
+        "examples": [
+          [
+            "Expose more of an object's internals to allow direct manipulation for performance gains (even if it risks integrity).",
+            "Reveal storage medium details to enable optimizations, such as adjusting write block sizes for network disks."
+          ]
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Changing the color",
+        "examples": [
+          [
+            "Implement a desktop clock that is 90% transparent but becomes less transparent as an appointment nears.",
+            "Design monitoring applications that adjust transparency on the GUI when user attention is required.",
+            "Use dark, red-themed user interfaces in astronomy applications for optimal night-time usability and battery saving."
+          ]
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Homogeneity",
+        "examples": [
+          [
+            "Write algorithms that accept base-class objects as parameters so that all derived classes can be processed uniformly."
+          ]
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Rejecting and regenerating parts",
+        "examples": [
+          [
+            "Maintain a pool of frequently created and deleted complex objects to speed up creation and reduce garbage collection load."
+          ]
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Transformation properties",
+        "examples": [
+          [
+            "Merge software applications with nearly identical databases to reduce redundancy.",
+            "Utilize templates to make an editor multipurpose, such as by switching syntax highlighter templates for different programming languages."
+          ]
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Phase Transition",
+        "examples": [
+          [
+            "Handle state changes that require complex calculations or expensive database lookups.",
+            "Cache intermediate results (e.g., pointers in a linked list) to speed up subsequent operations."
+          ]
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Thermal expansion",
+        "examples": [
+          [
+            "Compress data to reduce transmission time and storage space, then decompress when needed.",
+            "Convert floating point currency calculations to integer arithmetic by scaling (e.g., multiplying by 100) to improve speed and reduce rounding errors.",
+            "Design buffers and caches to be dynamically sizable to optimally fit available memory."
+          ]
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Accelerated oxidation",
+        "examples": [
+          [
+            "Replace high-level language algorithms with hand-optimized, processor-specific assembly routines or dedicated hardware (e.g., for video compression).",
+            "Write data on disk in the order expected by the processor (e.g., matching endian formats).",
+            "Use binary formats to enhance efficiency in processing, storage, and network traffic."
+          ]
+        ]
+      },
+      {
+        "id": 39,
+        "name": "Inert environment",
+        "examples": [
+          [
+            "Test software in a controlled environment to restrict potential damage.",
+            "Deploy dummy, unprotected PCs (honeypots) on the Internet to detect early virus or worm activity.",
+            "Use simulations or simulated classes (e.g., a simulated file system) to observe application behavior.",
+            "Test new computer viruses in isolated PCs to assess their impact.",
+            "Restrict the functionality of executable components in web browsers.",
+            "Run applications in a debugger in step mode for controlled execution."
+          ]
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Composite materials",
+        "examples": [
+          [
+            "No software examples provided."
+          ]
+        ]
+      }
+    ]
+  }
+  

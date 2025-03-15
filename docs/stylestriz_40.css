@@ -1,0 +1,175 @@
+/* Main Styles for TRIZ Principles Explorer - Essential parts only */
+
+/* Base Styles */
+body {
+    background-color: #edf2f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2b2d42;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 2rem 1rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+}
+
+/* Card Styles */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(43, 45, 66, 0.08);
+    border: none;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 6px 15px rgba(43, 45, 66, 0.1);
+}
+
+/* Principle Content Styles */
+.principle-description {
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+}
+
+.principle-examples {
+    background-color: #f8f9fa;
+    border-left: 4px solid #d90429;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0 5px 5px 0;
+}
+
+.principle-examples h5 {
+    color: #d90429;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+.principle-examples ul {
+    padding-left: 1.5rem;
+    margin-bottom: 0;
+}
+
+.principle-examples li {
+    margin-bottom: 0.5rem;
+}
+
+.principle-examples li:last-child {
+    margin-bottom: 0;
+}
+
+/* Search Suggestions */
+.search-suggestions {
+    position: absolute;
+    width: 100%;
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 10px rgba(43, 45, 66, 0.1);
+    z-index: 1000;
+    display: none;
+}
+
+.suggestion-item {
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background-color 0.2s;
+}
+
+.suggestion-item:hover, .suggestion-item.active {
+    background-color: #f8f9fa;
+}
+
+.suggestion-item:last-child {
+    border-bottom: none;
+}
+
+/* Loading Spinner */
+#loading-spinner {
+    padding: 3rem 0;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #d90429;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Skip Link for Accessibility */
+.skip-link:focus {
+    display: block;
+    background-color: #d90429;
+    color: white;
+    padding: 10px 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    text-decoration: none;
+}
+
+/* Notifications */
+#notification-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.alert {
+    box-shadow: 0 4px 10px rgba(43, 45, 66, 0.08);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+/* Related Principles */
+.related-principles {
+    margin-top: 2rem;
+    border-top: 1px solid #e9ecef;
+    padding-top: 1.5rem;
+}
+
+.related-principles h5 {
+    margin-bottom: 1rem;
+    color: #d90429;
+}
+
+.select-related {
+    margin-top: 0.5rem;
+    transition: all 0.3s;
+}
+
+/* Compare Checkbox */
+.form-check-input:checked {
+    background-color: #d90429;
+    border-color: #d90429;
+}

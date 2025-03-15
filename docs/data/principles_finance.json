@@ -1,0 +1,451 @@
+{
+    "industry": "finance",
+    "principles": [
+      {
+        "id": 1,
+        "name": "Segmentation",
+        "examples": [
+          [
+            "Divide a business, investment, security, or portfolio into independent parts – for example, divide a business into divisions; perform a stock split; create a stripped bond; or execute a spinoff.",
+            "Financial control can be enforced by requiring two or more persons to approve a transaction."
+          ],
+          [
+            "Make an object easy to disassemble by forming subsidiaries or divisions that can be more easily bought or sold."
+          ],
+          [
+            "Separate money in time: use deferred payments or compensation, seller financing, or adjust the timing of discretionary payments; arrange to realize a gain or loss at a tax-minimizing time."
+          ],
+          [
+            "Increase fragmentation in time: apply annual, quarterly, monthly, weekly, or daily compounding of interest."
+          ],
+          [
+            "Distribute money over time (limiting case of separation in time): use continuous compounding, accept a stream of payments (e.g., royalties or annuities) instead of a lump sum, stage projects to spread expenditures over time, and distribute maturity or renewal dates rather than having them come due all at once."
+          ],
+          [
+            "Separate money in risk: when financing a company, source funds from different capital providers (secured lenders, bondholders, preferred stockholders, common stockholders, venture capitalists) with varying risk tolerances.",
+            "Separate risk in time and space through diversification and by spreading activities over time."
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Taking Out",
+        "examples": [
+          [
+            "Remove an interfering part or property from an activity or transaction – that is, isolate only the necessary or desired components.",
+            "Examples include taking out time or activities (such as using non-voting classes of common stock or disintermediation to eliminate middlemen), taking out money, or taking out risk (for instance, by organizing a business as a Subchapter S corporation or a limited-liability company)."
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Local Quality",
+        "examples": [
+          [
+            "Change a structure from uniform to non-uniform or modify its external environment so that each part functions under the most favorable conditions – for example, incorporate operations in jurisdictions with favorable business laws, low taxes, and minimal regulatory burden."
+          ],
+          [
+            "Make each part fulfill a different or complementary function, such as through vertical integration."
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Asymmetry",
+        "examples": [
+          [
+            "Take an asymmetric market position – for example, hold put options for more shares than you’re long (using ‘strips’ or ‘straps’ as asymmetric versions of straddles).",
+            "Adjust a position from symmetrical to asymmetrical (or vice versa) to offset risk; if your position is asymmetrical, you can modify its degree of asymmetry."
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Merging",
+        "examples": [
+          [
+            "Merge time or activities by making operations contiguous or parallel – for instance, combine market positions (such as buying a stock while shorting it, writing a covered option, or taking on a straddle or spread) to manage risk."
+          ],
+          [
+            "Merge money: use debt-consolidation loans.",
+            "Merge risk: bring together similar risks.",
+            "Bring identical or similar parts together (for example, through partnerships, mergers, acquisitions, or by assembling packages of securities such as mortgages) to achieve a desired effect like replicating market performance."
+          ]
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Universality / Multi-Function",
+        "examples": [
+          [
+            "Standardize time or activities by setting uniform durations for financial instruments (bills, notes, bonds, certificates of deposit, options, etc.).",
+            "Standardize money so that one unit is equivalent to any other, and standardize financial instruments (stocks, options, futures).",
+            "Standardize risk, or make a part perform multiple functions – for example, offer a brokerage account that provides check-writing and a line of credit."
+          ]
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Nested Doll",
+        "examples": [
+          [
+            "Place one business or financial activity inside another – for example, a holding company that contains several independent businesses, estates, or trusts."
+          ],
+          [
+            "Make one part pass through another – for example, use a real-estate mortgage investment conduit."
+          ]
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Compensate for Inflation",
+        "examples": [
+          [
+            "Translate the concept of anti-weight to finance by compensating for inflation. This can involve merging investments with those that provide a financial 'lift' against inflation, such as investing in real estate, petroleum and mining stocks, precious metals, inflation-protected securities (like U.S. treasury bonds), or assets denominated in more stable currencies.",
+            "Other methods include using CPI escalators, fixed or adjustable interest rates, gold or silver clauses, forward-contracting interest rates, and holding wealth in non-cash forms."
+          ]
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Preliminary Anti-Action",
+        "examples": [
+          [
+            "If a transaction or investment has both harmful and beneficial effects, replace or augment it with anti-actions to control the harm.",
+            "For time or activities, use restrictive covenants in a loan or defensive measures against takeovers.",
+            "For money, consider leasing versus buying to avoid ownership costs or buy back stock to neutralize dilution.",
+            "For risk, assemble negatively correlated portfolio components or use market-index derivatives to hedge adverse market movements; also, take both sides of a position (using options) to preserve upside while limiting downside."
+          ]
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Preliminary Action",
+        "examples": [
+          [
+            "Perform required changes or fulfill obligations before they are needed. For example, establish a sinking fund, buy put or call options when a price change is anticipated, or take a covered position (such as writing a covered option) against assets you wish to buy or sell.",
+            "Forward-contract asset purchases or sales at favorable prices, and synchronize income or maturities (defeasance) with future obligations."
+          ],
+          [
+            "Pre-arrange transactions so they can execute immediately when conditions are favorable – for example, by placing stop or limit orders, pre-negotiating loans with locked-in interest rates, or establishing a line of credit."
+          ]
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Beforehand Cushioning",
+        "examples": [
+          [
+            "Prepare emergency measures in advance to compensate for low reliability. In finance, this may mean requiring collateral or security for a loan, using recourse, buying insurance, requiring performance or surety bonds, buying put options to protect against declines in asset values, or including acceleration or foreclosure clauses in debt agreements.",
+            "Other examples include negotiating rate caps on adjustable-rate loans or securing employment severance agreements (golden parachutes)."
+          ]
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Equipotentiality",
+        "examples": [
+          [
+            "In order to limit unwanted position changes in the market, conduct business in a local currency to manage exchange-rate exposure, or work with international partners who accept different currencies (for example, using a Eurobank)."
+          ]
+        ]
+      },
+      {
+        "id": 13,
+        "name": "The Other Way Round",
+        "examples": [
+          [
+            "Invert the action used to solve a problem – for example, compare short-term versus long-term financing.",
+            "Make movable parts fixed and vice versa by using hedging and forward contracting (for example, instead of selling short, buy a put option).",
+            "Turn a transaction 'upside down' – for instance, sell borrowed stock now and repurchase it later to cover a short position."
+          ]
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Cycles",
+        "examples": [
+          [
+            "Translate Spheroidality – Curvature to finance as cycles or repeating patterns. Take advantage of cyclical patterns such as seasonal, business, billing, or sector-rotation cycles.",
+            "Arrange activities to follow cyclical or repeating patterns (for example, using revolving credit agreements or charge accounts)."
+          ]
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Dynamics",
+        "examples": [
+          [
+            "Allow or design the characteristics of a portfolio or financial position to change for optimal performance. For example, determine the optimal number of units of risk exposure (optimal 'f') and design a portfolio on the efficient frontier.",
+            "Utilize financial leverage wisely—recognizing that borrowing amplifies both returns and risk—and adapt rigid positions through structured debt with flexible terms."
+          ]
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Partial or Excessive Actions",
+        "examples": [
+          [
+            "If achieving 100% of an objective is too risky or difficult, use slightly less or slightly more. Examples include buying a small home to build equity before trading up, bootstrapping a venture to minimize external financing (and dilution), renting or leasing property instead of buying, or maintaining a partially invested fund."
+          ]
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Another Dimension",
+        "examples": [
+          [
+            "Consider different 'dimensions' in financial space – that is, explore different markets, regions, or sectors. Diversify across various financial instruments (stocks, bonds, treasuries, commodities, etc.), different geographic areas, and industry sectors.",
+            "Use arbitrage by exploiting price differences across regions or markets, or diversify to reduce risk."
+          ]
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Mechanical Vibration",
+        "examples": [
+          [
+            "No examples found."
+          ]
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Periodic Action",
+        "examples": [
+          [
+            "Instead of a single or continuous action, use periodic actions – for example, pay off a loan with a series of periodic payments rather than a lump sum.",
+            "If an action is already periodic, modify its magnitude or frequency: for instance, make two (or half) payments per month instead of one, increase compounding frequency, or increase asset turnover; use pauses between actions to make extra principal payments."
+          ]
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Continuity of Useful Action",
+        "examples": [
+          [
+            "Carry on work continuously by keeping all parts of an asset or investment working at full capacity – for example, using continuous compounding of interest, maintaining a perpetuity, or staying fully invested when market conditions permit."
+          ]
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Skipping / Rushing Through (High Speed)",
+        "examples": [
+          [
+            "Conduct a process or certain stages at high speed – for example, use accelerated cost-recovery schedules, pay off a loan early by making larger or extra payments, or call a bond or note to retire debt before its scheduled maturity."
+          ]
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Blessing in Disguise (Turn Lemons into Lemonade)",
+        "examples": [
+          [
+            "Use harmful factors to achieve a positive effect – for instance, take short positions in a declining market, negotiate a discount on principal in exchange for early repayment when interest rates rise, buy back stock when prices are low, or call bonds/fixed-rate loans when interest rates have fallen and then refinance."
+          ],
+          [
+            "Eliminate the primary harmful action by adding it to another harmful action – for example, in a hostile takeover, secure a 'white knight' or deploy takeover defenses like poison pills.",
+            "Amplify a harmful factor so it is no longer harmful – as expressed by the adage, 'Borrow ten thousand dollars and the bank owns you; borrow ten million dollars and you own the bank!'"
+          ]
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Feedback",
+        "examples": [
+          [
+            "Introduce feedback to improve processes – for example, mark investments to market, take physical inventory of assets, or use auditors.",
+            "If feedback is already in use, adjust its magnitude or influence by forming internal audit committees or employing independent accounting firms."
+          ]
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Intermediary",
+        "examples": [
+          [
+            "Use an intermediary agent such as banks, savings-and-loans, credit unions, credit-card issuers, online payment agents, brokers, leasing or escrow agents, fiduciaries, or trustees."
+          ],
+          [
+            "Use an intermediary carrier – for example, corporations, venture capitalists, trusts, estates, insurance underwriters, or options writers who provide capital and assume risk.",
+            "Use an intermediary process such as a bridge loan, or merge temporarily with another party by forming a partnership, syndicate, or joint venture.",
+            "Alternatively, become the intermediary so that others pay you to manage risk (e.g., underwriting insurance, writing options, speculating)."
+          ]
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Self-Service",
+        "examples": [
+          [
+            "Make a supplier or customer serve themselves by automating auxiliary functions – for example, through ATMs, credit card cash-advance features, automatic funds transfers by utilities, or delivering financial services via telephone and the internet.",
+            "Disintermediate by dealing directly (e.g., opening a Treasury Direct account) or by setting up in-house finance operations."
+          ],
+          [
+            "Utilize underutilized or idle assets, as in a leveraged buy-out."
+          ]
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Copying",
+        "examples": [
+          [
+            "Use simpler, inexpensive, and replaceable copies instead of unavailable, expensive, or fragile objects – for example, use gold and silver certificates in place of coins; exchange warehouse receipts for physical commodities; or use checks or money orders instead of cash."
+          ],
+          [
+            "Replace an object or process with an optical copy – for instance, banks printing check images on statements instead of returning cancelled checks."
+          ],
+          [
+            "Replace an object or process with a mathematical or statistical copy – for example, use a market index to model broader market performance or use a market-index derivative to replicate a portfolio."
+          ]
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Cheap Short-Lived Objects",
+        "examples": [
+          [
+            "Opt for short-term rent or lease instead of buying; use short-term loans or investments (e.g., 1-month T-bills); use bridge loans; or use options to control risk for a limited time."
+          ]
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Mechanics Substitution",
+        "examples": [
+          [
+            "Use credit, debit, or money cards instead of physical cash or checks."
+          ],
+          [
+            "Replace cash or assets with book-entry transactions – for example, via savings and brokerage accounts or using cell phone minutes.",
+            "Use prepaid electronic cards denominated in a particular commodity or the issuer's selection (e.g., gasoline cards, telephone calling cards, gift cards).",
+            "Transfer funds via wire or electronic means."
+          ]
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Pneumatics and Hydraulics",
+        "examples": [
+          [
+            "No examples found."
+          ]
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Flexibility",
+        "examples": [
+          [
+            "Flexibility refers to the terms of transactions, agreements, financial instruments, and portfolios. For example, trade off money versus transaction terms using expressions like 'My terms, your money' or 'My money, your terms'."
+          ],
+          [
+            "Provide optional features in a security or transaction (e.g., issue warrants, structured debt) and isolate positions with flexible terms (e.g., revolving lines of credit).",
+            "Change the degree of flexibility."
+          ]
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Porous Materials",
+        "examples": [
+          [
+            "No examples found."
+          ]
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Allocation",
+        "examples": [
+          [
+            "Translate 'color changes' in finance to mean allocation – that is, the purpose for which money is allocated or budgeted (the 'color of money').",
+            "Change the allocation of funds by reassigning them from one account or purpose to another, or renegotiate contracts to allow full or partial reallocation."
+          ]
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Homogeneity",
+        "examples": [
+          [
+            "Make objects interact with others of the same material – in finance, conduct business in the local currency."
+          ]
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Discarding and Recovering",
+        "examples": [
+          [
+            "Time: Use idle assets at alternative times (for example, night shift utilization).",
+            "Money/Assets: Dispose of obsolete assets by selling, scrapping, demolishing, or donating and writing them off; re-use or lease idle assets; or restore value by overhauling or refurbishing.",
+            "Risk: Remove risk exposure once it is no longer needed by 'standing aside' during volatile market conditions and reinvesting when trends emerge."
+          ]
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Parameter Changes",
+        "examples": [
+          [
+            "Time/Activities: Convert ownership to an 'estate for years' (or vice versa), e.g., sell a building and lease it back.",
+            "Money: Convert short-term gains to long-term gains or vice versa; convert between taxable and tax-exempt status; or change currency.",
+            "Risk: Adjust the degree of risk (volatility or variance) and reduce variance of returns, for example by using convertible bonds or options.",
+            "Time and Money: Convert a fixed sum to a stream of income (or vice versa) by buying or selling an annuity.",
+            "Refinance by altering term, interest rate, payment schedule, security, or payment as a percentage of income."
+          ]
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Liquidity",
+        "examples": [
+          [
+            "Translate phase transitions to liquidity – convert less-liquid assets to more-liquid ones (or vice versa); use factoring to sell receivables for cash; buy failing companies and turn them around; or acquire discounted near-default debt and negotiate a workout plan.",
+            "Provide liquidity by making a market (for example, in stocks) or by converting assets for others for a fee."
+          ]
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Relative Change",
+        "examples": [
+          [
+            "Translate thermal expansion to relative change – that is, exploit differing changes in risk, volatility, or price.",
+            "Utilize changes in option premiums in volatile versus calm markets, exploit time-value changes as options near expiration, and use arbitrage, spread positions, or negative correlations across markets."
+          ]
+        ]
+      },
+      {
+        "id": 38,
+        "name": "High-Risk Environment, Market, or Position",
+        "examples": [
+          [
+            "Take higher-risk, higher-potential-return positions; add such positions to a portfolio; or accept risk for others by underwriting insurance, writing options, speculating, or investing in ventures."
+          ]
+        ]
+      },
+      {
+        "id": 39,
+        "name": "Low-Risk Environment, Market, or Position",
+        "examples": [
+          [
+            "Take lower-risk, lower-potential-return positions; add low-risk positions to a portfolio; or replace a normal environment with an inert one – for example, hold a cash position, invest in risk-free securities (such as U.S. Treasury bonds), or use intermediaries who assume risk (buy insurance, hedge, find investors)."
+          ]
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Composite Structure",
+        "examples": [
+          [
+            "Change from a uniform to a composite structure – for example, use a loan with a 'balloon' payment, or employ composite financial instruments such as bonds convertible to common stock or a charitable gift annuity (which pays income during a beneficiary's life and then transfers the remaining principal to charity)."
+          ]
+        ]
+      }
+    ]
+  }
+  

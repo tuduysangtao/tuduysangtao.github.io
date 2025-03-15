@@ -1,0 +1,125 @@
+<h2 class="subline mb-4">Solving a Problem</h2>
+
+<div class="row g-4 mb-5">
+    <!-- Step 1 -->
+    <div class="col-md-6">
+        <div class="step-card bg-light">
+            <div class="step-number">1</div>
+            <h4 class="mb-3">Describe your problem as a Contradiction</h4>
+            <p>
+                You want to improve the 'Feature to improve' <i class="fa-solid fa-arrow-up"></i> 
+                without damaging the 'Feature to preserve' <i class="fa-solid fa-triangle-exclamation"></i>
+            </p>
+            
+            <!-- Matrix Size Selection -->
+            <div class="mb-3">
+                <label for="matrix-size" class="form-label">
+                    <i class="fa-solid fa-table-cells"></i> Matrix Size
+                </label>
+                <select class="form-select" id="matrix-size">
+                    <option value="39" selected>Standard (39×39)</option>
+                    <option value="45">Extended (45×45)</option>
+                    <option value="50">Full (50×50)</option>
+                </select>
+                <div class="form-text">Select the size of the TRIZ contradiction matrix to use.</div>
+            </div>
+            
+            <!-- Industry Selection -->
+            <div class="mt-4">
+                <label for="industry-select" class="form-label">
+                    <i class="fa-solid fa-industry"></i> Industry Examples
+                </label>
+                <select class="form-select" id="industry-select">
+                    <!-- Will be populated by JavaScript -->
+                </select>
+                <div class="form-text">Choose the industry domain for specialized examples.</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Step 2 -->
+    <div class="col-md-6">
+        <div class="step-card">
+            <h4 class="mb-3">Contradiction to solve</h4>
+            <form id="contradiction-form">
+                <div class="mb-3">
+                    <label for="feature-to-improve" class="form-label">
+                        <i class="fa-solid fa-arrow-up"></i> Feature to improve
+                    </label>
+                    <select class="form-select form-select-lg" id="feature-to-improve">
+                        <option value="0" selected>Feature to improve</option>
+                        <!-- Will be populated by JavaScript -->
+                    </select>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="feature-to-preserve" class="form-label">
+                        <i class="fa-solid fa-triangle-exclamation"></i> Feature to preserve
+                    </label>
+                    <select class="form-select form-select-lg" id="feature-to-preserve">
+                        <option value="0" selected>Feature to preserve</option>
+                        <!-- Will be populated by JavaScript -->
+                    </select>
+                </div>
+                
+                <div class="text-end">
+                    <button type="button" id="browse-matrix-btn" class="btn btn-primary btn-lg pulse-btn" disabled>
+                        <i class="fa-solid fa-magnifying-glass"></i> Browse the TRIZ Matrix
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Introduction -->
+<div id="introduction-text" class="mb-5">
+    <div class="card">
+        <div class="card-body">
+            <p>For TRIZ, systems evolve towards ideality. This progression is made by solving problems.</p>
+            <p>TRIZ Matrix can help solving problems if we translate them in Contradictions; E.g. if an object must be longer without becoming heavier, this technical challenge can be translated in this Contradiction:</p>
+            <ul>
+                <li>Feature to improve: '4, length of stationary'.</li>
+                <li>Feature to preserve: '2, weight of stationary'.</li>
+            </ul>
+            <p>Entering these values in the tool, one can browse the TRIZ Matrix to discover innovation Principles that can solve the said problem.</p>
+            <div class="mt-4">
+                <div class="alert alert-info">
+                    <strong>New Feature:</strong> You can now select different industries to view domain-specific examples for TRIZ principles!
+                    <ul>
+                        <li><strong>General:</strong> Classic TRIZ examples</li>
+                        <li><strong>Software Engineering:</strong> Examples tailored for software development</li>
+                        <li><strong>Education:</strong> Examples for educational contexts</li>
+                        <li><strong>Design:</strong> Examples for Design contexts</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Loading Spinner -->
+<div id="loading-spinner" class="text-center my-5" style="display:none;">
+    <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <p class="mt-2">Finding TRIZ principles...</p>
+</div>
+
+<!-- Principles Container -->
+<div id="principles-container" class="mb-5">
+    <!-- Will be populated by JavaScript -->
+</div>
+
+<!-- Examples Container -->
+<div id="examples-container" class="mb-5" style="display: none;">
+    <h2 class="subline mb-4">Examples</h2>
+    <div class="row">
+        <div class="col-md-8" id="example-text">
+            <!-- Will be populated by JavaScript -->
+        </div>
+        <div class="col-md-4" id="example-image">
+            <!-- Will be populated by JavaScript -->
+        </div>
+    </div>
+</div>

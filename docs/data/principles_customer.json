@@ -1,0 +1,717 @@
+{
+    "industry": "customer",
+    "principles": [
+      {
+        "id": 1,
+        "name": "Segmentation",
+        "examples": [
+          [
+            "Utilize customized marketing approach for complete market segmentation: cluster prospective buyers into groups that have common needs.",
+            "Divide the market by regions and establish autonomous region sales centers.",
+            "Split major sales between several business customers.",
+            "Five steps of Six Sigma improvement approach: Define, Measure, Analyze, Improve, Control (DMAIC).",
+            "Five steps of '5S' continuous improvement technique: Sort, Set in order, Shine, Standardize, Sustain.",
+            "Eight steps of 'Eight Disciplines (8D)' problem solving technique."
+          ],
+          [
+            "Institute fast response team for handling urgent customer issue."
+          ],
+          [
+            "Mass customization: each customer is a market.",
+            "Failure Mode and Effects Analysis (FMEA).",
+            "Fault Tree Analysis (FTA)."
+          ],
+          [
+            "Use mini-kits for product advertisement.",
+            "Describe product function in advertisement on molecular level (e.g., drugs, cosmetics, food, etc)."
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Taking Out",
+        "examples": [
+          [
+            "Develop customized approach to customer satisfaction in order to differentiate the organization from competitors.",
+            "Transfer key customer-related activities (marketing, advertising, etc.) to best in class subcontractors.",
+            "Apply for external accredited body approval.",
+            "Utilize cluster analysis: distill qualitative customer feedback into quantitative data.",
+            "Use impersonal anonymous questionnaires and telephone interviews to preserve survey confidentiality.",
+            "Separate discounted goods (e.g., special shelves)."
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Local Quality",
+        "examples": [
+          [
+            "Select market segments on which organization will focus.",
+            "Develop different strategy for each market segment.",
+            "Hire different marketing professionals for each market segment.",
+            "Use different (individual) marketing approach, advertising and promotions for each customer sector.",
+            "Customize marking, packaging, labeling, etc.",
+            "Apply the concept of 'Vital few and trivial many' (J.M. Juran) to customer prioritization.",
+            "Provide benefits, bonuses and extra service for the most valuable customers.",
+            "Weigh importance of customer needs in Quality Functional Deployment (QFD).",
+            "Use Pareto diagram for customer feedback analysis.",
+            "Identify non-random patterns with trend analysis of customer satisfaction survey.",
+            "Emphasize product or service advantages in advertisement.",
+            "Use focus groups for customer preferences study.",
+            "Quantify customer preferences for product features at forced allocation survey.",
+            "Address advertising by the use of customer perceived needs (image, prestige, etc.) for each customer stereotype."
+          ],
+          [
+            "Make each part of an object or system function in conditions most suitable for its operation."
+          ],
+          [
+            "Locate distribution centers near customers.",
+            "Hire local people to acquire cultural knowledge of local customers.",
+            "Use stratified sampling for heterogeneous customer population survey.",
+            "Target sales for purchase occasion (routine use, present, season, weather, vacation, hobby, etc)."
+          ],
+          [
+            "Mass marketing: market with no segmentation.",
+            "'Carpet bombing' advertisement.",
+            "Census instead of sampling survey."
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Asymmetry",
+        "examples": [
+          [
+            "Market of buyer vs. market of seller.",
+            "Rule No.1: 'Customer is always right.' Rule No.2: 'If customer is ever wrong, reread rule No.1' (Stew Leonard).",
+            "A happy customer will tell only five people about his good experience. An unhappy customer will tell ten or more people about his bad experience.",
+            "Apply asymmetry for mismatching at mistake-proofing to prevent unintended use (Poka-Yoke)."
+          ],
+          [
+            "Male and female product or service orientation.",
+            "Left and right side handling products."
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Merging",
+        "examples": [
+          [
+            "Combine product quality with service quality to enhance customer satisfaction.",
+            "Strive for business synergism with customers: partnership, merger, alliance.",
+            "Bring customers into design loop.",
+            "Create network of sales intermediaries.",
+            "Choose shop or service location at heavily popular mall center.",
+            "Offer selling sets and discount packages (e.g., 1 + 1 for price of 1).",
+            "Exchange discount coupons with neighborhood shops and services.",
+            "Promise bounty for serial labels collection (e.g., film heroes, sport teams)."
+          ]
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Universality",
+        "examples": [
+          [
+            "Realize universality and integration as global marketing and business driving forces.",
+            "Strive for greater diversity of products or services offering due to increased level of customer expectations.",
+            "Design and market products with multiple functions.",
+            "Combine non-traditional with traditional service (e.g., money exchange in post office).",
+            "Establish marketing agency with integrated sales and advertising functions."
+          ],
+          [
+            "International standards.",
+            "Product or service catalogs.",
+            "Standardized forms for key customer related information (e.g., user guide, warranty, complaint card, satisfaction feedback, etc.)."
+          ]
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Nesting",
+        "examples": [
+          [
+            "Be aware of nested customer expectations hierarchy: 'Basic, expected, desired, unanticipated' (K. Albrecht).",
+            "Search for product or service niches inside market segments.",
+            "Establish plant or store shop.",
+            "Include information about other similar or related products or services into advertisement."
+          ],
+          [
+            "Expose traditionally inward facing employees (designers) to external events (customer visits).",
+            "Provide unanticipated product or service extra features that bring about customer 'Wow' effect.",
+            "Offer surprise benefits (e.g., extra service incorporation into flight package)."
+          ]
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Anti-Weight",
+        "examples": [
+          [
+            "Attach product or service marketing to business driving forces (globalization, universality, health care, environment protection, etc.)."
+          ],
+          [
+            "Utilize global (Olympiads, festivals) and local (bazaars, fairs) events for product or service marketing.",
+            "Use sense of emergency during crisis or, alternatively, post-crisis enthusiasm for product or service promotion.",
+            "Cooperate with brand name bodies.",
+            "Benchmark the best in class leaders.",
+            "Advertise by media, movies, video, stories, concerts, sport games.",
+            "Use endorsement by high-profile celebrities in advertising: 'Champion customer always buys our product or gets our service.'"
+          ]
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Preliminary Anti-Action",
+        "examples": [
+          [
+            "Get intelligence on competitors' products or services to anticipate their future activities and prepare counter-measures.",
+            "Utilize proprietary rights protection means (e.g., patents, licenses, trademarks, copyrights, etc.).",
+            "Target robust design, apply design verification, validation and reviews.",
+            "Conduct field reliability testing, build reliability data package.",
+            "Introduce accelerated testing (burn-in, voltage stress, thermal shock, etc.) for screening out parts prone to failure at infant mortality period.",
+            "Apply failure analysis and prevention techniques – FMEA, FTA.",
+            "Run on-site customer pilot to gather information on reliability of high risk new product or service prior to distribution to general market.",
+            "Introduce containment action as a quarantine measure to prevent supply of product with substandard quality (D3 from 8D).",
+            "Timely replace short living parts to avoid wear-out failures.",
+            "Use mistake-proofing techniques (Poka-Yoke) in product or service design to prevent unintended use.",
+            "Conduct customer perception surveys for anticipation of harm to organization's reputation.",
+            "Early reveal potential customer defection (switch to competitor).",
+            "Get ready for negation of negative customer stereotype."
+          ],
+          [
+            "Stretch internal vs. external specification requirements (safety margins).",
+            "Start from tough offer, higher price during sales negotiations."
+          ],
+          [
+            "Conduct lost customers survey and analysis."
+          ]
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Preliminary Action",
+        "examples": [
+          [
+            "Preliminary market research, before the product or service is designed.",
+            "Start advertising at the stage of product or service development.",
+            "Sell semi-fabricated products.",
+            "Preliminary send questionnaire before survey interview.",
+            "Use introductory questions for customer priming at survey interview."
+          ],
+          [
+            "Arrange organization system for Just-In-Time (JIT) delivery.",
+            "Prepare presentation before customer visit."
+          ],
+          [
+            "Offer post-paying.",
+            "Provide after-sales service.",
+            "Present bounty or keepsake (token for memory) after purchase or service.",
+            "Provide rebate coupon for next purchase or service.",
+            "Arrange lottery with partial price reimbursement."
+          ]
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Beforehand Cushioning",
+        "examples": [
+          [
+            "Establish business interruption contingency planning.",
+            "Apply back-up approach in design for critical reliability issues.",
+            "Split sales between several customers to prevent drop in sales due to unexpected decrease in demand from one major customer.",
+            "Introduce contingency clauses into contracts.",
+            "Build buffer stock, maintain excess Work-In-Process (WIP) to guarantee on-time delivery.",
+            "Provide customers with emergency telephone (fax, e-mail), troubleshooting guide, web technical support (help file, FAQ).",
+            "Institute recovery system for response to customer complaints and conflict resolution.",
+            "Use back-ups for energy supply, communication channels, computer data, etc."
+          ]
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Equipotentiality",
+        "examples": [
+          [
+            "Take advantage of offshore trading zones.",
+            "Utilize marketing, sales and advertisement promotion conduits.",
+            "Remove barriers in communication with customer (language, terminology, analogies, etc.).",
+            "Translate catalogs, technical literature, user guide, etc. to local language.",
+            "For customers: Make easy a transfer from free temporary use to permanent use (e.g., web program).",
+            "Provide customers with free service telephone numbers."
+          ],
+          [
+            "Build entrance barriers for competitors by enhancement of product or service advantages."
+          ]
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Inversion",
+        "examples": [
+          [
+            "Apply 'Push' instead of 'Pull' marketing approach to direct customer needs and lead them to new products or services.",
+            "Manufacture to customer order instead of manufacture to stock.",
+            "Conduct survey and make analysis of lost customers rather than current customers."
+          ],
+          [
+            "Make designers 'to be the customers.'",
+            "Make marketing people be purchasing agents and vice versa temporarily.",
+            "Overcome reluctance of dissatisfied customers to complain. Pursue the full story from dissatisfied customers, get them really talk."
+          ],
+          [
+            "Manage customer stock inventory for Just-In-Time delivery.",
+            "Manage complaints handling system, which proactively encourages customers to complain.",
+            "Have customers determine price themselves."
+          ]
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Spheroidality",
+        "examples": [
+          [
+            "Have rounded personalities to provide customer service.",
+            "Smooth corners during negotiations.",
+            "Use smoothing technique for conflict resolution – emphasize areas of agreement, de-emphasize areas of disagreement, seek a joint problem solving opportunity.",
+            "Set rounded price figures."
+          ],
+          [
+            "Utilize rolling forecast of customer purchase or service orders.",
+            "Use round-robin fashion of idea submission at nominal group technique for resolving customer issue."
+          ]
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Dynamics",
+        "examples": [
+          [
+            "Adapt to highly competitive business environment with dynamic customer needs and steadily increasing expectations.",
+            "Steady increase versatility of products or services.",
+            "Match business to individual customer demands.",
+            "Utilize flexible policy for price vs. purchased quantity.",
+            "Set adjustable season prices."
+          ],
+          [
+            "View customer satisfaction as never ending challenge.",
+            "Consider customer perception and expectation of product or service quality as a moving target.",
+            "Utilize electronic trade with mobile purchase or service delivery to client home."
+          ],
+          [
+            "'Reduce variation' (W.E. Deming) to keep it within customer specified limits."
+          ]
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Partial or Excessive Action",
+        "examples": [
+          [
+            "Under-promise and over-deliver to avoid customer dissatisfaction.",
+            "Nurture customer needs using 'Saturation' advertising by all media techniques.",
+            "Slightly embellish product or service features in advertisement.",
+            "Compromise at conflict resolution.",
+            "Quote more to allow price reduction during negotiations.",
+            "Use 9, 99, 999, etc. price figures.",
+            "Use discounts.",
+            "Provide extra product quantity or extra service as a bounty."
+          ],
+          [
+            "Establish 'Six Sigma,' 'Zero Defects' (P.B. Crosby) quality goals.",
+            "Set zero price for overdue delivery (Pizza Hut)."
+          ]
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Another Dimension",
+        "examples": [
+          [
+            "Utilize multiple sources of information for market research.",
+            "Conduct multi-dimensional customer surveys with matrix tabulation of survey results.",
+            "Use matrix diagrams for FMEA, FTA, 8D Summary, House of Quality (QFD)."
+          ],
+          [
+            "Understand customer needs hierarchy pyramid: 'Basic physical, safety and security, family and social, ego and esteem, self-awareness and self-actualization' (A. Maslow, D. McGregor).",
+            "Establish multi-level marketing and sales network."
+          ],
+          [
+            "Utilize advantage of flat organization structure – fewer layers between management and customers."
+          ],
+          [
+            "Internalize the values of customer focus by all organization employees.",
+            "Make marketing people temporarily be purchasing agents and vice versa.",
+            "Interview both won and lost customers.",
+            "Print bounty coupon on another side of purchase check."
+          ]
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Mechanical Vibration",
+        "examples": [
+          [
+            "Periodically re-energize continuous improvement initiatives ('Enthusiasm injections').",
+            "Initiate third party external assessment.",
+            "Make a fuss over customers that have experienced a problem with product or service, in order to reinforce their positive feeling to a level greater than that where no problem had occurred."
+          ],
+          [
+            "Frequently communicate with customer in multiple modes."
+          ],
+          [
+            "Probe for exact customer payment limit during price negotiations."
+          ],
+          [
+            "Bring new-blood/new challenge into a customer service team."
+          ]
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Periodic Action",
+        "examples": [
+          [
+            "Periodically repeat advertisement for stable business image support."
+          ],
+          [
+            "Institute monthly and weekly customer communication in addition to annual survey.",
+            "Launch lot by manufacturing small customized series."
+          ],
+          [
+            "Apply synchro-marketing for periodical or season demand.",
+            "Fill pauses during negotiations.",
+            "Use pauses and breaks in TV and radio programs for advertisement."
+          ]
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Continuity of Useful Action",
+        "examples": [
+          [
+            "Strive for continual survival at the marketplace.",
+            "Create organization trademark and preserve brand image.",
+            "Establish long-term business alliances with customers.",
+            "Strive for customer retention.",
+            "Nurture customer loyalty.",
+            "Be aware that satisfaction of customer wants, needs and expectations is a never ending challenge.",
+            "Use customer stereotype.",
+            "Create customer standards based on tradition.",
+            "Provide 24 hours per day service."
+          ],
+          [
+            "Operate re-marketing and supporting marketing for steady customer demand.",
+            "Employ multi-skilled personnel at bottleneck functions to avoid breaks or delays in customer service."
+          ]
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Skipping",
+        "examples": [
+          [
+            "Get through money losing processes quickly (e.g., sell-offs).",
+            "Promptly resolve conflict situation."
+          ],
+          [
+            "Be aware of lagged consumer reaction to advertisement."
+          ]
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Blessing in Disguise",
+        "examples": [
+          [
+            "Use customer dissatisfaction source as a valuable feedback and opportunity for improvement (e.g., complaint, claim, refund, recall, return, replacement, downgrade, warranty cost, litigation).",
+            "Customers whose complaints are handled properly are more loyal than customers who never had a complaint.",
+            "The most loyal customer is a dissatisfied customer who later has all of his needs met."
+          ],
+          [
+            "Eliminate fear of change by introducing fear of competition."
+          ],
+          [
+            "Apply accelerated testing (burn-in, voltage stress, thermal shock, etc.) for screening out parts prone to failure at infant mortality period."
+          ]
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Feedback",
+        "examples": [
+          [
+            "Listen to 'Voice of the Customer' in multiple ways (survey, visit, report, focus group, interview, mail, satisfaction feedback form, etc.).",
+            "Institute customer complaints resolution and response system.",
+            "Establish product returns and field failures analysis system.",
+            "Enlist customers into design process.",
+            "Utilize organization guarantees to get feedback data on how products or services fail to meet customer needs."
+          ],
+          [
+            "'You must take the customer's skin temperature every day' (Konosuke Matsushita).",
+            "Establish toll-free telephone numbers for consumer communication.",
+            "Introduce feedback buttons and site visitor counting on advertisement website.",
+            "Utilize barcode system to gather information for future marketing decision making."
+          ],
+          [
+            "'Predict and compare' (W.E. Deming).",
+            "Hire experts for marketing research and forecasting.",
+            "Anticipate customer future needs – the ideal basis for customer loyalty.",
+            "Utilize Anticipatory Failure Determination (AFD) for product reliability prediction."
+          ]
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Intermediary",
+        "examples": [
+          [
+            "Regional sales offices.",
+            "Intermediate customers: wholesaler, distributor, retailer.",
+            "Export/import, transportation and delivery agencies.",
+            "Distribution systems (e.g., FedEx, UPS, DHL).",
+            "External certification bodies (e.g., BSI, UL)."
+          ],
+          [
+            "Hire the best professional consultant for marketing or advertising.",
+            "Use neutral third party (arbitrator) during difficult negotiation.",
+            "Introduce moderator to a focus group."
+          ],
+          [
+            "Online web marketing and sales.",
+            "Survey without interviewer (mail, email, website).",
+            "Customer visit by CEO."
+          ]
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Self-Service",
+        "examples": [
+          [
+            "Conduct organization self-assessment.",
+            "Institute self-benchmarking and self-competing.",
+            "Get customers to advertise the organization's products or services."
+          ],
+          [
+            "Re-hire retired customer service professionals.",
+            "Get packaging containers back from the customers for multiple uses.",
+            "Recycle packaging materials."
+          ]
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Copying",
+        "examples": [
+          [
+            "Enter the market with generic product instead of brand product (e.g., drugs).",
+            "Benchmark competitors' products or services."
+          ],
+          [
+            "Use electronic database instead of paper records.",
+            "Conduct video-conferencing with customers instead of physical travel.",
+            "Utilize numerical simulations and virtual modeling.",
+            "Franchise organization's trademark, logo."
+          ],
+          [
+            "Consider customer satisfaction as an indicator of organization's business well-being.",
+            "Evaluate customer satisfaction using multiple techniques.",
+            "Get customers and the organization to benchmark each other.",
+            "Respond to perceived customer needs."
+          ],
+          [
+            "Sustain organization's trademark, logo, motto, color, etc."
+          ]
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Cheap Short-Living Objects",
+        "examples": [
+          [
+            "Subcontract non-core business activities.",
+            "Use cheap disposable packaging materials and containers.",
+            "Hire temporary staff (e.g., students) for telemarketing, phone survey, etc.",
+            "Utilize vouchers, coupons, tokens for sales or service promotion.",
+            "Lease expensive goods.",
+            "Sell cheap second-hand goods."
+          ]
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Mechanics Substitution",
+        "examples": [
+          [
+            "Electronic communication.",
+            "Electronic trade.",
+            "Electronic auction.",
+            "Electronic tagging.",
+            "Electronic cards for demographic data collection with market research.",
+            "Telemarketing.",
+            "Computerized interview.",
+            "Website attendees counting.",
+            "Use of multiple media techniques (photo, audio, video, TV, etc.) for customer presentation."
+          ]
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Pneumatics and Hydraulics",
+        "examples": [
+          [
+            "Introduce 'breathing spaces' into contracts.",
+            "Expand sampling during survey."
+          ]
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Flexible Shells and Thin Films",
+        "examples": [
+          [
+            "Regard a customer service employee as a flexible shell of the organization.",
+            "Be cautious of 'pacing on thin ice' during difficult negotiations."
+          ],
+          [
+            "Use trade secret methods to shield organization's proprietary knowledge from general knowledge."
+          ]
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Porous Materials",
+        "examples": [
+          [
+            "View a customer-facing layer as a porous membrane, which filters information flow both into and out of the organization."
+          ],
+          [
+            "Empower customer-facing layer employees."
+          ]
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Color Changes",
+        "examples": [
+          [
+            "Create a strong brand image through use of 'corporate colors.'",
+            "Utilize different colors in mistake-proofing (Poka-Yoke) to prevent unintended use."
+          ],
+          [
+            "Get customer to make stock inventory transparent for Just-In-Time delivery.",
+            "Make packaging transparent to enable product self-advertising.",
+            "Introduce smoke-screen misinformation to disguise confidential (e.g., R&D) activities.",
+            "Switch position from transparent (encouraging trust) to opaque (keeping secrets) and vice versa during negotiations."
+          ]
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Homogeneity",
+        "examples": [
+          [
+            "Hire local people to acquire cultural knowledge of local customers.",
+            "Use the same brand name for homogeneous product group.",
+            "Divide customers to homogeneous sectors (clusters).",
+            "Include customers (consumers) from the sector being surveyed into focus groups for survey."
+          ]
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Discarding and Recovering",
+        "examples": [
+          [
+            "Subcontract marketing, sales or advertisement agencies."
+          ],
+          [
+            "Warranty – commitment of manufacturer to repair or replace any part that fails during the life of product."
+          ]
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Parameter Changes",
+        "examples": [
+          [
+            "Establish virtual shopping.",
+            "Institute online catalogs."
+          ],
+          [
+            "Use special offers for sales or service promotions."
+          ],
+          [
+            "Initiate new challenges for the customer service team."
+          ],
+          [
+            "Switch marketing of product or service to non-traditional customers.",
+            "Change traditional names (e.g., the quality department in Samsung is called 'Customer Satisfaction Team').",
+            "Sell non-material attributes (e.g., satisfaction of cultural needs, image, self-esteem, etc.)."
+          ]
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Phase Transitions",
+        "examples": [
+          [
+            "S-curve for marketing and sales evolution – different product or service life stages: 'Problematic child', 'Star', 'Milky cow', 'Outsider.'"
+          ]
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Thermal Expansion",
+        "examples": [
+          [
+            "Include 'hard' person and 'soft' person on customer negotiation team."
+          ],
+          [
+            "Expand or contract marketing efforts depending on the product or service 'hotness' – rate of sales and profitability."
+          ]
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Boosted Interactions",
+        "examples": [
+          [
+            "Introduce obsession with customer-perceived quality and desire to delight customers into the organization.",
+            "Hire highly creative individuals who understand 'The voice of the customer.'",
+            "Get customers excited about a product or service by giving them ownership of the change.",
+            "Achieve 'Wow!' effect by exceeding customers' expectations and providing them with advantage over their competitors.",
+            "Overcome reluctance of dissatisfied customers to complain."
+          ]
+        ]
+      },
+      {
+        "id": 39,
+        "name": "Inert Atmosphere",
+        "examples": [
+          [
+            "Arrange anonymous survey or interview.",
+            "Use neutral, indifferent tonality of questions for survey and interview.",
+            "Be aware that customer service/employee indifference is one of the major reasons for customer defection."
+          ],
+          [
+            "Use neutral third party during difficult negotiations."
+          ]
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Composite Structures",
+        "examples": [
+          [
+            "Combine high risk with low risk marketing strategy.",
+            "Establish multi-disciplinary customer service teams, including different employee personality types.",
+            "Employ multi-skilled ('Renaissance') people at customer interface positions."
+          ]
+        ]
+      }
+    ]
+  }
+  

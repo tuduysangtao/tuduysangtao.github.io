@@ -1,0 +1,614 @@
+{
+    "industry": "human",
+    "principles": [
+      {
+        "id": 1,
+        "name": "Segmentation",
+        "examples": [
+          [
+            "Dividing a work process into separate steps",
+            "Segregate primary controls from secondary controls",
+            "Group menu options"
+          ],
+          [
+            "Modular furniture to avoid injury in transportation"
+          ],
+          [
+            "Phone numbers divided into perceptual chunks",
+            "Layering of information screens based on what is needed",
+            "Optimizing work processes through individual task analysis"
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Taking Out",
+        "examples": [
+          [
+            "Navigation systems using 'turn by turn' versus complex maps",
+            "Removing hazardous operations to an isolated location",
+            "Recessed start button to minimize accidental starts",
+            "Progressive disclosure of information"
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Local Quality",
+        "examples": [
+          [
+            "Oversized emergency buttons",
+            "Simplified cell phone panels for people with motor skills problems"
+          ],
+          [
+            "Specialized settings on websites and software",
+            "Offer different ways to have software provide the same function"
+          ],
+          [
+            "Individual office design to reflect different ergonomic needs",
+            "Individual televisions on airplanes",
+            "Mouse performs both point and scroll functions"
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Asymmetry",
+        "examples": [
+          [
+            "Left and right handed designed products",
+            "One way insertion for two different parts"
+          ],
+          [
+            "Different shapes to prevent improper insertion of parts"
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Merging",
+        "examples": [
+          [
+            "Combine different functions in one piece of office equipment",
+            "Joystick changes both direction and speed",
+            "Electronic chips mounted on both sides of a circuit board or subassembly",
+            "Using touch screens for audio and climate controls at the same time"
+          ],
+          [
+            "Bring together through multi-tasking",
+            "Group associated controls and functions"
+          ]
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Universality",
+        "examples": [
+          [
+            "Universal design for a broad range of people",
+            "Common personal computer operating systems",
+            "Common procedure standards",
+            "Multiple back-up methods",
+            "Icon and label conventions",
+            "Conventions for links on websites"
+          ]
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Nested Doll",
+        "examples": [
+          [
+            "Nesting with menu hierarchies",
+            "Nesting within graphic displays"
+          ],
+          [
+            "Radio graphical user interface (GUI) – a selection that appears as one item among many on a search list and then passes through to the main screen as the current status/selection"
+          ]
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Anti-weight",
+        "examples": [
+          [
+            "An assembly line counterweights"
+          ],
+          [
+            "Lift/carry an object where the center of gravity is close to the sagittal plane of the human body"
+          ]
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Preliminary Anti-action",
+        "examples": [
+          [
+            "Use of dead-man controls",
+            "Pre-flash to eliminate red eye in photography",
+            "Safety interlocks to prevent access to hazardous equipment",
+            "Insulation on local hot spots"
+          ],
+          [
+            "Introduce tension to avoid kickbacks",
+            "Stress induced training to prepare for actual conditions",
+            "Close eyes before entering a dark room",
+            "Synchronous vs. asynchronous defibrillators"
+          ]
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Preliminary Action",
+        "examples": [
+          [
+            "Pre-arrange components to make assembly easier",
+            "Format the report before the data is available"
+          ],
+          [
+            "Employee pre-training for hazardous operations",
+            "Job planning to avoid accidents"
+          ]
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Beforehand Cushioning",
+        "examples": [
+          [
+            "Shoe cushion inserts",
+            "Confirmation dialogue box",
+            "Navigation destiny entry to avoid need for constant attention",
+            "Undo button",
+            "A lockout"
+          ]
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Equipotentiality",
+        "examples": [
+          [
+            "Spring loaded parts",
+            "Spring loaded self-leveling device ('levelator')",
+            "Workplace design for sliding objects",
+            "Gravity feed soda can dispenser"
+          ]
+        ]
+      },
+      {
+        "id": 13,
+        "name": "The Other Way Around",
+        "examples": [
+          [
+            "Start/stop buttons"
+          ],
+          [
+            "Electric can opener"
+          ],
+          [
+            "Parts come to the operator",
+            "Users help design products",
+            "Write the user manual before writing the computer program"
+          ]
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Spheroidality – Curvature",
+        "examples": [
+          [
+            "Smooth work surfaces to minimize sharp points",
+            "Smooth work flow angles to avoid sudden turns",
+            "Ergonomic work stations",
+            "Use of curved surfaces in handles and grips"
+          ],
+          [
+            "Rotaries in gauges"
+          ],
+          [
+            "Produce linear motion of the cursor on the computer screen using a mouse or a trackball",
+            "Replace wringing clothes with spinning clothes in a washing machine",
+            "Spherical casters instead of cylindrical wheels to move furniture",
+            "Spherical casters on luggage and vacuums"
+          ]
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Dynamics",
+        "examples": [
+          [
+            "Adjustable steering wheels and seats",
+            "Unlearning 'sounding out words' to enable speed reading"
+          ],
+          [
+            "The butterfly or foldable computer keyboard"
+          ],
+          [
+            "Use gooseneck connections",
+            "Use coiled cords/tubes/hoses to allow flexible positioning",
+            "Use a flexible sigmoid scope for medical examination"
+          ]
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Partial or Excessive Actions",
+        "examples": [
+          [
+            "Apply a safety factor over design",
+            "Design processes where hazardous operations are done in steps",
+            "Increase sampling rate of inspection",
+            "Introduce irrelevant stimuli on vigilance tasks"
+          ]
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Another Dimension",
+        "examples": [
+          [
+            "Braille for the blind",
+            "Finger swipe cell phone operation versus a push button"
+          ],
+          [
+            "Add auditory or tactile feedback to visual feedback",
+            "Use shelves above a work surface"
+          ],
+          [
+            "Re-orient a dump truck",
+            "An automobile rotisserie – rotate the car body to work on the underbody"
+          ],
+          [
+            "Use three-dimensional imaging to design tasks",
+            "Use a shelf hanging below a work surface"
+          ]
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Mechanical Vibration",
+        "examples": [
+          [
+            "Use vibration rather than mechanical force to dislodge an object",
+            "Use tactile feedback"
+          ],
+          [
+            "Distribute powder with vibration"
+          ],
+          [
+            "Use a rough road shoulder to alert drivers"
+          ],
+          [
+            "Quartz crystal oscillations drive high accuracy clocks"
+          ],
+          [
+            "Use vibration and sound to alert a cell phone user of incoming calls"
+          ]
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Periodic Action",
+        "examples": [
+          [
+            "Do hazardous tasks a little at a time",
+            "Replace a continuous siren with a pulsed sound"
+          ],
+          [
+            "Use auditory alerts",
+            "Replace a continuous siren with a sound that changes amplitude and frequency"
+          ],
+          [
+            "Press and hold down buttons"
+          ]
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Continuity of Useful Action",
+        "examples": [
+          [
+            "Avoid lengthy machine startups",
+            "Employ emergency backups"
+          ],
+          [
+            "Eliminate repetitive motion"
+          ]
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Skipping",
+        "examples": [
+          [
+            "Minimize duration of error consequences",
+            "Redesign processes to avoid hazardous operations",
+            "Run hazardous chemical reactions at high speed to minimize inventory"
+          ]
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Blessing in Disguise",
+        "examples": [
+          [
+            "Stop system progress to prevent more errors",
+            "The Environmental Protection Agency regulates product changes; new product gives competitive advantage"
+          ],
+          [
+            "Loud noise (such as a radio) and fatigue are each bad for drivers, but combined they can cancel some negative effects for drowsy drivers",
+            "Make a component fragile looking to discourage abuse"
+          ]
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Feedback",
+        "examples": [
+          [
+            "Provide instant and relevant information to operators to ensure safe operation"
+          ],
+          [
+            "Flash a warning light if steady state operation is not acknowledged in a given time",
+            "Flash an auditory alert if steady state operation is not acknowledged within a given time frame",
+            "Change the color of the visual effect"
+          ]
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Intermediary",
+        "examples": [
+          [
+            "Use cushioning",
+            "Use bins to transport parts between operations",
+            "Use pop-up windows and a dialogue box"
+          ],
+          [
+            "Chunk numbers in a sequence",
+            "Track changes in document creation"
+          ]
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Self-service",
+        "examples": [
+          [
+            "Use optical illusions",
+            "Use online stress measurements, adjust equipment or positions",
+            "Convey depth in drawing via line convergence"
+          ],
+          [
+            "Learn from mistakes or errors",
+            "Excess process heat is used to heat office area"
+          ]
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Copying",
+        "examples": [
+          [
+            "Virtual reality via the computer instead of an expensive vacation",
+            "Listen to an audio tape instead of attending a seminar"
+          ],
+          [
+            "Virtual training for hazardous situations"
+          ],
+          [
+            "Mental models of systems"
+          ]
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Cheap Short-living Objects",
+        "examples": [
+          [
+            "Use lightweight temporary pieces versus heavy permanent ones",
+            "Use temporary blocks to restrain equipment operation"
+          ]
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Mechanics Substitution",
+        "examples": [
+          [
+            "Replacement of any human force with a mechanical force reduces required human energy",
+            "Use a bad smelling compound in natural gas to alert users to leakage, instead of a mechanical or electrical sensor",
+            "Use a flashing light instead of a ringing bell to indicate an incoming telephone call"
+          ],
+          [
+            "Use artificial intelligence",
+            "Interaction in a television remote"
+          ],
+          [
+            "Use a 3G network for wireless communication – wireless communication improves work flexibility"
+          ],
+          [
+            "Heat a substance containing ferromagnetic material by using varying magnetic fields so that when the temperature exceeds the Curie point, the material becomes paramagnetic and no longer absorbs heat"
+          ]
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Pneumatics and Hydraulics",
+        "examples": [
+          [
+            "Use comfortable shoe sole inserts filled with gel",
+            "Use pneumatics and hydraulics to minimize human force requirements for heavy parts",
+            "Make a product use forgiving"
+          ]
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Flexible Shells and Thin Films",
+        "examples": [
+          [
+            "Pre-packaged materials to isolate materials from human contact",
+            "Isolate un-needed features of a product"
+          ],
+          [
+            "Barriers to isolate operators from hazardous operations",
+            "Spam or information filter; personalize electronic information",
+            "Use shields"
+          ]
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Porous Materials",
+        "examples": [
+          [
+            "Use porosity in a structure to reduce weight"
+          ],
+          [
+            "Use controlled information flow and direction"
+          ]
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Color Changes",
+        "examples": [
+          [
+            "Use color to indicate danger or conditions",
+            "Use highway signs",
+            "Use color coding"
+          ],
+          [
+            "Use color sensitive labeling",
+            "Use clear storage bins"
+          ]
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Homogeneity",
+        "examples": [
+          [
+            "Use affinity mapping",
+            "Layer consistency in maps or displays",
+            "Train operators in similar tasks to minimize accidents from different tasks"
+          ]
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Discarding and Recovering",
+        "examples": [
+          [
+            "Use automatic file deletion",
+            "Use lossy compression"
+          ],
+          [
+            "Lighter-weight, less durable parts to minimize physical stress",
+            "Reconstruction of lost images",
+            "Pixel interpolation"
+          ]
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Parameter Changes",
+        "examples": [
+          [
+            "Changes in data density",
+            "Gas explosion to deploy seat bag"
+          ],
+          [
+            "Font, case, italics changes in documents"
+          ],
+          [
+            "Seat belt lockup during a crash",
+            "Reaction time changes for different information"
+          ],
+          [
+            "Raise the temperature above the Curie point to change a ferromagnetic substance to a paramagnetic substance",
+            "Raise the temperature of food to cook it",
+            "Lower the temperature of medical specimens to preserve them for later analysis",
+            "Cool a flexible component to make it stiff for assembly"
+          ]
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Phase Transitions",
+        "examples": [
+          [
+            "Melting of a weak point to stop current flow",
+            "Analog versus digital",
+            "Film to CCD conversion"
+          ]
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Thermal Expansion",
+        "examples": [
+          [
+            "Use heating and cooling to minimize force required to loosen joints",
+            "Use a differing stimulus"
+          ],
+          [
+            "Expand granularity",
+            "Replace yes/no with a scale of response"
+          ]
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Strong Oxidants",
+        "examples": [
+          [
+            "Oxidizing cleaners to reduce human effort needed",
+            "Use a creative outsider in an ideation session"
+          ],
+          [
+            "Enrich the learning environment with visual and auditory stimulation",
+            "Improved aesthetics or form"
+          ],
+          [
+            "Localized process radiation or ionization to avoid broad exposure or to provide enhanced local properties"
+          ],
+          [
+            "Focused human factor audits"
+          ],
+          [
+            "Enrich various hospital environments"
+          ]
+        ]
+      },
+      {
+        "id": 39,
+        "name": "Inert Atmosphere",
+        "examples": [
+          [
+            "Use gas padding to minimize impacts",
+            "Quiet areas in the workplace"
+          ],
+          [
+            "Use 'time outs' during negotiations"
+          ]
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Composite Materials",
+        "examples": [
+          [
+            "Change lightweight composites to lower-weight and minimize human effort",
+            "Heterogeneous focus groups",
+            "Non-traditional work structures",
+            "Flow-optimum range of challenge"
+          ]
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,507 @@
+{
+    "industry": "chemical",
+    "principles": [
+      {
+        "id": 1,
+        "name": "Segmentation",
+        "examples": [
+          [
+            "Divide an object into independent parts: The concept and use of independent unit operations in chemical engineering; the use of different components of a unit operation to allow variable processing as a function of reactants and products desired; separate reaction steps and conditions according to kinetic rates; separate pipeline transport of fluids via inert fluid segments"
+          ],
+          [
+            "Make an object easy to disassemble: Quick disconnect joints in piping systems; plate and frame heat exchangers"
+          ],
+          [
+            "Increase the degree of fragmentation or segmentation: Multiple sized semi-plant operating equipment to accommodate variability in demand and requirements; baffles in tanks, reactors, and heat exchangers"
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Taking out",
+        "examples": [
+          [
+            "Separate an interfering part or property from an object, or single out the only necessary part: Locate a noisy compressor outside the building where compressed air is used; use fiber optics or a light pipe to separate the hot light source from the location where light is needed; locate hazardous or flammable chemical operations in separate facilities with remote monitoring and alarms; separate reactive chemical storage from primary warehouse or raw material storage; eliminate a hazardous chemical reaction step with alternative chemistry"
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Local quality",
+        "examples": [
+          [
+            "Change an object's structure from uniform to non-uniform, or change the external environment from uniform to non-uniform: Use a temperature, density, reaction, or pressure gradient instead of constant conditions within a unit operation; vary external environmental conditions around a particular unit operation; static mixer designs; flow measurements based on pressure reduction (orifice, venturi)"
+          ],
+          [
+            "Make each part of an object function in conditions most suitable for its operation: Vary the internal design of a distillation column to reflect varying flows and fluid characteristics; vary the mixing within a vessel to deliberately produce non-uniform product quality; vary reactor operating conditions with kinetic rates and rate constants; vary internals of a screw conveyor to process material conditions; individual control units versus overall system control"
+          ],
+          [
+            "Make each part of an object fulfill a different and useful function: Use a separation device to do both filtration and washing; a separation column that enriches, rectifies, and also serves as a reactor; a piping system that both transports and mixes via inclusion of internal mixing devices"
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Asymmetry",
+        "examples": [
+          [
+            "Change the shape of an object from symmetrical to asymmetrical: Asymmetrical mixing vessels or asymmetrical vanes in symmetrical vessels improve mixing (e.g., cement trucks, cake mixers, blenders); make hopper discharge asymmetric to minimize hold up and increase flow capability"
+          ],
+          [
+            "If an object is asymmetrical, increase its degree of asymmetry: Change from circular O-rings to oval cross-section to specialized shapes to improve sealing; use astigmatic optics to merge colors for process indicators; lobe pumps"
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Merging",
+        "examples": [
+          [
+            "Bring closer together (or merge) identical or similar objects, or assemble identical/similar parts to perform parallel operations: Personal computers in a network; automated tank and blending systems; reactive distillation systems and columns; vanes in a ventilation system; electronic chips mounted on both sides of a circuit board or subassembly"
+          ],
+          [
+            "Make operations contiguous or parallel; bring them together in time: Medical diagnostic instruments that analyze multiple blood parameters simultaneously; continuous chemical processing; derivative process control; combine exothermic and endothermic heat transfer requirements; auto catalytic reactor; place raw material and process plants near each other to minimize shipping costs and transportation hazards"
+          ]
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Universality",
+        "examples": [
+          [
+            "Make a part or object perform multiple functions; eliminate the need for other parts: Reactive distillation column; a vacuum jet that both pumps and reduces pressure; an eduction system that mixes and pumps; solids processing that both dries and changes surface chemistry; vessels with multi-functional design that serve as reactors, separators, and extraction units"
+          ]
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Nested doll",
+        "examples": [
+          [
+            "Place one object inside another; place each object, in turn, inside the other: Nested control loops in control systems; encapsulated, time release formulations; emulsion systems; static mixers within a piping system"
+          ],
+          [
+            "Make one part pass through a cavity in the other: Catalyst systems with designed pore structures; membrane filtration systems"
+          ]
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Anti-weight",
+        "examples": [
+          [
+            "To compensate for the weight of an object, merge it with other objects that provide lift: Eductors; use of stoichiometry changes in a gas phase reaction to drive the reaction toward completion; use tanks above ground to provide suction head for pumps"
+          ],
+          [
+            "To compensate for the weight of an object, make it interact with the environment (e.g., aerodynamic, hydrodynamic, buoyancy forces): Aircraft wing shape reduces air density above the wing and increases density below to create lift (also demonstrating asymmetry); pneumatic conveying systems; vacuum jet"
+          ]
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Preliminary anti-action",
+        "examples": [
+          [
+            "If it will be necessary to do an action with both harmful and useful effects, replace it with anti-actions to control harmful effects: Buffer a solution to prevent harm from extremes of pH; add an inhibitor to prevent undesired polymerization"
+          ],
+          [
+            "Create beforehand stresses in an object that will oppose known undesirable working stresses later on: Dilute a dangerous reactant below its reactive concentration prior to use; adjust inhibitor levels as a function of time and temperature requirements of shipping; design a safety system that operates inversely to unsafe operating conditions"
+          ]
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Preliminary action",
+        "examples": [
+          [
+            "Perform, before it is needed, the required change of an object (either fully or partially): Pre-pasted wallpaper; pre-load equipment operating instructions based on customer input and demand; preloading of tanks for batch operations; pre-heat or pre-cool equipment to shorten startup time"
+          ],
+          [
+            "Pre-arrange objects such that they can come into action from the most convenient place and without delay: Locate chemical manufacturing plants close to either suppliers or customers; use flexible semi-commercial manufacturing cells; implement intermediate process raw material inventory systems; generate raw material on-site"
+          ]
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Beforehand cushioning",
+        "examples": [
+          [
+            "Prepare emergency means beforehand to compensate for the relatively low reliability of an object: Magnetic strip on photographic film that directs the developer to compensate for poor exposure; alternate air and other utility systems for emergencies; provide means for emergency supply of cooling, heating, or pressure; pre-load cooling elements; use pH buffers"
+          ]
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Equipotentiality",
+        "examples": [
+          [
+            "In a potential field, limit position changes (e.g., change operating conditions to eliminate the need to raise or lower objects in a gravity field): Tank car design features that limit movement upon impact and shock; locks in a channel between two bodies of water; small storage units that bring raw materials to the right position in a batch chemical reaction; process designs that use multi-floor buildings to take advantage of gravity flow"
+          ]
+        ]
+      },
+      {
+        "id": 13,
+        "name": "The other way round",
+        "examples": [
+          [
+            "Invert the action(s) used to solve the problem (e.g., instead of cooling an object, heat it): To loosen stuck parts, cool the inner part instead of heating the outer part; pre-coat a filter to improve its filtration capabilities; change heating and cooling sides of a heat exchanger"
+          ],
+          [
+            "Make movable parts (or the external environment) fixed, and fixed parts movable: Use static mixers within pipes as “fixed” mixers; employ a moving sidewalk with standing people"
+          ],
+          [
+            "Turn the object (or process) 'upside down': Turn an assembly upside down to insert fasteners (especially screws); invert containers (e.g., empty grain from a ship or railroad car by inverting it); invert the order of reactant addition"
+          ]
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Spheroidality - Curvature",
+        "examples": [
+          [
+            "Instead of using rectilinear parts, surfaces, or forms, use curvilinear ones; move from flat surfaces to spherical ones; from parts shaped as a cube (parallelepiped) to ball-shaped structures: Tower packing evolution from simple rings to convoluted saddle designs"
+          ],
+          [
+            "Use rollers, balls, spirals, domes: Curvilinear surfaces to increase pressure resistance; ball point and roller point pens for smooth ink distribution; grinding systems using rollers and balls versus linear systems"
+          ],
+          [
+            "Go from linear to rotary motion, use centrifugal forces: Change from linear filtration to centrifugal separation devices; rotating separation units"
+          ]
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Dynamics",
+        "examples": [
+          [
+            "Allow (or design) the characteristics of an object, its external environment, or process to change to be optimal: Process control based on variable input for optimum set points; a variable speed pump; adjustable settings on distillation columns, reactors, and temperature control loops; utilization of multiple skills of operators and skilled tradespeople"
+          ],
+          [
+            "Divide an object into parts capable of movement relative to each other: Oldshue separation column; variable pitch screw conveyor"
+          ],
+          [
+            "If an object (or process) is rigid or inflexible, make it movable or adaptive: Variable speed pumps and conveyors; flexible sigmoid scope for medical examination; process flows that respond to externally transmitted market or inventory conditions"
+          ]
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Partial or excessive actions",
+        "examples": [
+          [
+            "If 100% of an object is hard to achieve using a given method then, by using 'slightly less' or 'slightly more' of the same method, the problem may be easier: Over spray when painting then remove excess; maximize process for less than 100% yield or conversion; reach 100% conversion by using excess reactants; flood a reaction zone with a substance to kill a reaction"
+          ]
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Another dimension",
+        "examples": [
+          [
+            "To move an object in two- or three-dimensional space: An infrared computer mouse moves in space (instead of on a surface) for presentations; a five-axis cutting tool can be positioned where needed"
+          ],
+          [
+            "Use a multi-story arrangement of objects instead of a single-story arrangement: Electronic chips on both sides of a printed circuit board; multi-story chemical operations to take advantage of gravity flow; design chemical systems that expand in volume under specified conditions"
+          ],
+          [
+            "Tilt or re-orient the object, lay it on its side: Orientation of process equipment to allow access, more desirable mixing, or rotation"
+          ],
+          [
+            "Use 'another side' of a given area: Stack microelectronic hybrid circuits to improve density; use the internal pores of a solid as a reaction surface; use both inner and outer surfaces of heat exchangers and jackets for useful functions"
+          ]
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Mechanical vibration",
+        "examples": [
+          [
+            "Cause an object to oscillate or vibrate: Ultrasonic flow measuring systems; systems to improve flow from hoppers"
+          ],
+          [
+            "Increase its frequency (even up to the ultrasonic): Distribute powder with vibration"
+          ],
+          [
+            "Use an object's resonant frequency: Use microwaves for moisture removal"
+          ],
+          [
+            "Use piezoelectric vibrators instead of mechanical ones: Quartz crystal oscillations drive high accuracy clocks"
+          ],
+          [
+            "Use combined ultrasonic and electromagnetic field oscillations: Mixing alloys in an induction furnace"
+          ]
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Periodic action",
+        "examples": [
+          [
+            "Instead of continuous action, use periodic or pulsating actions: Batch versus continuous reaction processes; reciprocal pumps and compressors versus centrifugal devices"
+          ],
+          [
+            "If an action is already periodic, change its magnitude or frequency: Alternate the cycle of reciprocal devices; replace a continuous siren with one that changes amplitude and frequency; use pulsation to produce extremely small particles in an emulsion system"
+          ],
+          [
+            "Use pauses between impulses to perform a different action: Use variability in pumping systems to introduce new reactants; use downtime for preventative maintenance"
+          ]
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Continuity of useful action",
+        "examples": [
+          [
+            "Carry on work continuously; make all parts of an object work at full load: A flywheel (or hydraulic system) stores energy when a vehicle stops, allowing the motor to run at optimum power; run bottleneck operations continuously to achieve optimum pace"
+          ],
+          [
+            "Eliminate all idle or intermittent actions or work: Print during the return of a printer carriage (e.g., dot matrix, daisy wheel, ink jet printers); cross-train operators for both plant operations and maintenance; use spare equipment time to produce alternative products"
+          ]
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Skipping",
+        "examples": [
+          [
+            "Conduct a process or certain stages (e.g., destructive, harmful, or hazardous operations) at high speed: Control reaction sequence to bypass a hazardous regime; minimize reaction times under hazardous conditions; cut plastic faster than heat can propagate to avoid deformation"
+          ]
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Blessing in disguise or Turn Lemons into Lemonade",
+        "examples": [
+          [
+            "Use harmful factors (especially environmental) to achieve a positive effect: Use waste heat from one unit operation in another; recycle waste (scrap) material from one process as raw materials for another; recover and re-use shipping and packing materials"
+          ],
+          [
+            "Eliminate the primary harmful action by adding it to another harmful action: Add a buffering material to a corrosive solution; use a helium-oxygen mix for diving to eliminate nitrogen narcosis and oxygen poisoning; use a backfire to eliminate fuel from a forest fire; use generated waste as a raw material for another viable process"
+          ]
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Feedback",
+        "examples": [
+          [
+            "Introduce feedback (referring back, cross-checking) to improve a process: Proportional, integral, and derivative control; temperature, pressure, and compositional inputs to control systems; statistical process control (SPC) where measurements determine when to modify a process; use intermediate budget measurements for adjustments"
+          ],
+          [
+            "If feedback is already used, change its magnitude or influence: Adjust proportionality constants and gains in controller settings; add derivative control for extra sensitivity; change management metrics from budget variance to customer satisfaction"
+          ]
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Intermediary",
+        "examples": [
+          [
+            "Use an intermediary carrier article or intermediary process: Azeotropic distillation; extraction; settling and decantation; heat transfer solutions"
+          ],
+          [
+            "Merge one object temporarily with another (which can be easily removed): Use extraction to remove a desirable component prior to separation; azeotropic distillation"
+          ]
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Self-service",
+        "examples": [
+          [
+            "Make an object serve itself by performing auxiliary helpful functions: A soda fountain pump that runs on the pressure of carbon dioxide to 'fizz' drinks (ensuring drinks are not flat and eliminating sensors); halogen lamps that regenerate the filament during use by redepositing evaporated material; an autocatalytic reaction system; a filtration system whose washing system responds to the dilution of the eluent"
+          ],
+          [
+            "Use waste resources, energy, or substances: Use process heat to generate electricity (co-generation); use mutually available waste heat and cooling in different processes; use waste packaging as a fuel source or for community recycling"
+          ]
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Copying",
+        "examples": [
+          [
+            "Instead of an unavailable, expensive, or fragile object, use simpler and inexpensive copies: Use moldings to shape plastic parts; replace human announcements with automatic recordings based on process conditions"
+          ],
+          [
+            "Replace an object or process with optical copies: Use 3-D models for training and design; measure an object by measuring its photograph; make sonograms to evaluate equipment status instead of disassembling it"
+          ],
+          [
+            "If visible optical copies are already used, move to infrared or ultraviolet copies: Make images in infrared to measure heat profiles and assess insulation; use infrared sensing for security monitoring along plant perimeters; identify elements sensitive to ultraviolet screenings and analysis"
+          ]
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Cheap short-living objects",
+        "examples": [
+          [
+            "Replace an inexpensive object with multiple inexpensive objects (with limited service life): Use disposable paper objects to avoid the cost of cleaning and storing durable items; replace pigment holding objects on assembly robots to avoid cleaning entire painting systems; use catalysts in minor quantities that can be filtered out or left in the final product; constantly remove and replace filter coatings in centrifugal filters; use building models to train operators and gather input"
+          ]
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Mechanics substitution",
+        "examples": [
+          [
+            "Replace a mechanical means with a sensory (optical, acoustic, taste, or smell) means: Replace a physical fence with optical and acoustic monitoring for hazardous area intrusion; use a mercaptan compound in natural gas to alert users to leakage instead of mechanical or electrical sensors"
+          ],
+          [
+            "Use electric, magnetic, and electromagnetic fields to interact with the object: To mix two powders, electrostatically charge one positive and the other negative (either direct them with fields or let their acquired fields cause pairing); replace pneumatic controls and measurements with electronic systems"
+          ],
+          [
+            "Change from static to movable fields, from unstructured fields to those with structure: Use stereo-specific catalysts that control molecular weight (MW) and molecular weight distribution (MWD) in polymer systems; employ catalysts to control optical rotation of biologically active compounds"
+          ],
+          [
+            "Use fields in conjunction with field-activated (e.g., ferromagnetic) particles: Heat a substance containing ferromagnetic material by using a varying magnetic field so that when the temperature exceeds the Curie point, the material becomes paramagnetic and no longer absorbs heat"
+          ]
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Pneumatics and hydraulics",
+        "examples": [
+          [
+            "Use gas and liquid parts of an object instead of solid parts (e.g., inflatable, filled with liquids, air cushion, hydrostatic, hydro-reactive): Load cells to measure raw material storage and reaction vessel status; store energy from vehicle deceleration in a hydraulic system and later use it to accelerate; use pneumatic-based process control systems; pneumatic conveying (both dense and dilute)"
+          ]
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Flexible shells and thin films",
+        "examples": [
+          [
+            "Use flexible shells and thin films instead of three-dimensional structures: Plate and frame exchangers; gas separation membranes"
+          ],
+          [
+            "Isolate the object from the external environment using flexible shells and thin films: Float a film of bipolar material (one end hydrophilic, one end hydrophobic) on a reservoir to limit evaporation; design food packaging to minimize oxygen and moisture transmission"
+          ]
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Porous materials",
+        "examples": [
+          [
+            "Make an object porous or add porous elements (inserts, coatings, etc.): Drill holes in a structure to reduce weight; use porous catalytic systems in automobiles and other applications"
+          ],
+          [
+            "If an object is already porous, use the pores to introduce a useful substance or function: Use a porous metal mesh to wick excess solder away from a joint; store hydrogen in the pores of a palladium sponge (a safer fuel 'tank' for hydrogen than storing gas); design porosity to control types of chemical reactions"
+          ]
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Color changes",
+        "examples": [
+          [
+            "Change the color of an object or its external environment: Use safe lights in a photographic darkroom; use color change to indicate pH change, reaction completion, or problems within a reaction system; apply color-sensitive labeling on temperature-sensitive foods"
+          ],
+          [
+            "Change the transparency of an object or its external environment: Use photolithography to convert transparent material into a solid mask for semiconductor processing (or change mask material from transparent to opaque for silk screen processing); utilize transparency changes due to phase change as an indicator in window materials or product purity"
+          ]
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Homogeneity",
+        "examples": [
+          [
+            "Make objects interacting with a given object from the same material (or with identical properties): Make the container out of the same material as its contents to reduce unwanted chemical reactions; make a diamond cutting tool out of diamonds; use mutual solubility to enhance homogeneous catalysis; add a third component to achieve azeotropic distillation"
+          ]
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Discarding and recovering",
+        "examples": [
+          [
+            "Make portions of an object that have fulfilled their functions go away (discard by dissolving, evaporating, etc.) or modify them during operation: Use a dissolving capsule for medicine; add water to cornstarch-based packaging to reduce its volume by over 1000×; use water ice or carbon dioxide (dry ice) to form a temporary template (e.g., for a dam), then let it melt or sublime"
+          ],
+          [
+            "Conversely, restore consumable parts of an object directly in operation: Use pre-packaged raw material additives to minimize exposure and errors; design automobile engines that give themselves a 'tune up' while running; employ auto-catalytic reactions"
+          ]
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Parameter changes",
+        "examples": [
+          [
+            "Change an object's physical state (e.g., to a gas, liquid, or solid): Freeze the liquid centers of filled candies then dip them in melted chocolate instead of handling messy, hot liquid; transport oxygen, nitrogen, or petroleum gas as a liquid to reduce volume"
+          ],
+          [
+            "Change the concentration or consistency: Formulate liquid hand soap that is concentrated and more viscous than bar soap at the point of use for easier dispensing and improved sanitation; produce concentrates for dilution by customers on demand"
+          ],
+          [
+            "Change the degree of flexibility: Use adjustable dampers to reduce noise from parts falling into a container; vulcanize rubber to modify its flexibility and durability; add plasticizers to rigid polymers to improve flexibility and cold temperature performance"
+          ],
+          [
+            "Change the temperature: Raise the temperature above the Curie point to switch a ferromagnetic substance to paramagnetic; raise food temperature to cook it (altering taste, aroma, texture, and chemical properties); lower the temperature of medical specimens for preservation; control reactors using reaction kinetics and decomposition rates"
+          ]
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Phase transitions",
+        "examples": [
+          [
+            "Use phenomena occurring during phase transitions (e.g., volume changes, heat loss or absorption): Utilize phase changes in materials to absorb heat or control its release; design heat pumps that use vaporization and condensation in a closed cycle; use expansion and contraction properties of freezing"
+          ]
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Thermal expansion",
+        "examples": [
+          [
+            "Use thermal expansion (or contraction) of materials: Fit a tight joint by cooling the inner part to contract and heating the outer part to expand, then re-equilibrate (as in plastic-lined pipe manufacture); use special joints to minimize damage and short circuiting in metal heat exchangers"
+          ],
+          [
+            "If thermal expansion is used, employ multiple materials with different coefficients of expansion: The basic leaf spring thermostat (using two metals with differing expansion coefficients) that bends with temperature changes; bi-metallic instrumentation construction"
+          ]
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Strong oxidants",
+        "examples": [
+          [
+            "Replace common air with oxygen-enriched air: Accelerate oxidation reactions with enriched air; use membrane air separation technology"
+          ],
+          [
+            "Replace enriched air with pure oxygen: Cut at higher temperatures using an oxy-acetylene torch; treat wounds in a high-pressure oxygen environment to kill anaerobic bacteria and aid healing; further accelerate oxidation reactions"
+          ],
+          [
+            "Use ionized oxygen: Ionize air to trap pollutants in air filtration equipment"
+          ],
+          [
+            "Replace ozonized (or ionized) oxygen with ozone: Speed up chemical reactions by pre-ionizing the gas; disinfect highly polluted waste streams"
+          ]
+        ]
+      },
+      {
+        "id": 39,
+        "name": "Inert atmosphere",
+        "examples": [
+          [
+            "Replace a normal environment with an inert one: Use nitrogen padding to minimize flammability hazards and prevent oxidation, fire, or explosion; use argon when nitrogen may react with products at high temperature"
+          ],
+          [
+            "Add neutral parts or inert additives to an object: Add inert fillers to products (e.g., detergents, pharmaceuticals) to increase bulk or improve functionality; add inert plugs to pipeline transfers to minimize mixing of transported fluids"
+          ]
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Composite materials",
+        "examples": [
+          [
+            "Change from uniform to composite (multiple) materials: Use composites for superior product performance in golf clubs, airplane parts, and chemical tanks; use multi-layer polymers for barrier protection, membranes, and to achieve unique polymer properties"
+          ]
+        ]
+      }
+    ]
+  }
+  

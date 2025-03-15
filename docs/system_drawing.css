@@ -1,0 +1,552 @@
+/* Base Variables */
+:root {
+    --primary: #2b2d42;
+    --primary-light: #3a3d57;
+    --primary-dark: #1a2130;
+    --secondary: #8d99ae;
+    --success: #198754;
+    --danger: #d90429;
+    --light: #edf2f4;
+    --dark: #2b2d42;
+    --border: #dee2e6;
+    --shadow-sm: 0 1px 3px rgba(43, 45, 66, 0.1);
+    --shadow-md: 0 4px 6px rgba(43, 45, 66, 0.1);
+    --shadow-lg: 0 10px 15px rgba(43, 45, 66, 0.07);
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-lg: 10px;
+}
+
+/* Base Layout Styles */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+/* Navbar Styling (overrides Bootstrap) */
+.navbar {
+    padding: 0;
+    background-color: var(--dark);
+    box-shadow: var(--shadow-md);
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white !important;
+    padding: 0.8rem 1rem;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.85) !important;
+    padding: 1rem 1.2rem;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-nav .nav-link.active {
+    color: white !important;
+    background-color: var(--primary-dark);
+}
+
+/* App Header */
+.app-header {
+    background-color: white;
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 1.5rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.app-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.app-title i {
+    color: var(--primary);
+    font-size: 1.4rem;
+}
+
+/* Toolbar */
+#toolbar {
+    background-color: white;
+    border-bottom: 1px solid var(--border);
+    padding: 0.75rem;
+    box-shadow: var(--shadow-sm);
+    z-index: 10;
+}
+
+.toolbar-container {
+    white-space: nowrap;
+    overflow-x: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-bottom: 0.25rem;
+    scrollbar-width: thin;
+    scrollbar-color: #c1c1c1 #f1f1f1;
+}
+
+/* Scrollbar styling for Webkit browsers */
+.toolbar-container::-webkit-scrollbar {
+    height: 6px;
+}
+
+.toolbar-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.toolbar-container::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+.toolbar-container::-webkit-scrollbar-thumb:hover {
+    background: #a1a1a1;
+}
+
+/* Section titles */
+.section-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 0.5rem;
+    white-space: nowrap;
+    color: var(--secondary);
+    display: flex;
+    align-items: center;
+}
+
+.section-title i {
+    color: var(--primary);
+    margin-right: 0.25rem;
+    font-size: 1.1rem;
+}
+
+/* Component buttons */
+.component-btn {
+    font-size: 0.95rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    transition: all 0.2s ease;
+}
+
+.component-btn i {
+    margin-right: 0.25rem;
+    font-size: 1rem;
+}
+
+.component-btn:hover {
+    background-color: #f0f0f0;
+    border-color: #c0c0c0;
+}
+
+.component-btn:active, 
+.component-btn.active {
+    background-color: var(--primary);
+    color: white;
+    border-color: var(--primary-dark);
+}
+
+/* Divider */
+.section-divider {
+    width: 1px;
+    height: 40px;
+    background-color: var(--border);
+    margin: 0 0.25rem;
+}
+
+/* Text input */
+.text-input-group {
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.form-control {
+    font-size: 1rem;
+    height: 40px;
+}
+
+.form-select {
+    font-size: 0.95rem;
+    height: 40px;
+    min-width: 140px;
+}
+
+/* Guide items */
+.guide-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0.75rem;
+    padding: 0.25rem 0;
+    overflow-x: auto;
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+/* Hide scrollbar for Chrome/Safari */
+.guide-container::-webkit-scrollbar {
+    display: none;
+}
+
+.guide-item {
+    display: flex;
+    align-items: center;
+    background-color: var(--light);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 0.35rem 0.75rem;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    transition: all 0.2s ease;
+}
+
+.guide-item:hover {
+    background-color: #e9ecef;
+    border-color: #ced4da;
+}
+
+.guide-icon {
+    width: 20px;
+    height: 16px;
+    margin-right: 8px;
+    border: 1.5px solid var(--dark);
+    background-color: white;
+}
+
+.guide-icon.rectangle {
+    border-radius: 0;
+}
+
+.guide-icon.rounded-rectangle {
+    border-radius: 6px;
+}
+
+.guide-icon.hexagon {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    background-color: white;
+    border: none;
+    position: relative;
+}
+
+.guide-icon.hexagon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark);
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    z-index: -1;
+}
+
+.guide-line {
+    width: 30px;
+    height: 2px;
+    background-color: var(--dark);
+    margin-right: 8px;
+}
+
+.guide-line.thick {
+    height: 4px;
+}
+
+.guide-line.dashed {
+    background: repeating-linear-gradient(
+        to right,
+        var(--dark),
+        var(--dark) 5px,
+        transparent 5px,
+        transparent 10px
+    );
+}
+
+.guide-line.harmful {
+    background-color: var(--danger);
+}
+
+/* Canvas */
+.canvas-container {
+    flex-grow: 1;
+    position: relative;
+    background-color: white;
+    background-image:
+        linear-gradient(rgba(220, 220, 220, 0.3) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(220, 220, 220, 0.3) 1px, transparent 1px);
+    background-size: 20px 20px;
+    overflow: auto;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.canvas {
+    position: relative;
+    width: 1800px;
+    height: 1200px;
+}
+
+/* Hint text */
+.connect-hint {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: var(--secondary);
+    white-space: nowrap;
+}
+
+.connect-hint i {
+    color: var(--primary);
+    margin-right: 0.25rem;
+}
+
+/* Shape Styles */
+.shape {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 2px solid var(--dark);
+    cursor: move;
+    user-select: none;
+    min-width: 120px;
+    min-height: 90px;
+    z-index: 1;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.shape.dragging {
+    box-shadow: var(--shadow-md);
+    transform: scale(1.02);
+}
+
+.shape.selected {
+    outline: 3px solid var(--primary);
+    box-shadow: 0 4px 8px rgba(43, 45, 66, 0.25);
+    z-index: 2;
+}
+
+.shape-text {
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    outline: none;
+    border: none;
+    background: transparent;
+    resize: none;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: text;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    overflow: hidden;
+}
+
+.rectangle {
+    border-radius: 0;
+}
+
+.rounded-rectangle {
+    border-radius: var(--radius-lg);
+}
+
+.hexagon {
+    position: relative;
+    width: 156px;
+    height: 120px;
+    background-color: transparent;
+    border: none;
+}
+
+.hexagon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    border: 2px solid var(--dark);
+    box-sizing: border-box;
+}
+
+.hexagon::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    background-color: white;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    z-index: -1;
+}
+
+.hexagon .shape-text {
+    z-index: 1;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+/* Connector Styles */
+.connector {
+    position: absolute;
+    pointer-events: none;
+    z-index: 0;
+    overflow: visible;
+}
+
+.connector-path {
+    pointer-events: stroke;
+    stroke-width: 10px;
+    stroke: transparent;
+    cursor: pointer;
+    fill: none;
+    z-index: 0;
+}
+
+.connector-path.selected {
+    stroke: rgba(43, 45, 66, 0.3);
+}
+
+.selected-connector-line {
+    stroke: var(--primary) !important;
+}
+
+.connector-text {
+    position: absolute;
+    background-color: white;
+    padding: 4px 10px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    font-size: 0.95rem;
+    transform: translate(-50%, -50%);
+    cursor: text;
+    z-index: 1;
+    min-width: 20px;
+    min-height: 16px;
+    box-shadow: var(--shadow-sm);
+}
+
+.connector-text:focus {
+    outline: 2px solid var(--primary);
+    box-shadow: 0 2px 5px rgba(43, 45, 66, 0.2);
+}
+
+.connector-text:empty {
+    display: none;
+}
+
+/* Line Styles */
+.normal-line {
+    stroke-width: 2; /* Useful Function */
+}
+
+.thick-line {
+    stroke-width: 4; /* Useful Excessive Function */
+}
+
+.dashed-line {
+    stroke-dasharray: 5, 5; /* Useful Insufficient Function */
+}
+
+/* Buttons (overrides) */
+.btn {
+    font-size: 0.95rem;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    transition: all 0.2s ease;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1400px) {
+    .toolbar-container {
+        padding-bottom: 0.5rem;
+    }
+    
+    .guide-container {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 992px) {
+    .app-header .row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .app-header .text-end {
+        text-align: left !important;
+        margin-top: 0.5rem;
+    }
+    
+    .text-input-group {
+        width: 100%;
+        max-width: none;
+    }
+    
+    .form-select {
+        min-width: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-divider {
+        display: none;
+    }
+    
+    .toolbar-container {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    
+    .text-input-group {
+        width: 100%;
+    }
+    
+    .section-title {
+        width: 100%;
+        margin-bottom: 0.25rem;
+    }
+    
+    .guide-container {
+        width: 100%;
+        max-width: none;
+    }
+}

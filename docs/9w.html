@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Analysis Matrix</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="nine_w.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">TRIZ 39 45 50</a></li>
+            <li><a href="matrix.html">40 Thủ Thuật</a></li>
+            <li><a href="system_model.html">Mô Hình Hệ</a></li>
+            <li><a href="9w.html">Màn Hình 9 Hệ</a></li>
+            <li><a href="5w.html">5Whys</a></li>
+            <li><a href="kimcuong.html">Kim Cương Đôi</a></li>
+            <li><a href="ariz.html">About</a></li>
+            <li><a href="table_40.html">Matrix 39</a></li>
+        </ul>
+    </nav>
+    <div class="app-container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="header-content">
+                <h1>System Analysis Matrix</h1>
+                <p>Strategically analyze systems across dimensions and time to predict development and identify patterns
+                </p>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Matrix Container -->
+            <div class="matrix-container">
+                <div class="matrix-header">
+                    <h2>Analysis Framework</h2>
+                    <div class="controls">
+                        <div class="view-toggle">
+                            <button id="standard-view" class="active">Standard</button>
+                            <button id="focus-view">Focus Mode</button>
+                            <button id="dark-mode-toggle">Dark Mode</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Matrix Grid -->
+                <div class="matrix-grid" id="matrix">
+                    <!-- Grid Headers -->
+                    <div class="grid-header"></div> <!-- Empty corner cell -->
+                    <div class="grid-header">
+                        <h4>Past</h4>
+                    </div>
+                    <div class="grid-header">
+                        <h4>Present</h4>
+                    </div>
+                    <div class="grid-header">
+                        <h4>Future</h4>
+                    </div>
+
+                    <!-- Super System Row -->
+                    <div class="grid-row-header">
+                        <h4>Super System</h4>
+                    </div>
+                    <div class="grid-cell" data-cell="super_past">
+                        <div class="cell-content">
+                            <div class="cell-label">Super System / Past</div>
+                            <button class="template-btn" data-cell="super_past">
+                                <i class="fas fa-lightbulb"></i> Template
+                            </button>
+                            <textarea id="past_super"
+                                placeholder="Describe the broader ecosystem in the past..."></textarea>
+                            <div class="word-count">0 words</div>
+                        </div>
+                    </div>
+                    <div class="grid-cell" data-cell="super_present">
+                        <div class="cell-content">
+                            <div class="cell-label">Super System / Present</div>
+                            <button class="template-btn" data-cell="super_present">
+                                <i class="fas fa-lightbulb"></i> Template
+                            </button>
+                            <textarea id="present_super"
+                                placeholder="Describe the current broader ecosystem..."></textarea>
+                            <div class="word-count">0 words</div>
+                        </div>
+                    </div>
+                    <div class="grid-cell" data-cell="super_future">
+                        <div class="cell-content">
+                            <div class="cell-label">Super System / Future</div>
+                            <button class="template-btn" data-cell="super_future">
+                                <i class="fas fa-lightbulb"></i> Template
+                            </button>
+                            <textarea id="future_super"
+                                placeholder="Project how the broader ecosystem might evolve..."></textarea>
+                            <div class="word-count">0 words</div>
+                        </div>
+                    </div>
+
+                    <!-- System Row -->
+                    <div class="grid-row-header">
+                        <h4>System</h4>
+                    </div>
+                    <div class="grid-cell" data-cell="system_past">
+                        <div class="cell-content">
+                            <div class="cell-label">System / Past</div>
+                            <button class="template-btn" data-cell="system_past">
+                                <i class="fas fa-lightbulb"></i> Template
+                            </button>
+                            <textarea id="past_system"
+                                placeholder="Describe how the system functioned historically..."></textarea>
+                            <div class="word-count">0 words</div>
+                        </div>
+                    </div>
+                    <div class="grid-cell" data-cell="system_present">
+                        <div class="cell-content">
+                            <div class="cell-label">System / Present</div>
+                            <button class="template-btn" data-cell="system_present">
+                                <i class="fas fa-lightbulb"></i> Template
+                            </button>
+                            <textarea id="present_system"
+                                placeholder="Describe the current state of the system..."></textarea>
+                            <div class="word-count">0 words</div>
+                        </div>
+                    </div>
+                    <div class="grid-cell" data-cell="system_future">
+                        <div class="cell-content">
+                            <div class="cell-label">System / Future</div>
+                            <button class="template-btn" data-cell="system_future">
+                                <i class="fas fa-lightbulb"></i> Template
+                            </button>
+                            <textarea id="future_system"
+                                placeholder="Project how the system might evolve in the future..."></textarea>
+                            <div class="word-count">0 words</div>
+                        </div>
+                    </div>
+
+                    <!-- Subsystem Row -->
+                    <div class="grid-row-header">
+                        <h4>Subsystem</h4>
+                    </div>
+                    <div class="grid-cell" data-cell="subsystem_past">
+                        <div class="cell-content">
+                            <div class="cell-label">Subsystem / Past</div>
+                            <button class="template-btn" data-cell="subsystem_past">
+                                <i class="fas fa-lightbulb"></i> Template
+                            </button>
+                            <textarea id="past_subsystem"
+                                placeholder="Describe the components/elements in the past..."></textarea>
+                            <div class="word-count">0 words</div>
+                        </div>
+                    </div>
+                    <div class="grid-cell" data-cell="subsystem_present">
+                        <div class="cell-content">
+                            <div class="cell-label">Subsystem / Present</div>
+                            <button class="template-btn" data-cell="subsystem_present">
+                                <i class="fas fa-lightbulb"></i> Template
+                            </button>
+                            <textarea id="present_subsystem"
+                                placeholder="Describe the current components/elements..."></textarea>
+                            <div class="word-count">0 words</div>
+                        </div>
+                    </div>
+                    <div class="grid-cell" data-cell="subsystem_future">
+                        <div class="cell-content">
+                            <div class="cell-label">Subsystem / Future</div>
+                            <button class="template-btn" data-cell="subsystem_future">
+                                <i class="fas fa-lightbulb"></i> Template
+                            </button>
+                            <textarea id="future_subsystem"
+                                placeholder="Project how components might evolve..."></textarea>
+                            <div class="word-count">0 words</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="progress-container">
+                <div class="progress-label">
+                    <span>Completion Progress</span>
+                    <span id="completion-percentage">0%</span>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="progress-bar" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="actions-container">
+                <button id="export_png_btn" class="action-btn btn-accent">
+                    <div class="btn-icon"><i class="fas fa-download"></i></div>
+                    <span>Export as PNG</span>
+                </button>
+                <button id="clear_btn" class="action-btn btn-light">
+                    <div class="btn-icon"><i class="fas fa-eraser"></i></div>
+                    <span>Clear All</span>
+                </button>
+            </div>
+
+            <div id="download-container"></div>
+            <div id="error-container" style="display: none;"></div>
+
+            <!-- Hints Section -->
+            <div class="hints-container">
+                <div class="hints-title">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Thinking Framework Guidelines</span>
+                </div>
+                <ul class="hints-list">
+                    <li class="hint-item">
+                        <div class="hint-icon"><i class="fas fa-check-circle"></i></div>
+                        <div class="hint-text"><strong>Super System:</strong> Focus on the broader environment, market
+                            trends, regulatory factors, or societal changes that affect your system.</div>
+                    </li>
+                    <li class="hint-item">
+                        <div class="hint-icon"><i class="fas fa-check-circle"></i></div>
+                        <div class="hint-text"><strong>System:</strong> Analyze the main subject of interest - could be
+                            a product, organization, process, or technology.</div>
+                    </li>
+                    <li class="hint-item">
+                        <div class="hint-icon"><i class="fas fa-check-circle"></i></div>
+                        <div class="hint-text"><strong>Subsystem:</strong> Examine the components, features, or elements
+                            that make up the system.</div>
+                    </li>
+                    <li class="hint-item">
+                        <div class="hint-icon"><i class="fas fa-check-circle"></i></div>
+                        <div class="hint-text"><strong>Past → Present → Future:</strong> Identify patterns of evolution
+                            to make informed predictions about future developments.</div>
+                    </li>
+                    <li class="hint-item">
+                        <div class="hint-icon"><i class="fas fa-check-circle"></i></div>
+                        <div class="hint-text"><strong>Template button:</strong> Click the template button in each cell
+                            for guidance on what information to include.</div>
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>System Analysis Matrix Tool © 2025 • Created to enable strategic thinking across dimensions and time</p>
+        </footer>
+    </div>
+
+    <script src="nine_w.js"></script>
+
+</body>
+
+</html>

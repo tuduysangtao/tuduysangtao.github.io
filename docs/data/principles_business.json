@@ -1,0 +1,631 @@
+{
+    "industry": "business",
+    "principles": [
+      {
+        "id": 1,
+        "name": "Segmentation",
+        "examples": [
+          [
+            "Divide an organisation into different product centres",
+            "Autonomous profit centres",
+            "Use a work breakdown structure for a large project",
+            "Franchise outlets",
+            "Image/Value/Satisfaction segmentation of customer purchase related preferences",
+            "Kano Diagram – Excitement, Performance, and Threshold product attribute parameters",
+            "Marketing segmentation by demographics, sociographics, psychographics, lifestyles (creation of ‘micro-niches’)",
+            "Segmentation of ‘idea management’ process into Fertilization, Seeding, and Incubation phases",
+            "SWOT analysis",
+            "Min Basadur 8 step ‘Simplex’ innovation process"
+          ],
+          [
+            "Flexible pensions",
+            "Use of temporary workers on short-term projects",
+            "Flexible Manufacturing Systems",
+            "Modular furniture/offices",
+            "Container shipment"
+          ],
+          [
+            "Quality Circles",
+            "‘Empowerment’ – segmentation of decision making",
+            "Distance learning",
+            "Virtual office/remote working",
+            "‘Creative Segmentation’ (e.g. high performance small car, easy to use SLR, cordless power tool)"
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Taking Out",
+        "examples": [
+          [
+            "Breakdown barriers between departments (Deming’s Fourteen Points)",
+            "Eliminate exhortations",
+            "Eliminate targets",
+            "Drive Out Fear",
+            "‘Separate the PEOPLE from the PROBLEM’",
+            "‘Lean Manufacture’",
+            "USP advertising",
+            "Just-In-Time inventory management",
+            "Activity-Based Costing instead of allocation cost accounting",
+            "Separate development and production activities (skunkworks, tiger-teams)",
+            "‘The optimum committee has no members’"
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Local Quality",
+        "examples": [
+          [
+            "Moves away from rigid salary structures/job grading",
+            "Flexible working hours",
+            "Franchise fast food outlets have local dishes in addition to normal product range",
+            "Casual (‘dress-down’) days",
+            "Introduce ‘Corporate Jester’ to encourage out-of-the-box thinking",
+            "Red team/Blue team proposal preparation structures",
+            "‘Quiet’ work areas"
+          ],
+          [
+            "‘Empowerment’ of individuals",
+            "Customised workplaces tailored to ergonomic and psychological needs",
+            "Working hours phased for international, shifted time-zone projects",
+            "Customisable software"
+          ],
+          [
+            "Organisational division by function rather than product",
+            "Staff specialists in centres of excellence",
+            "Position factory or distribution centre near customers",
+            "Hire local people to acquire cultural knowledge",
+            "‘Kids areas’ in restaurants"
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Asymmetry",
+        "examples": [
+          [
+            "Use a different marketing approach for each client class",
+            "Budget for different departments individually rather than using a constant percentage",
+            "Skewed normal distributions",
+            "Proportionately more ‘P’ or more ‘S’ in the Deming PDSA cycle"
+          ],
+          [
+            "360° appraisals",
+            "More equitable two-way dialogue between management and workers",
+            "Shift away from calendar-influenced sales bias",
+            "The Peter Pyramid",
+            "Honda’s 4M – ‘man maximum, machine minimum’ product design philosophy"
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Merging",
+        "examples": [
+          [
+            "Personal computers in a network",
+            "Cell-based Manufacture",
+            "Toyota JIT",
+            "Merge companies with related products",
+            "Internet Cafe",
+            "The ‘Joiner Triangle’ – Quality/Scientific Approach/All-One-Team",
+            "‘Young engineers have ideas, old engineers have bad experiences’"
+          ],
+          [
+            "Theory of Constraints",
+            "Enlist customer help in designing the product (e.g. Boeing 777 ‘Working Together Teams’)",
+            "Multi-media presentations",
+            "‘Aligned, Creative and Exploring’ Teams"
+          ]
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Universality",
+        "examples": [
+          [
+            "Multi-skilling of the workforce",
+            "Team leader acts as recorder and timekeeper",
+            "‘One-stop shopping’ – supermarkets selling multiple services (insurance, banking, fuel, newspapers, etc.)",
+            "Rapid Reaction Forces in the military",
+            "Semco – managerial staff set their own salaries and shopfloor workers set their own productivity targets"
+          ]
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Nested Doll",
+        "examples": [
+          [
+            "Store-in-store",
+            "Mapping priority innovation areas",
+            "Four levels of knowledge contained in effective company training schemes",
+            "Hierarchy of employee needs (Basic, Environment, Simple Individual, Complex Individual, Transcendent)"
+          ],
+          [
+            "Plug holes in organisation structure",
+            "Use ‘Why, What’s Stopping?’ question sequence to get to root causes",
+            "Expose traditionally inward-facing job-holders to external events/customers",
+            "Door sensors to count customers entering/exiting",
+            "Casino hotel architecture (forcing guests to pass through different areas)"
+          ]
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Anti-Weight",
+        "examples": [
+          [
+            "In a merger, one company ‘lifts’ the other with its stronger features (distribution, marketing, methods, capital)",
+            "Companies boost sales by connecting with rising products (e.g. movie tie-ins)",
+            "A quote on maintaining a depressed stance for psychological impact (Charlie Brown)"
+          ],
+          [
+            "A small company is lifted by a resource (e.g. transportation network)",
+            "Political parties boost poll ratings by attaching to popular causes",
+            "Attach product/service marketing to customer and business driving forces (megatrends like aging population, flexibility, simplicity)"
+          ]
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Preliminary Anti-Action",
+        "examples": [
+          [
+            "When making a public announcement, include all information (as in the Tylenol tampering case)",
+            "Use formal risk assessment methods to quantify risk and identify mitigation actions",
+            "Customer trials/segmented launch of high-risk products",
+            "Use voluntary redundancy, pay-cuts, short-time working, or job-sharing as alternatives to downsizing"
+          ],
+          [
+            "Prepare compensation, outplacement, and communication packages prior to layoffs",
+            "Epson product development engineers work as sales then service before product development",
+            "‘In me the tiger sniffs the rose’ (Siegfried Sassoon)"
+          ]
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Preliminary Action",
+        "examples": [
+          [
+            "Project pre-planning",
+            "Perform non-critical path tasks early",
+            "Dialogue with employees before embarking on BPR/change management",
+            "Use ‘story-boarding’ to facilitate creative problem solving"
+          ],
+          [
+            "Kanban arrangements in a Just-In-Time factory",
+            "Cell-based manufacture",
+            "Publish an agenda before meetings",
+            "‘If I had 8 hours to chop down a tree, I’d spend 6 hours sharpening my axe’",
+            "Benetton ‘retarded differentiation’ (clothing is knitted before dyed)",
+            "Dealer-fit car accessories (e.g. CD player, alloy wheels, air-conditioning)"
+          ]
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Beforehand Cushioning",
+        "examples": [
+          [
+            "Contingency planning",
+            "Establish a worst-case fallback position prior to negotiation (‘Best Alternative to a Negotiated Agreement’)",
+            "Back up computer data",
+            "Run anti-virus software frequently and update it",
+            "Encourage short, effective meetings by removing chairs",
+            "Include arbitration/mediation clauses in contracts",
+            "Begin with ‘S’ in the PDSA cycle",
+            "‘80% of a successful production is in the casting’ (Lindsay Anderson)"
+          ]
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Equipotentiality",
+        "examples": [
+          [
+            "Make ‘horizontal’ career changes to broaden skills",
+            "Team members distribute their own merit award money",
+            "Use Force-Field Analysis for teambuilding and problem solving",
+            "Beware of the Peter Principle (‘Every employee tends to rise to his/her level of incompetence’)"
+          ]
+        ]
+      },
+      {
+        "id": 13,
+        "name": "The Other Way Round",
+        "examples": [
+          [
+            "Bring the mountain to Mohammed instead of vice versa",
+            "Expansion instead of contraction during recession",
+            "Benchmark against the worst instead of the best",
+            "Blame the process, not the person",
+            "Quote: ‘Anyone doing anything weird wasn’t weird at all’ – Paul McCartney"
+          ],
+          [
+            "Home-shopping, home banking, park-and-ride schemes",
+            "‘If you obey all the rules, you miss all the fun’ (Katherine Hepburn)"
+          ],
+          [
+            "Turn the process ‘upside down’: Cash-till assistant becomes the focal point; reverse help lines so most qualified staff are first contacted; shift to a product-based organisation; ‘Ready, Fire, Aim’ (Tom Peters); shift from internal to externally focused vision; adopt the Peter Pyramid; embrace corporate unlearning; ‘Nothing fails like success’; ‘We don’t stop playing because we grow old, we grow old because we stop playing’; ‘When you reach the top, that’s when the climb begins’ (Michael Caine)"
+          ]
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Spheroidality – Curvature",
+        "examples": [
+          [
+            "Ergonomic desk/work-station designs",
+            "Take the shortest path to the customer – route around the organisation rather than through bureaucracy",
+            "‘Form the wagons into a circle’ (John Wayne)"
+          ],
+          [
+            "Mobile factory",
+            "Mobile car service (mechanic comes to you)",
+            "Mobile library",
+            "‘Meals on wheels’ / home-delivery pizza"
+          ],
+          [
+            "Rotate leadership of a team",
+            "Establish a sphere of influence and then market to that sphere",
+            "Quality Circles and circular work cells",
+            "Organisational charts that resemble a solar system (e.g. Levi Strauss’ IS Department)"
+          ]
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Dynamics",
+        "examples": [
+          [
+            "Empowerment",
+            "‘Customer Response Teams’",
+            "Continuous Process Improvement",
+            "Rapid Reaction Force",
+            "Swatch design proliferation for specific market niches",
+            "‘Cafeteria’ benefits – employees choose their own insurance, etc.",
+            "Embrace constant transitions in a turbulent business environment"
+          ],
+          [
+            "Work teams that work at different rates on different objectives",
+            "Geographically or functionally independent business units",
+            "Conglomerate structures"
+          ],
+          [
+            "Gallery Furniture online shopping where customers control cameras remotely",
+            "Changing the supervisor’s role to avoid ‘whack-a-mole’ firefighting",
+            "Flexible organisation structure (chaocracy)"
+          ]
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Partial or Excessive Actions",
+        "examples": [
+          [
+            "For a new market, use ‘saturation’ advertising by all media (mail, newspapers, local magazines, radio, TV, billboards)",
+            "Communicate more often and with more information than necessary",
+            "‘If it ain’t broke, improve it anyway’ – Japanese process management philosophy",
+            "‘The most important numbers are the ones you’ll never know’ – W.E. Deming",
+            "‘Communication is and should be hellfire and sparks, as well as sweetness and light’ – Aman Vivian Rakoff"
+          ]
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Another Dimension",
+        "examples": [
+          [
+            "360° appraisals",
+            "Multi-dimensional organisational hierarchy charts (3D/4D including time, ‘Buckyball Management’)",
+            "Distributed responsibility and authority (e.g., quality and safety shared responsibilities)"
+          ],
+          [
+            "Multi-story arrangements: Organisational hierarchy; multi-stack storage systems; employees ‘disappear’ and reappear as in a theme park; ‘Pile ‘em high, sell ‘em cheap’; ‘Standing on the shoulders of giants…’"
+          ],
+          [
+            "Horizontal (peer) communication; switch from vertical to horizontal (lateral) thinking; shift from line to project management in matrix organisations; shift from portrait to landscape report format"
+          ],
+          [
+            "View the organisation from the outside (using consultants, mystery shoppers); adopt new ways of looking at the selling process (e.g., ‘Evergreen Lease’); external benchmarking"
+          ]
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Mechanical Vibration",
+        "examples": [
+          [
+            "Use the catchball process in hoshin planning to set the organisation ‘vibrating’",
+            "Leverage conflict constructively (as per Robert Townsend and Margaret J Wheatley)"
+          ],
+          [
+            "Communicate frequently in multiple modes (newsletter, intranet, meetings)",
+            "Reference a quote from D. Coleman (VP & CFO, Apple)"
+          ],
+          [
+            "Use strategic planning (e.g., hoshin Kanri) to set a resonant frequency for breakthrough strategy (‘Kansei’ concept)"
+          ],
+          [
+            "Bring new blood into the team; hire consultants"
+          ]
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Periodic Action",
+        "examples": [
+          [
+            "Use periodic or pulsating actions instead of continuous operation: Batch manufacture; tidal traffic flow schemes; change team leadership periodically; introduce sabbaticals"
+          ],
+          [
+            "Change periodic magnitude or frequency: Audit at irregular intervals; use monthly or weekly feedback instead of annual reviews; adopt flexible savings schemes with higher interest rates for fewer withdrawals"
+          ],
+          [
+            "Use pauses between impulses: Get work done between meetings; perform maintenance during vacations; 24-hour car service operation (evening pick-up and return by breakfast)"
+          ]
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Continuity of Useful Action",
+        "examples": [
+          [
+            "Carry on work continuously: Run bottleneck operations continuously (Theory of Constraints); institute Constant Improvement (Deming’s Fourteen Points); continuous online monitoring; 24-hour operations"
+          ],
+          [
+            "Eliminate idle or intermittent actions: Multi-skilling to improve workflow; conduct training during pauses; ‘Hot-tilling’ in supermarkets; life-long learning; ‘The more I practice, the luckier I get’ (Gary Player)"
+          ]
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Skipping",
+        "examples": [
+          [
+            "Conduct processes at high speed: ‘Incrementalism is innovation’s worst enemy’ (Nicholas Negroponte); ‘Don’t be afraid to take a big step if one is indicated. You can’t cross a chasm in two small jumps’ (David Lloyd George); ‘Fail Fast; Learn Fast’; rapid prototyping; ‘If you want to succeed, double your failure rate’ (JR Watson)"
+          ]
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Blessing in Disguise",
+        "examples": [
+          [
+            "Recast an attack on you as an attack on the problem; handle customer complaints in a way that reinforces positive perceptions; use ‘provocations’ to encourage new ideas; ‘The Extra Mile will have no traffic jams’"
+          ],
+          [
+            "Eliminate fear of change by introducing fear of competition; assign a ‘problem’ person to a role where they excel; use a loss-leader strategy; implement park-and-ride schemes; force polluting industries to adjust"
+          ],
+          [
+            "Amplify a harmful factor so it is no longer harmful: ‘That’s not a bug, it’s a feature’; employ benevolent dictatorship; reduce resourcing to drive innovation; restrict supply to create scarcity value"
+          ]
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Feedback",
+        "examples": [
+          [
+            "Introduce feedback to improve processes: Statistical Process Control (SPC); use budgets as feedback; enlist customers in design; use extranets; customer surveys and seminars; Active Transition Management; electronic bulletin boards; loyalty cards; ‘What you measure is what you get’ (Joe Juran)"
+          ],
+          [
+            "If feedback is already used, change its magnitude or influence: Change measures from budget variance to customer satisfaction; expose designers and marketers to customers; employ Multi-Criteria Decision Analysis; use examples like Toshiba’s cross-functional shifts; ‘Open the kimono’; ‘Supravision’; ‘Co-evolutionary marketing’; Motorola ‘open dissent’; use ‘half-life’ as a performance measure"
+          ]
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Intermediary",
+        "examples": [
+          [
+            "Use an intermediary carrier or process: Use an impartial body during difficult negotiations (e.g. ACAS); employ a ‘provocative operator’ (DeBono’s ‘Po’); subcontract non-core business (cleaning, transport); use a franchisee as intermediary; travel agents; UPS distribution systems; KLM ‘feeder’ airline concept; ‘Video Plus’ programme; ‘Cuckoo Investments’"
+          ],
+          [
+            "Merge one object temporarily with another: Introduce specialist troubleshooting or firefighting teams; hire consultants; use bridging loan arrangements; subcontract occasional services (accounts, cleaning, transport)"
+          ]
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Self-Service",
+        "examples": [
+          [
+            "Make an object serve itself: Quality Circles; self-help groups; brand image circularity (e.g. Harvard Business School effect); ‘Cookies’ on the Internet; bar-codes in supermarkets"
+          ],
+          [
+            "Use waste or lost resources: Re-hire retired workers; loan out under-utilised workers; develop industrial eco-systems; brown-field developments; recycle used containers and packaging; scan mail into data systems and recycle the paper"
+          ]
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Copying",
+        "examples": [
+          [
+            "Use simpler and inexpensive copies: Virtual reality via computer instead of expensive vacations; audiotapes instead of seminars; rapid prototyping (stereolithography); scan rare historic documents so originals are preserved; Lascaux II reproduction of cave paintings"
+          ],
+          [
+            "Replace an object or process with optical copies: Virtual product service manuals; video-conferencing instead of travel; central electronic database instead of paper records; web-based personal calendars"
+          ],
+          [
+            "If optical copies are used, move to IR or UV: Evaluate employee morale and customer satisfaction using multiple methods; benchmark against competitors"
+          ],
+          [
+            "Sustain organization’s trademark, logo, motto, and color identity"
+          ]
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Cheap Short-Living Objects",
+        "examples": [
+          [
+            "Replace an expensive object with multiples of inexpensive objects: Use disposable paper objects; plastic cups in motels; disposable diapers; various medical supplies; use numerical simulation; flight simulator; Swatch ‘renewed impulse’ buying"
+          ]
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Mechanics Substitution",
+        "examples": [
+          [
+            "Replace a mechanical means with a sensory means: Virtual reality via computer; touch screen data entry (e.g. in wedding registries); electronic voting"
+          ],
+          [
+            "Use electric, magnetic, and electromagnetic fields to interact with the object"
+          ]
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Pneumatics and Hydraulics",
+        "examples": [
+          [
+            "Use gas and liquid parts instead of solid parts: (Examples include use of ‘breathing spaces’ and fluid system applications)"
+          ]
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Flexible Shells and Thin Films",
+        "examples": [
+          [
+            "Use flexible shells and thin films instead of three-dimensional structures: (Examples include thin-film dielectrics, epitaxy, oxidation, poly-silicon, metallization on planar Si wafers)"
+          ],
+          [
+            "Isolate the object from the external environment using flexible shells and thin films: (Examples include thin-film passivation, encapsulation, air gaps with polymer cushioning, cover tape for tape-and-reel)"
+          ]
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Porous Materials",
+        "examples": [
+          [
+            "Make an object porous or add porous elements: (Examples include multi-step air filtration in clean rooms, multipore filters for DI water, polypropylene and carbon filters, porous chucks, metal web baskets)"
+          ],
+          [
+            "If already porous, use the pores to introduce a useful substance or function: (Examples include capillary effects for cleaning and chemical treatment in vias and trenches, metal web for screen printing of solder paste, capillary action for solder drawing)"
+          ]
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Color Changes",
+        "examples": [
+          [
+            "Change the color of an object or its environment: Create a strong brand image using bespoke corporate colors; use colors to communicate state of alert (e.g. red, amber, green)"
+          ],
+          [
+            "Change the transparency: Make stock inventory transparent for Just-In-Time delivery; use transparent packaging for self-advertising; introduce smoke-screening to disguise confidential activities; switch between transparent and opaque during negotiations"
+          ],
+          [
+            "Use colored additives or luminescent elements to improve observability"
+          ]
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Homogeneity",
+        "examples": [
+          [
+            "Make objects interact with a given object of the same material: Hire local people for cultural insight; use the same brand name for a product group; divide customers into homogeneous clusters; include customers in focus groups"
+          ]
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Discarding and Recovering",
+        "examples": [
+          [
+            "Make portions that have fulfilled their functions go away: Subcontract marketing, sales, or advertisement agencies"
+          ],
+          [
+            "Conversely, restore consumable parts directly: Use warranty systems to commit to repair or replace failing parts"
+          ]
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Parameter Changes",
+        "examples": [
+          [
+            "Change an object's physical state: Establish virtual shopping; institute online catalogs; telephone banking; electronic voting"
+          ],
+          [
+            "Change the concentration or consistency: (Examples not fully detailed)"
+          ],
+          [
+            "Change the degree of flexibility: Use special offers for promotions"
+          ],
+          [
+            "Change the temperature: Initiate new challenges for the customer service team"
+          ],
+          [
+            "Change other parameters: Switch marketing to non-traditional customers; change traditional names (e.g., quality department renamed ‘Customer Satisfaction Team’); sell non-material attributes (e.g., cultural needs, image, self-esteem)"
+          ]
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Phase Transitions",
+        "examples": [
+          [
+            "Use phenomena occurring during phase transitions: S-curve for marketing and sales evolution – different product/service life stages (e.g., ‘Problematic child’, ‘Star’, ‘Milky cow’, ‘Outsider’)"
+          ]
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Thermal Expansion",
+        "examples": [
+          [
+            "Use thermal expansion (or contraction) of materials: (Examples include thermal expansion drive in variable MEMS capacitors)"
+          ],
+          [
+            "If used, employ multiple materials with different coefficients: Expand or contract marketing efforts depending on product/service ‘hotness’; include both ‘hard’ and ‘soft’ persons on negotiation teams"
+          ]
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Boosted Interactions",
+        "examples": [
+          [
+            "Replace common air with oxygen-enriched air; replace enriched air with pure oxygen; expose air or oxygen to ionizing radiation; use ionized oxygen; replace ozonized oxygen with ozone",
+            "Introduce obsession with customer-perceived quality and desire to delight customers",
+            "Hire highly creative individuals who understand ‘The voice of the customer’",
+            "Get customers excited about a product or service by giving them ownership of the change",
+            "Achieve ‘Wow!’ effect by exceeding customer expectations and providing competitive advantage",
+            "Overcome reluctance of dissatisfied customers to complain"
+          ]
+        ]
+      },
+      {
+        "id": 39,
+        "name": "Inert Atmosphere",
+        "examples": [
+          [
+            "Replace a normal environment with an inert one: Arrange anonymous surveys or interviews; use neutral, indifferent tonality in surveys; be aware that customer service/employee indifference leads to customer defection"
+          ],
+          [
+            "Add neutral parts or inert additives: Use neutral third parties during difficult negotiations"
+          ]
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Composite Structures",
+        "examples": [
+          [
+            "Change from uniform to composite structures: Combine high risk with low risk marketing strategy; establish multi-disciplinary customer service teams with diverse personality types; employ multi-skilled (‘Renaissance’) people at customer interface positions"
+          ]
+        ]
+      }
+    ]
+  }
+  

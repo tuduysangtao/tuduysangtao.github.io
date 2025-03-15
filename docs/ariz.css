@@ -1,0 +1,1155 @@
+/* 
+ * Problem Solving Framework - Main Stylesheet
+ * A responsive CSS for the Triple Diamond Problem Solving Framework
+ */
+
+/* ----- Base Styles & CSS Variables ----- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    /* Primary color palette */
+    --primary: #2b2d42;
+    --primary-light: #3a3d57;
+    --primary-dark: #1a2130;
+    --secondary: #8d99ae;
+    --accent: #d90429;
+    --accent-light: #ef233c;
+    --light: #edf2f4;
+    --light-alt: #f8f9fa;
+    --dark: #2b2d42;
+    --text: #2b2d42;
+    --text-light: #8d99ae;
+    --border: rgba(43, 45, 66, 0.1);
+    --shadow: rgba(43, 45, 66, 0.08);
+    --hover: rgba(43, 45, 66, 0.03);
+    --gradient-primary: linear-gradient(135deg, #2b2d42 0%, #3a3d57 100%);
+    --gradient-accent: linear-gradient(135deg, #d90429 0%, #ef233c 100%);
+
+    /* Additional framework colors (blues for problem, greens for analysis) */
+    --problem-primary: #2b2d42;
+    --problem-secondary: #1a2130;
+    --problem-light: #edf2f4;
+    
+    /* Solution space colors (pinks) */
+    --solution-primary: #d90429;
+    --solution-secondary: #b80124;
+    --solution-light: #fce7f3;
+    
+    /* Analytical space colors (greens) */
+    --middle-primary: #198754;
+    --middle-secondary: #0f5132;
+    --middle-light: #d1fae5;
+    --middle-gradient: linear-gradient(135deg, #198754, #0f5132);
+
+    /* Component & layout colors */
+    --card-bg: #ffffff;
+
+    /* Shadows & effects */
+    --card-shadow: 0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -2px rgba(15, 23, 42, 0.05);
+    --card-shadow-hover: 0 20px 25px -5px rgba(15, 23, 42, 0.1), 0 10px 10px -5px rgba(15, 23, 42, 0.05);
+
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+/* ----- Global Layout & Structure ----- */
+body {
+    background-color: var(--light);
+    color: var(--text);
+    overflow-x: hidden;
+    line-height: 1.5;
+    font-weight: 400;
+    font-feature-settings: "kern", "liga", "calt";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 20px 60px;
+    overflow: hidden;
+}
+
+/* ----- Background Elements ----- */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+    opacity: 0.8;
+    background-image:
+        radial-gradient(circle at 20% 35%, rgba(219, 234, 254, 0.5) 0%, transparent 40%),
+        radial-gradient(circle at 75% 65%, rgba(252, 231, 243, 0.5) 0%, transparent 40%),
+        radial-gradient(circle at 50% 50%, rgba(209, 250, 229, 0.3) 0%, transparent 50%);
+    background-blend-mode: soft-light;
+}
+
+.grid-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 40px 40px;
+    background-image:
+        linear-gradient(to right, rgba(226, 232, 240, 0.2) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(226, 232, 240, 0.2) 1px, transparent 1px);
+    opacity: 0.5;
+    z-index: -2;
+}
+
+.dots-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(rgba(203, 213, 225, 0.4) 1px, transparent 1px);
+    background-size: 20px 20px;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+/* ----- Header Styles ----- */
+header {
+    padding: 50px 0 35px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at top, rgba(248, 250, 252, 0.8), transparent),
+        radial-gradient(ellipse at bottom, rgba(248, 250, 252, 0.8), transparent);
+    z-index: -1;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    height: 1px;
+    background: linear-gradient(135deg, rgba(217, 4, 41, 0.05), rgba(239, 35, 60, 0.2));
+}
+
+.title {
+    font-size: clamp(32px, 6vw, 42px);
+    font-weight: 800;
+    color: var(--text);
+    text-align: center;
+    margin-bottom: 15px;
+    letter-spacing: -0.05em;
+    line-height: 1.2;
+    background: linear-gradient(135deg, var(--problem-secondary), var(--middle-secondary) 50%, var(--solution-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 20px;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: radial-gradient(circle, rgba(219, 234, 254, 0.8) 0%, transparent 70%);
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.title::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: radial-gradient(circle, rgba(252, 231, 243, 0.8) 0%, transparent 70%);
+    bottom: -20px;
+    right: 0;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.subtitle {
+    font-size: clamp(16px, 3vw, 20px);
+    font-weight: 400;
+    color: var(--text-light);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+}
+
+.framework-label {
+    font-size: clamp(20px, 4vw, 26px);
+    font-weight: 700;
+    color: var(--text);
+    text-align: center;
+    margin: 45px 0 10px;
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 20px;
+    letter-spacing: 0.02em;
+}
+
+.framework-label::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 10%;
+    width: 80%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--problem-primary), var(--middle-primary), var(--solution-primary));
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* ----- Section Headers ----- */
+.section-headers {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto 30px;
+    width: 90%;
+    max-width: 900px;
+}
+
+.section-header {
+    width: 30%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: clamp(14px, 2.5vw, 18px);
+    font-weight: 600;
+    box-shadow: var(--card-shadow);
+    position: relative;
+    overflow: hidden;
+    transition: var(--transition-smooth);
+    z-index: 1;
+}
+
+.section-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.1), transparent);
+    z-index: -1;
+}
+
+.problem-header {
+    background-color: var(--problem-primary);
+}
+
+.middle-header {
+    background-color: var(--middle-primary);
+}
+
+.solution-header {
+    background-color: var(--solution-primary);
+}
+
+.section-header:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 20px -7px rgba(0, 0, 0, 0.2);
+}
+
+/* ----- Diamonds Visualization ----- */
+.diamonds-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    width: 90%;
+    max-width: 900px;
+    position: relative;
+}
+
+.connector {
+    flex: 0 0 40px;
+    height: 2px;
+    background: repeating-linear-gradient(90deg, var(--border), var(--border) 8px, transparent 8px, transparent 12px);
+    position: relative;
+}
+
+.connector::before,
+.connector::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--border);
+    transform: translateY(-50%);
+}
+
+.connector::before {
+    left: 0;
+}
+
+.connector::after {
+    right: 0;
+}
+
+.diamond {
+    width: calc(30% - 40px);
+    aspect-ratio: 4/3;
+    position: relative;
+    transition: var(--transition-smooth);
+}
+
+/* Diamond shapes styling */
+.diamond-shape {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.15));
+    transition: var(--transition-smooth);
+}
+
+.diamond-left .diamond-shape {
+    -webkit-clip-path: polygon(0% 50%, 50% 0%, 100% 50%, 50% 100%);
+    clip-path: polygon(0% 50%, 50% 0%, 100% 50%, 50% 100%);
+    border: 3px solid var(--problem-primary);
+}
+
+.diamond-middle .diamond-shape {
+    -webkit-clip-path: polygon(0% 50%, 50% 0%, 100% 50%, 50% 100%);
+    clip-path: polygon(0% 50%, 50% 0%, 100% 50%, 50% 100%);
+    border: 3px solid var(--middle-primary);
+}
+
+.diamond-right .diamond-shape {
+    -webkit-clip-path: polygon(0% 50%, 50% 0%, 100% 50%, 50% 100%);
+    clip-path: polygon(0% 50%, 50% 0%, 100% 50%, 50% 100%);
+    border: 3px solid var(--solution-primary);
+}
+
+.diamond-half {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    transition: var(--transition-smooth);
+}
+
+/* Diamond halves styling */
+.diamond-left .left-half {
+    left: 0;
+    -webkit-clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+    clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+    background: linear-gradient(90deg, rgba(26, 33, 48, 0.08), rgba(43, 45, 66, 0.25));
+}
+
+.diamond-left .right-half {
+    right: 0;
+    -webkit-clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    background: linear-gradient(90deg, rgba(43, 45, 66, 0.25), rgba(26, 33, 48, 0.08));
+}
+
+.diamond-middle .left-half {
+    left: 0;
+    -webkit-clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+    clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+    background: linear-gradient(90deg, rgba(15, 81, 50, 0.08), rgba(25, 135, 84, 0.25));
+}
+
+.diamond-middle .right-half {
+    right: 0;
+    -webkit-clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    background: linear-gradient(90deg, rgba(25, 135, 84, 0.25), rgba(15, 81, 50, 0.08));
+}
+
+.diamond-right .left-half {
+    left: 0;
+    -webkit-clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+    clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+    background: linear-gradient(90deg, rgba(184, 1, 36, 0.08), rgba(217, 4, 41, 0.25));
+}
+
+.diamond-right .right-half {
+    right: 0;
+    -webkit-clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    background: linear-gradient(135deg, rgba(239, 35, 60, 0.2), rgba(217, 4, 41, 0.05));
+}
+
+/* Diamond content styling */
+.diamond-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.diamond-side {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    transition: var(--transition-bounce);
+    position: relative;
+    z-index: 10;
+}
+
+.diamond-side::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.08);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+}
+
+.diamond-side:hover::before {
+    opacity: 1;
+}
+
+.side-title {
+    font-size: clamp(16px, 2.5vw, 20px);
+    font-weight: 800;
+    margin-bottom: 12px;
+    position: relative;
+    transition: var(--transition-bounce);
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
+}
+
+.side-title::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    transform: translateX(-50%);
+    transition: var(--transition-bounce);
+    border-radius: 1.5px;
+}
+
+/* Diamond title colors */
+.diamond-left .side-title {
+    color: var(--problem-secondary);
+}
+
+.diamond-left .side-title::after {
+    background-color: var(--problem-secondary);
+    box-shadow: 0 1px 2px rgba(26, 33, 48, 0.4);
+}
+
+.diamond-middle .side-title {
+    color: var(--middle-secondary);
+}
+
+.diamond-middle .side-title::after {
+    background-color: var(--middle-secondary);
+    box-shadow: 0 1px 2px rgba(15, 81, 50, 0.4);
+}
+
+.diamond-right .side-title {
+    color: var(--solution-secondary);
+}
+
+.diamond-right .side-title::after {
+    background-color: var(--solution-secondary);
+    box-shadow: 0 1px 2px rgba(217, 4, 41, 0.4);
+}
+
+/* Diamond hover effects */
+.diamond-side:hover .side-title::after {
+    width: 80%;
+}
+
+.diamond-side:hover .side-title {
+    transform: translateY(-3px);
+}
+
+.side-description {
+    font-size: clamp(12px, 2vw, 15px);
+    font-weight: 500;
+    color: var(--text);
+    text-align: center;
+    line-height: 1.4;
+    transition: var(--transition-bounce);
+    opacity: 0.9;
+}
+
+.diamond-side:hover .side-description {
+    transform: translateY(3px);
+    opacity: 1;
+}
+
+.diamond:hover {
+    transform: scale(1.05) translateY(-5px);
+}
+
+.diamond:hover .diamond-shape {
+    filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.2));
+}
+
+/* ----- Process Cards ----- */
+.process-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1000px;
+    margin: 60px auto;
+    gap: 18px;
+    perspective: 1000px;
+}
+
+.process-card {
+    width: calc(16.66% - 18px);
+    min-width: 165px;
+    flex-grow: 1;
+    background-color: var(--card-bg);
+    border-radius: 12px;
+    padding: 30px 20px 25px;
+    position: relative;
+    box-shadow: var(--card-shadow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    transition: var(--transition-bounce);
+    z-index: 1;
+    transform-style: preserve-3d;
+}
+
+.process-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.9) 0%,
+            rgba(255, 255, 255, 0.6) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+}
+
+.process-card:hover::before {
+    opacity: 1;
+}
+
+/* Card styling by type */
+.problem-card {
+    border: none;
+    background: linear-gradient(to bottom, white, white) padding-box,
+        linear-gradient(135deg, var(--problem-secondary), var(--problem-primary)) border-box;
+    border: 2px solid transparent;
+}
+
+.middle-card {
+    border: none;
+    background: linear-gradient(to bottom, white, white) padding-box,
+        linear-gradient(135deg, var(--middle-secondary), var(--middle-primary)) border-box;
+    border: 2px solid transparent;
+}
+
+.solution-card {
+    border: none;
+    background: linear-gradient(to bottom, white, white) padding-box,
+        linear-gradient(135deg, var(--solution-secondary), var(--solution-primary)) border-box;
+    border: 2px solid transparent;
+}
+
+.card-accent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    z-index: 0;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+}
+
+.card-accent::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s ease;
+}
+
+.process-card:hover .card-accent::after {
+    left: 100%;
+}
+
+.problem-card .card-accent {
+    background: var(--gradient-primary);
+}
+
+.middle-card .card-accent {
+    background: var(--middle-gradient);
+}
+
+.solution-card .card-accent {
+    background: var(--gradient-accent);
+}
+
+/* Process card number styling */
+.process-number {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    transition: var(--transition-bounce);
+    letter-spacing: -0.03em;
+}
+
+.problem-number {
+    background-color: var(--problem-light);
+    color: var(--problem-secondary);
+    box-shadow: 0 2px 6px rgba(26, 33, 48, 0.3);
+}
+
+.middle-number {
+    background-color: var(--middle-light);
+    color: var(--middle-secondary);
+    box-shadow: 0 2px 6px rgba(15, 81, 50, 0.3);
+}
+
+.solution-number {
+    background-color: var(--solution-light);
+    color: var(--solution-secondary);
+    box-shadow: 0 2px 6px rgba(217, 4, 41, 0.3);
+}
+
+/* Process card title styling */
+.process-title {
+    font-size: clamp(15px, 2.5vw, 18px);
+    font-weight: 700;
+    margin: 20px 0 15px;
+    text-align: center;
+    transition: var(--transition-bounce);
+    letter-spacing: 0.01em;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.process-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 2px;
+    background-color: rgba(148, 163, 184, 0.5);
+    transition: all 0.3s ease;
+}
+
+.process-card:hover .process-title::after {
+    width: 60px;
+}
+
+.problem-title {
+    color: var(--problem-secondary);
+}
+
+.problem-card:hover .process-title::after {
+    background-color: var(--problem-primary);
+}
+
+.middle-title {
+    color: var(--middle-secondary);
+}
+
+.middle-card:hover .process-title::after {
+    background-color: var(--middle-primary);
+}
+
+.solution-title {
+    color: var(--solution-secondary);
+}
+
+.solution-card:hover .process-title::after {
+    background-color: var(--solution-primary);
+}
+
+.process-description {
+    font-size: clamp(13px, 2vw, 15px);
+    color: var(--text-light);
+    text-align: center;
+    line-height: 1.6;
+    transition: var(--transition-bounce);
+    margin-bottom: 12px;
+}
+
+/* Card hover effects */
+.process-card:hover {
+    transform: translateY(-12px) scale(1.03);
+    box-shadow: var(--card-shadow-hover);
+}
+
+.process-card:hover .process-number {
+    transform: scale(1.15) rotate(10deg);
+}
+
+.process-card:hover .process-title {
+    transform: translateY(-3px);
+}
+
+.process-card.active {
+    transform: translateY(-15px) scale(1.05);
+    box-shadow: 0 25px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* ----- Technique Badges ----- */
+.techniques {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+    margin-top: 15px;
+    transition: var(--transition-bounce);
+}
+
+.process-card:hover .techniques {
+    transform: translateY(3px);
+}
+
+.technique-badge {
+    font-size: 11px;
+    padding: 4px 8px;
+    border-radius: 20px;
+    color: var(--text);
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.technique-badge::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s ease;
+}
+
+.technique-badge:hover::before {
+    left: 100%;
+}
+
+/* Badge colors */
+.problem-badge {
+    background-color: var(--problem-light);
+    color: var(--problem-secondary);
+    border: 1px solid rgba(26, 33, 48, 0.3);
+}
+
+.problem-badge:hover {
+    background-color: var(--problem-light);
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(26, 33, 48, 0.2);
+}
+
+.middle-badge {
+    background-color: var(--middle-light);
+    color: var(--middle-secondary);
+    border: 1px solid rgba(15, 81, 50, 0.3);
+}
+
+.middle-badge:hover {
+    background-color: var(--middle-light);
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(15, 81, 50, 0.2);
+}
+
+.solution-badge {
+    background-color: var(--solution-light);
+    color: var(--solution-secondary);
+    border: 1px solid rgba(217, 4, 41, 0.3);
+}
+
+.solution-badge:hover {
+    background-color: var(--solution-light);
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(217, 4, 41, 0.2);
+}
+
+/* ----- Process Flow Visualization ----- */
+.process-flow {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto 40px;
+    position: relative;
+    height: 60px;
+}
+
+.flow-line {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg,
+            var(--problem-primary),
+            var(--middle-primary),
+            var(--solution-primary));
+    border-radius: 1.5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.flow-line::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(90deg,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0));
+    animation: flowLineAnimation 3s infinite linear;
+}
+
+@keyframes flowLineAnimation {
+    0% {
+        left: -50%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+.flow-arrow {
+    position: absolute;
+    top: 25px;
+    width: 12px;
+    height: 12px;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    transform: rotate(45deg);
+    box-shadow: 2px -2px 3px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    animation: pulseArrow 2s infinite;
+}
+
+@keyframes pulseArrow {
+    0% {
+        transform: rotate(45deg) scale(1);
+    }
+
+    50% {
+        transform: rotate(45deg) scale(1.2);
+    }
+
+    100% {
+        transform: rotate(45deg) scale(1);
+    }
+}
+
+.arrow-1 {
+    left: calc(16.6% - 6px);
+    animation-delay: 0.2s;
+}
+
+.arrow-2 {
+    left: calc(33.3% - 6px);
+    animation-delay: 0.4s;
+}
+
+.arrow-3 {
+    left: calc(50% - 6px);
+    animation-delay: 0.6s;
+}
+
+.arrow-4 {
+    left: calc(66.6% - 6px);
+    animation-delay: 0.8s;
+}
+
+.arrow-5 {
+    left: calc(83.3% - 6px);
+    animation-delay: 1.0s;
+}
+
+/* ----- Footer Elements ----- */
+.footer {
+    position: relative;
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(90deg, var(--problem-primary), var(--middle-primary), var(--solution-primary));
+    margin-top: 30px;
+    border-radius: 4px 4px 0 0;
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: var(--text-light);
+    opacity: 0.8;
+}
+
+/* ----- Animation Classes ----- */
+.fade-in {
+    animation-name: fadeIn;
+}
+
+.fade-in-up {
+    animation-name: fadeInUp;
+}
+
+.fade-in-left {
+    animation-name: fadeInLeft;
+}
+
+.fade-in-right {
+    animation-name: fadeInRight;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 20px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translate3d(-20px, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translate3d(20px, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+/* ----- Mobile Touch Styles ----- */
+.touch-hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: var(--card-shadow-hover);
+}
+
+/* ----- Responsive Design ----- */
+@media (max-width: 992px) {
+    .process-container {
+        justify-content: center;
+    }
+
+    .process-card {
+        width: calc(33.33% - 18px);
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Adjust diamonds for mobile */
+    .diamonds-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .diamond {
+        width: 70%;
+        max-width: 300px;
+    }
+
+    .connector {
+        height: 30px;
+        width: 4px;
+        transform: rotate(90deg);
+    }
+
+    /* Stack section headers on mobile */
+    .section-headers {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .section-header {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    /* Adjust card layout for tablets */
+    .process-card {
+        width: calc(50% - 18px);
+    }
+
+    /* Hide flow elements on mobile */
+    .flow-line,
+    .flow-arrow {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+
+    /* Further adjustments for small screens */
+    .title {
+        font-size: 28px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .framework-label {
+        font-size: 20px;
+    }
+
+    /* Stack cards vertically on small screens */
+    .process-card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* Ensure diamonds are properly sized */
+    .diamond {
+        width: 90%;
+    }
+
+    /* Adjust text sizes in diamonds */
+    .side-title {
+        font-size: 16px;
+    }
+
+    .side-description {
+        font-size: 12px;
+    }
+}
+
+/* ----- Accessibility Enhancements ----- */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* High contrast mode improvements */
+@media (prefers-contrast: more) {
+    :root {
+        --problem-primary: #1a2130;
+        --problem-secondary: #0a0f19;
+        --problem-light: #edf2f4;
+
+        --solution-primary: #b80124;
+        --solution-secondary: #96001d;
+        --solution-light: #fce7f3;
+
+        --middle-primary: #0f5132;
+        --middle-secondary: #083d25;
+        --middle-light: #d1fae5;
+
+        --text: #000000;
+        --text-light: #333333;
+    }
+
+    .diamond-shape,
+    .process-card {
+        border-width: 3px;
+    }
+}

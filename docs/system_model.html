@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Diagram Editor</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+
+    <link rel="stylesheet" href="system_drawing.css">
+    <link rel="stylesheet" href="navbar.css">
+
+    <style>
+
+        .guide-item {
+            display: flex;
+            align-items: center;
+            background-color: var(--light);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 0.35rem 0.75rem;
+            font-size: 0.9rem;
+            white-space: nowrap;
+        }
+        
+        .guide-icon {
+            width: 20px;
+            height: 16px;
+            margin-right: 8px;
+            border: 1.5px solid var(--dark);
+            background-color: white;
+        }
+        
+        .guide-icon.rectangle {
+            border-radius: 0;
+        }
+        
+        .guide-icon.rounded-rectangle {
+            border-radius: 6px;
+        }
+        
+        .guide-icon.hexagon {
+            clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+            background-color: white;
+            border: none;
+            position: relative;
+        }
+        
+        .guide-line {
+            width: 30px;
+            height: 2px;
+            background-color: var(--dark);
+            margin-right: 8px;
+        }
+        
+        .guide-line.thick {
+            height: 4px;
+        }
+        
+        .guide-line.dashed {
+            background: repeating-linear-gradient(
+                to right,
+                var(--dark),
+                var(--dark) 5px,
+                transparent 5px,
+                transparent 10px
+            );
+        }
+        
+        .guide-line.harmful {
+            background-color: var(--danger);
+        }
+        
+
+
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">TRIZ 39 45 50</a></li>
+            <li><a href="matrix.html">40 Thủ Thuật</a></li>
+            <li><a href="system_model.html">Mô Hình Hệ</a></li>
+            <li><a href="9w.html">Màn Hình 9 Hệ</a></li>
+            <li><a href="5w.html">5Whys</a></li>
+            <li><a href="kimcuong.html">Kim Cương Đôi</a></li>
+            <li><a href="ariz.html">About</a></li>
+            <li><a href="table_40.html">Matrix 39</a></li>
+        </ul>
+    </nav>
+
+    <div class="app-container">
+        <!-- App Header -->
+        <div class="bg-white border-bottom p-3">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-project-diagram text-primary fs-3 me-2"></i>
+                    <h1 class="h3 mb-0 fw-bold">Function Model Diagram Editor</h1>
+                    <p class="text-secondary fst-italic mb-0 ms-4">Create function models to visualize system components and their relationships</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Toolbar -->
+        <div id="toolbar">
+            <div class="container-fluid">
+                <div class="toolbar-container">
+                    <!-- Components Section -->
+                    <div class="d-flex align-items-center">
+                        <span class="section-title"><i class="fas fa-shapes"></i> Components</span>
+                        <div class="btn-group" role="group">
+                            <button id="add-rectangle" class="btn btn-outline-secondary component-btn">
+                                <i class="guide-icon rectangle"></i> System
+                            </button>
+                            <button id="add-rounded-rectangle" class="btn btn-outline-secondary component-btn">
+                                <i class="guide-icon rounded-rectangle"></i> Target
+                            </button>
+                            <button id="add-hexagon" class="btn btn-outline-secondary component-btn">
+                                <i class="guide-icon hexagon"></i> Super
+                            </button>
+                            <button id="add-circle" class="btn btn-outline-secondary component-btn">
+                                <i class="fas fa-circle"></i> Circle
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="section-divider"></div>
+
+                    <!-- Text Section -->
+                    <div class="d-flex align-items-center">
+                        <span class="section-title"><i class="fas fa-font"></i> Text</span>
+                        <div class="input-group text-input-group">
+                            <input type="text" id="shape-text-input" class="form-control" placeholder="Enter text...">
+                            <button id="update-shape-text" class="btn btn-primary">
+                                <i class="fas fa-check"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="section-divider"></div>
+
+                    <!-- Connectors Section -->
+                    <div class="d-flex align-items-center">
+                        <span class="section-title"><i class="fas fa-arrows-alt-h"></i> Connectors</span>
+                        <div class="d-flex gap-2">
+                            <select id="line-color" class="form-select">
+                                <option value="black">Black (Useful)</option>
+                                <option value="red">Red (Harmful)</option>
+                                <option value="#3366CC">Blue</option>
+                                <option value="#28a745">Green</option>
+                            </select>
+                            <select id="line-style" class="form-select">
+                                <option value="normal">Normal</option>
+                                <option value="thick">Thick</option>
+                                <option value="dashed">Dashed</option>
+                            </select>
+                            <select id="arrow-style" class="form-select">
+                                <option value="end">Arrow →</option>
+                                <option value="none">No Arrow</option>
+                                <option value="both">Both Ends</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="section-divider"></div>
+
+                    <!-- Actions Section -->
+                    <div class="d-flex align-items-center">
+                        <span class="section-title"><i class="fas fa-edit"></i> Actions</span>
+                        <div class="d-flex gap-2 align-items-center">
+                            <button id="delete-selected" class="btn btn-danger">
+                                <i class="fas fa-trash"></i> Delete
+                            </button>
+                            <button id="download-png" class="btn btn-primary">
+                                <i class="fas fa-download"></i> Export PNG
+                            </button>
+                            <button id="clear-canvas" class="btn btn-outline-secondary">
+                                <i class="fas fa-trash-alt"></i> Clear All
+                            </button>
+                            <span class="connect-hint ms-2">
+                                <i class="fas fa-info-circle"></i> Hold ALT to draw connector
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="section-divider"></div>
+
+                    <!-- Guide Section -->
+                    <div class="d-flex align-items-center">
+                        <span class="section-title"><i class="fas fa-book"></i> Guide</span>
+                        <div class="guide-container">
+                            <div class="guide-item">
+                                <div class="guide-line normal"></div>
+                                <span>Useful</span>
+                            </div>
+                            <div class="guide-item">
+                                <div class="guide-line thick"></div>
+                                <span>Excessive</span>
+                            </div>
+                            <div class="guide-item">
+                                <div class="guide-line dashed"></div>
+                                <span>Insufficient</span>
+                            </div>
+                            <div class="guide-item">
+                                <div class="guide-line harmful"></div>
+                                <span>Harmful</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Canvas -->
+        <div class="canvas-container">
+            <div class="canvas" id="canvas"></div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="system_drawing.js"></script>
+</body>
+</html>

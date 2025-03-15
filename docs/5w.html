@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>5 WHYS Analysis Tool</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="five_whys.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">TRIZ 39 45 50</a></li>
+            <li><a href="matrix.html">40 Thủ Thuật</a></li>
+            <li><a href="system_model.html">Mô Hình Hệ</a></li>
+            <li><a href="9w.html">Màn Hình 9 Hệ</a></li>
+            <li><a href="5w.html">5Whys</a></li>
+            <li><a href="kimcuong.html">Kim Cương Đôi</a></li>
+            <li><a href="ariz.html">About</a></li>
+            <li><a href="table_40.html">Matrix 39</a></li>
+        </ul>
+    </nav>
+    <div class="app-container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="header-content">
+                <h1>5 WHYS Analysis Tool</h1>
+                <p>Discover the root cause of problems by systematically asking "Why?" five times</p>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Input Section -->
+            <div class="content-container">
+                <div class="content-header">
+                    <h2>Problem Analysis</h2>
+                    <p>Start by defining your problem, then dig deeper with each "Why?" to uncover the root cause</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="problem" class="form-label">
+                        <i class="fas fa-exclamation-circle label-icon"></i>
+                        Problem Statement
+                    </label>
+                    <div class="text-field-container">
+                        <textarea id="problem" class="form-control"
+                            placeholder="Define the initial problem here (e.g., 'Our website conversion rate has dropped by 15% this month')"></textarea>
+                        <button class="template-btn" id="problem-template">
+                            <i class="fas fa-magic"></i> Template
+                        </button>
+                    </div>
+                </div>
+
+                <div id="whys-container" class="why-container">
+                    <!-- Why inputs will be added here dynamically -->
+                </div>
+
+                <div class="progress-container">
+                    <div class="progress-label">
+                        <span>Analysis Progress</span>
+                        <span id="progress-percentage">0%</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div id="progress-bar" class="progress-bar" style="width: 0%"></div>
+                    </div>
+                </div>
+
+                <div class="button-container">
+                    <button id="add-why" class="btn btn-primary">
+                        <i class="fas fa-plus btn-icon"></i> Add Why
+                    </button>
+                    <button id="export-png" class="btn btn-accent">
+                        <i class="fas fa-download btn-icon"></i> Export as PNG
+                    </button>
+                    <button id="reset" class="btn btn-light">
+                        <i class="fas fa-undo btn-icon"></i> Reset
+                    </button>
+                </div>
+
+                <div id="download-container"></div>
+            </div>
+
+            <!-- Diagram Section (will be captured for PNG export) -->
+            <div id="capture-area" class="diagram-container">
+                <div class="diagram-header">
+                    <h3>5 WHYS Analysis</h3>
+                    <p>Root Cause Chain Diagram</p>
+                </div>
+
+                <div id="diagram-box" class="diagram-box">
+                    <!-- Diagram will be generated here -->
+                </div>
+
+                <div class="timestamp">
+                    Generated: <span id="timestamp-display"></span>
+                </div>
+            </div>
+
+            <!-- Hints Section -->
+            <div class="hints-container">
+                <div class="hints-title">
+                    <i class="fas fa-lightbulb"></i>
+                    <span>How to Use the 5 WHYS Technique Effectively</span>
+                </div>
+
+                <div class="hints-grid">
+                    <div class="hint-card">
+                        <div class="hint-title">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Define the Problem</span>
+                        </div>
+                        <div class="hint-content">
+                            Start with a clear, specific statement of the problem you're trying to solve. Be factual and
+                            focus on what happened, not who is to blame.
+                        </div>
+                    </div>
+
+                    <div class="hint-card">
+                        <div class="hint-title">
+                            <i class="fas fa-question-circle"></i>
+                            <span>Ask "Why?"</span>
+                        </div>
+                        <div class="hint-content">
+                            Ask why the problem occurred and document the answer based on facts. Keep responses concise
+                            and focused on a single cause.
+                        </div>
+                    </div>
+
+                    <div class="hint-card">
+                        <div class="hint-title">
+                            <i class="fas fa-search"></i>
+                            <span>Dig Deeper</span>
+                        </div>
+                        <div class="hint-content">
+                            For each answer, ask "Why?" again. Continue this process five times to get beyond symptoms
+                            to the underlying root cause.
+                        </div>
+                    </div>
+
+                    <div class="hint-card">
+                        <div class="hint-title">
+                            <i class="fas fa-bullseye"></i>
+                            <span>Be Specific</span>
+                        </div>
+                        <div class="hint-content">
+                            Avoid vague statements. Each answer should be precise and based on evidence rather than
+                            assumptions or opinions.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="example-container">
+                    <div class="example-title">
+                        <i class="fas fa-clipboard-list"></i>
+                        <span>Example: Manufacturing Defect Analysis</span>
+                    </div>
+                    <div class="example-diagram">
+                        <div class="example-box">
+                            <div class="example-box-title">Problem Statement</div>
+                            <div class="example-box-text">Customer received a product with a broken component</div>
+                        </div>
+                        <div class="example-box">
+                            <div class="example-box-title">Why #1</div>
+                            <div class="example-box-text">The component fractured during shipping</div>
+                        </div>
+                        <div class="example-box">
+                            <div class="example-box-title">Why #2</div>
+                            <div class="example-box-text">The component was too brittle</div>
+                        </div>
+                        <div class="example-box">
+                            <div class="example-box-title">Why #3</div>
+                            <div class="example-box-text">The wrong material was used in manufacturing</div>
+                        </div>
+                        <div class="example-box">
+                            <div class="example-box-title">Why #4</div>
+                            <div class="example-box-text">The material specification was changed without updating QA
+                                protocols</div>
+                        </div>
+                        <div class="example-box">
+                            <div class="example-box-title">Why #5 (Root Cause)</div>
+                            <div class="example-box-text">There's no change management process to ensure updates are
+                                communicated across teams</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-sitemap"></i>
+                    <span>5 WHYS Analysis Tool</span>
+                </div>
+                <p>A systematic technique for discovering the root cause of problems and implementing lasting solutions
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="five_whys.js"></script>
+
+</body>
+
+</html>

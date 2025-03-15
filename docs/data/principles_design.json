@@ -1,0 +1,543 @@
+{
+    "industry": "design",
+    "principles": [
+      {
+        "id": 1,
+        "name": "Segmentation",
+        "examples": [
+          [
+            "Divide an object into independent parts: Gator-grip socket spanner, Multi-pin connectors, Bubble-wrap, Range of different focal length lenses for a camera, Multiple pistons in an internal combustion engine, Multi-engined aircraft, Pocket-spring mattress, Stratification of different constituents inside a chemical process vessel"
+          ],
+          [
+            "Make an object easy to assemble or disassemble: Rapid-release bicycle saddle/wheel fasteners, Quick disconnect joints in plumbing and hydraulic systems, Single fastener V-band clamps on flange joints, Loose-leaf paper in a ring-binder"
+          ],
+          [
+            "Increase the degree of fragmentation or segmentation: Use of multiple control surfaces on aerodynamic structures, 16 and 24 valve versus 8 valve internal combustion engines, Multi-blade cartridge razors, Multi-zone combustion systems, Build up a component from layers (e.g., stereo-lithography, welds)"
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Taking Out",
+        "examples": [
+          [
+            "Separate an interfering part or property from an object, or single out the only necessary part: Locate a noisy compressor outside the building where the compressed air is used, Use the sound of a barking dog (without the dog) as a burglar alarm, Scarecrow, Non-smoking areas in restaurants or railway carriages, Automation removes humans"
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Local Quality",
+        "examples": [
+          [
+            "Change an object's structure from uniform to non-uniform: Reduce drag on aerodynamic surfaces by adding riblets or 'shark-skin' protrusions, Moulded hand grips on tools, Drink cans shaped to facilitate stable stacking, Material surface treatments/coatings (plating, erosion/corrosion protection, non-stick, etc)"
+          ],
+          [
+            "Change an external environment from uniform to non-uniform: Use a temperature, density, or pressure gradient instead of constant values, Introduce turbulent flow around an object to alter heat transfer properties"
+          ],
+          [
+            "Make each part of an object function in conditions most suitable for its operation: Freezer compartment in a refrigerator, Different zones in the combustion system of an engine"
+          ],
+          [
+            "Make each part of an object fulfil a different and/or complementary useful function: Swiss-Army knife, Combined can and bottle opener, Hammer with nail puller"
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Asymmetry",
+        "examples": [
+          [
+            "Change the shape or properties of an object from symmetrical to asymmetrical: Introduce a geometric feature to prevent incorrect usage/assembly (e.g., earth pin on electric plug), Asymmetrical funnel for higher flow-rate, Flat spot on a cylindrical shaft for locking, Oval and complex shaped O-rings, Angled/scarfed component edges, Cam, Ratchet, Aerofoil (asymmetry generates lift), Eccentric drive, Blohm und Voss observation aircraft"
+          ],
+          [
+            "Change the shape to suit external asymmetries (e.g., ergonomic features): Car steering system compensates for camber in road, Wing design compensates for asymmetric flow produced by a propeller, Turbomachinery design accounts for boundary layer flows ('end-bend')"
+          ],
+          [
+            "If an object is asymmetrical, increase its degree of asymmetry: Variable control surfaces to alter aircraft wing lift, Special connectors with complex shape/pin configurations to ensure correct assembly, Multiple measurement scales on a ruler"
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Merging",
+        "examples": [
+          [
+            "Bring closer together (or merge) identical or similar objects/operations in space: Automatic rifle/machine gun, Multi-colour ink cartridges, Multi-blade razors, Bi-focal lens spectacles, Double/triple glazing, Strips of staples, Catamaran/trimaran"
+          ],
+          [
+            "Make objects/operations contiguous or parallel; bring them together in time: Combine harvester, Manufacture cells, Grass collector on a lawn-mower, Mixer taps, Pipelined computer processors performing different stages simultaneously, Vector processors performing the same process on several data sets in one pass, Fourier analysis integrating many sine curves"
+          ]
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Universality",
+        "examples": [
+          [
+            "Make a part or object perform multiple functions; eliminate the need for other parts: Child's car safety seat converts to a stroller, Home entertainment centre, Swiss Army knife, Grill in a microwave oven, Radio-alarm clock, Work-mate, CD used for multiple data types, Use of standards in data exchange, Cleaning strip on cassette tape to clean tape heads, Bathroom light-switch that starts an extractor fan, Car glove compartment lid with cup-holders, Cordless drill acting as screwdriver, sander, polisher, Fishing stool/container"
+          ]
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Russian Dolls (Nested Doll)",
+        "examples": [
+          [
+            "Place one object inside another: Place a safe inside a wall or under floorboards, Retractable aircraft under-carriage, Introduce voids into 3D structures, Inject cavity-wall insulation, Paint-brush attached inside lid of nail-varnish, Lining inside a coat"
+          ],
+          [
+            "Place multiple objects inside others: Nested tables, Telescope, Measuring cups or spoons, Stacking chairs, Multi-layer erosion/corrosion coatings"
+          ],
+          [
+            "Make one part pass (dynamically) through a cavity in the other: Telescopic car aerial, Retractable power-lead in a vacuum cleaner, Seat belt retraction mechanism, Tape measure, Stacked charge ammunition"
+          ]
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Anti-weight",
+        "examples": [
+          [
+            "To compensate for an object's weight, merge it with other objects that provide lift: Kayak with foam floats, Aerostatic airplane with lighter-than-air pockets, Hot air or helium balloon, Swim-bladder inside a fish, Flymo cutting blade that produces lift"
+          ],
+          [
+            "To compensate for weight, make the object interact with the environment: Vortex generators to improve wing lift, Wing-in-ground effect aircraft, Hydrofoils that lift ships to reduce drag, Use centrifugal forces in rotating systems (e.g., Watt governor), Maglev train using magnetic repulsion to reduce friction"
+          ]
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Preliminary Anti-action",
+        "examples": [
+          [
+            "Replace an action with harmful and useful effects with anti-actions to control harm: Make clay pigeons out of ice or dung, Mask objects before harmful exposure (use lead apron or masking tape), Predict signal distortion/attenuation and compensate, Buffer a solution to prevent extreme pH harm"
+          ],
+          [
+            "Create beforehand stresses to oppose later undesirable stresses: Pre-stress rebar before concrete, Pre-stressed bolts, Pre-shrunk jeans, Decompression chamber"
+          ]
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Preliminary Action",
+        "examples": [
+          [
+            "Perform, before it is needed, the required change of an object: Pre-pasted wall paper, Sterilize instruments for surgery, Self-adhesive stamps, Holes cut before sheet-metal is formed, Pre-impregnated carbon fibre to reduce lay-up time and improve 'wetting', Explosive reactive armour"
+          ],
+          [
+            "Pre-arrange objects so they can come into action from the most convenient place without delay: Manufacture flow-lines, Pre-deposited blade in a surgery cast, Car jack, wheel brace, and spare tyre stored together, Collect all tools and materials before starting"
+          ]
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Beforehand Cushioning",
+        "examples": [
+          [
+            "Prepare emergency means beforehand to compensate for low reliability: Magnetic strip on photographic film to direct developer, Back-up parachute, Dual channel control system, Air-bag in a car, Spare wheel, Relief valve, Emergency lighting circuit, Battery back-up, Automatic save operations by computer, Zip-files, Mask borders with stencils, Crash barriers on motorways, 'Touch-down' bearing in magnetic system, Multiple hydraulic systems, 'Slime' puncture avoidance fluid"
+          ]
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Equipotentiality",
+        "examples": [
+          [
+            "Redesign the environment to eliminate the need to raise or lower an object: Canal locks, Spring loaded parts delivery system, Mechanic’s pit in a garage, Place a heavy object on ice and let it melt to lower it, Angle-poise lamp with balancing springs, Descending cable cars that balance weight"
+          ]
+        ]
+      },
+      {
+        "id": 13,
+        "name": "The Other Way Round",
+        "examples": [
+          [
+            "Invert the action used to solve the problem (e.g., instead of cooling, heat): To loosen stuck parts, cool the inner part instead of heating the outer part, Vacuum casting, Test a pressure vessel by varying external pressure, Test a seal by filling with pressurized air and immersing in liquid (bubbles easier to trace), Place nuts in a vacuum to extract them, 'Upside-down' motorcycle forks"
+          ],
+          [
+            "Make movable parts fixed and fixed parts movable: Hamster wheel, Rotate the part instead of the tool, Wind tunnels, Moving sidewalk with standing people"
+          ],
+          [
+            "Turn the object or process 'upside down': Clean bottles by inverting and injecting water from below, Turn an assembly upside down to insert fasteners, Open tinned beans from the bottom"
+          ]
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Spheroidality - Curvature",
+        "examples": [
+          [
+            "Use curvilinear parts instead of rectilinear ones; move from flat to spherical surfaces; from cube-shaped to ball-shaped structures: Use arches and domes in architecture, Introduce stress-relieving holes at slot ends, Change lens curvature to alter light deflection"
+          ],
+          [
+            "Use rollers, balls, spirals, domes: Spiral gear (Nautilus) for continuous resistance in weight lifting, Spherical casters instead of cylindrical wheels for moving furniture, Archimedes screw"
+          ],
+          [
+            "Go from linear to rotary motion (or vice versa): Rotary actuators in hydraulic systems, Switch from reciprocating to rotary pump, Linear motors"
+          ],
+          [
+            "Use centrifugal forces: Centrifugal casting for even wall thickness, Spin components after painting to remove excess paint, Watt governor, Vortex/cyclone to separate different density objects"
+          ]
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Dynamics",
+        "examples": [
+          [
+            "Allow or design characteristics to change for optimal operation: Adjustable steering wheel/seat/back support/mirror, Gel fillings in seats to adapt to user, Shape memory alloys/polymers, Racing car suspension adjustable for different tracks, Telescopic curtain rail for 'one size fits all'"
+          ],
+          [
+            "Divide an object into parts capable of movement relative to each other: Articulated lorry, Folding chair/mobile phone/laptop, Brush seals"
+          ],
+          [
+            "If an object is rigid, make it movable or adaptive: Bendy drinking straw, Flexible joint"
+          ],
+          [
+            "Increase the degree of free motion: Use different stiffness fibres in a toothbrush (soft edges, hard center), Loose sand inside a truck tyre gives self-balancing properties at speed"
+          ]
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Partial or Excessive Actions",
+        "examples": [
+          [
+            "If 100% of an object is hard to achieve, use 'slightly less' or 'slightly more': Over spray when painting then remove excess, Avoid using the roller right up to the ceiling when painting walls (touch up with a brush), Fill then 'top off' when pouring a pint of Guinness, Shrink wrapping uses plastic deformation to accommodate variations, 'Roughing' and 'Finish' machining operations, Over-fill holes with plaster then rub back to smooth, Use Pareto analysis to prioritise actions"
+          ]
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Another Dimension",
+        "examples": [
+          [
+            "If an object moves in a straight line, consider movement outside the line: Serrated or scalloped knife blade or hole punch, Curved bristles on a brush, Coiled telephone cable, 'Stacked' elevator (Petronas towers)"
+          ],
+          [
+            "If an object moves in a plane, consider movement outside the plane: Spiral staircase uses less floor area, Introduce up/down slopes between railway stations to reduce acceleration/deceleration requirements, Conical instead of plain flange joint"
+          ],
+          [
+            "Use a multi-storey arrangement instead of a single-storey one: Cassette with 6 CDs to increase music time and variety, Multi-storey office blocks or car-parks"
+          ],
+          [
+            "Tilt or re-orient the object; lay it on its side: Dump truck"
+          ],
+          [
+            "Use 'another side' of a given area: Mount computer chip components on both sides of a silicon card, Fix a leaking car radiator by adding sealant inside rather than outside, Nokia QWERTY phone"
+          ]
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Mechanical Vibration",
+        "examples": [
+          [
+            "Cause an object to oscillate or vibrate: Electric carving knife with vibrating blades, Shake/stir paint to mix before applying, Hammer drill, Vibrate during sieving to improve throughput"
+          ],
+          [
+            "Increase its frequency (even up to ultrasonic): Ultrasonic cleaning, Non-destructive crack detection using ultrasound"
+          ],
+          [
+            "Use an object's resonant frequency: Destroy gall stones or kidney stones using ultrasonic resonance, Ease bottle cleaning by pulsing washing action at the resonant frequency"
+          ],
+          [
+            "Use piezoelectric vibrators instead of mechanical ones: Quartz crystal oscillations drive high accuracy clocks, Piezoelectric vibrators improve fluid atomisation from a spray nozzle"
+          ],
+          [
+            "Use combined ultrasonic and electromagnetic field oscillations: Mixing alloys in an induction furnace, Ultrasonic drying of films combined with a heat source"
+          ]
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Periodic Action",
+        "examples": [
+          [
+            "Instead of continuous action, use periodic or pulsating actions: Hitting repeatedly with a hammer, Pile drivers and hammer drills exert more force for a given weight, Replace a continuous siren with a pulsed sound, Pulsed bicycle lights to increase visibility, Pulsed vacuum cleaner suction improves collection, Pulsed water jet cutting"
+          ],
+          [
+            "If an action is already periodic, change its magnitude or frequency: Replace a pulsed siren with one that changes amplitude and frequency, Washing machine/dishwasher cycles vary for different loads, Dots and dashes in Morse Code, Use AM, FM, PWM to transmit information"
+          ],
+          [
+            "Use pauses between actions to perform a different action: Clean barrier filters by back-flowing when not in use, Inkjet printer cleans heads between passes, Brush between suction pulses in a vacuum cleaner, Multiple conversations along the same telephone line, Use energy storage means (e.g., batteries, fly-wheels)"
+          ]
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Continuity of Useful Action",
+        "examples": [
+          [
+            "Carry on work continuously; make all parts work at full load or optimum efficiency: Flywheel stores energy when a vehicle stops so the motor runs at optimum power, Constant output gas-turbine in a hybrid car or APU in an aircraft runs at highest efficiency, Constant speed/variable pitch propeller, Self-tuning engine, Heart pacemaker, Continuous composting by turning material, Continuous glass or steel production"
+          ],
+          [
+            "Eliminate idle or intermittent work: Self-cleaning/self-emptying filter, Print during printer carriage return, Digital storage media allow instant access (unlike tapes), Kayaks use double-ended paddles for recovery strokes, Operating systems use idle time for 'housekeeping' tasks, Rapid-drying paint"
+          ]
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Skipping",
+        "examples": [
+          [
+            "Conduct a process or stage at high speed: High-speed dentist's drill to avoid heating tissue, Laser eye surgery, Cut plastic faster than heat can propagate to avoid deformation, Break toffee with an impulsive hammer blow, Drop forge, Flash photography, Super-critical shaft – running through resonant modes quickly"
+          ]
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Blessing in Disguise",
+        "examples": [
+          [
+            "Use harmful factors to achieve a positive effect: Use waste heat to generate electricity, Use engine waste heat to warm a passenger cabin, Recycle waste material as raw material for another process, Use centrifugal energy in a rotating shaft to do something useful, Use pressure differences to aid seal performance, Centrifugal clamping in high speed chucks"
+          ],
+          [
+            "Eliminate the primary harmful action by adding it to another: Add a buffering material to a corrosive solution (e.g., alkali to acid), Use a helium-oxygen mix for diving to eliminate nitrogen narcosis and oxygen poisoning"
+          ],
+          [
+            "Amplify a harmful factor so it is no longer harmful: Use a backfire to eliminate fuel from a forest fire, Use explosives to extinguish an oil-well fire, Laser-knife cauterizes skin/blood vessels as it cuts"
+          ]
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Feedback",
+        "examples": [
+          [
+            "Introduce feedback to improve a process: Automatic volume control in audio circuits, Gyrocompass signal used to control aircraft autopilots, Engine management system based on exhaust gas levels, Thermostat controlling temperature, Statistical Process Control uses measurements to modify a process, Feedback transforms an inaccurate op-amp into an accurate one"
+          ],
+          [
+            "If feedback is already used, change its magnitude or influence: Change autopilot sensitivity near an airport, Adjust thermostat sensitivity when switching between cooling and heating, Use combinations of proportional, integral, and differential control algorithms"
+          ]
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Intermediary",
+        "examples": [
+          [
+            "Use an intermediary carrier article or process: Play a guitar with a plectrum, Use a chisel to control rock breaking/sculpting, Drink coasters, Dwell period during a manufacturing process"
+          ],
+          [
+            "Merge one object temporarily with another (easily removed): Gloves for handling hot dishes, Joining papers with a paper clip, Introduce catalysts into a chemical reaction, Abrasive particles to enhance water jet cutting"
+          ]
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Self-service",
+        "examples": [
+          [
+            "Make an object serve or organize itself by performing auxiliary functions: Soda fountain pump running on CO2 pressure to 'fizz' drinks (ensuring drinks are not flat and eliminating sensors), Halogen lamps that regenerate the filament by redepositing evaporated material, Self-aligning/self-adjusting seal, Self-locking nut, Self-cleaning oven/glass/material, Self-repairing structures, Abradable materials in engines that 'cut' optimum seals during running-in, 'Self-healing' cutting mat"
+          ],
+          [
+            "Use waste resources, energy, or substances: Use process waste heat to generate electricity (co-generation), Use animal waste as fertilizer, Use food and lawn waste to create compost, Use pressure difference to reinforce seal action"
+          ]
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Copying",
+        "examples": [
+          [
+            "Instead of an unavailable, expensive, fragile object, use simpler, inexpensive copies: Imitation jewellery, Astroturf, Crash test dummy, UAV that excludes a pilot"
+          ],
+          [
+            "Replace an object or process with optical copies: Do surveying from space photographs instead of ground surveys, Measure an object by scaling from a photograph, Laser anemometry, Virtual reality, Virtual mock-ups/electronic pre-assembly modelling"
+          ],
+          [
+            "If visible optical copies are already used, move to infrared or ultraviolet copies: Make images in infrared to detect heat sources (e.g., crop diseases or security intruders), Use UV for non-destructive crack detection, Use UV light to attract flying insects into a trap"
+          ]
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Cheap Short-Lived Objects",
+        "examples": [
+          [
+            "Replace an expensive object with multiple inexpensive objects, compromising certain qualities (e.g., service life): Disposable nappies, paper-cups, plates, cameras, torches; Matches versus lighters; Throw-away cigarette lighters; Industrial diamonds for cutting tools; Sacrificial coatings/components; Post-Its; Discarding-sabot armour piercing round"
+          ]
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Mechanics Substitution",
+        "examples": [
+          [
+            "Replace a mechanical means with a sensory (optical, acoustic, taste or smell) means: Replace a physical fence with an acoustic 'fence' (signal audible to the animal), Finger-print/retina scan instead of a key"
+          ],
+          [
+            "Use electric, magnetic, and electromagnetic fields to interact with the object: Magnetic bearings, Electrostatic precipitators to separate particles from airflow, Improve efficiency of paint-spraying by oppositely charging paint droplets and the object"
+          ],
+          [
+            "Change from static to movable fields: Use directional antennas (instead of omnidirectional broadcasting), Magnetic Resonance Imaging (MRI) scanner"
+          ],
+          [
+            "Use fields with field-activated (e.g., ferromagnetic) particles: Heat a substance containing ferromagnetic material by varying the magnetic field (above the Curie point it becomes paramagnetic), Magneto-rheological effect to alter fluid viscosity"
+          ]
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Pneumatics and Hydraulics",
+        "examples": [
+          [
+            "Use gas and liquid parts of an object instead of solid parts (e.g., inflatable, filled with liquids, air cushion, hydrostatic, hydro-reactive): Transition from mechanical to hydraulic or pneumatic drive, Inflatable furniture/mattress, Gel-filled saddle that adapts to the user, Hollow section O-rings, Hovercraft, Gas bearings, Acoustic panels with Helmholtz resonators, Hydraulic tappets"
+          ]
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Flexible Shells and Thin Films",
+        "examples": [
+          [
+            "Use flexible shells and thin films instead of three-dimensional structures: Use inflatable (thin film) structures, Taut-liner trucks, Tarpaulin car cover instead of a garage, Webbing, Store energy in flexible/stretchable bags (e.g., accumulators in hydraulic systems), Membrane keyboards"
+          ],
+          [
+            "Isolate the object from the external environment using flexible shells and thin films: Bubble-wrap, Bandages/plasters, Egg-box, Tea bag"
+          ]
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Porous Materials",
+        "examples": [
+          [
+            "Make an object porous or add porous elements (inserts, coatings, etc.): Drill holes in a structure to reduce weight, Cavity wall insulation, Transpiration film cooled structures, Foam metals, Use sponge-like structures as fluid absorption media, Goretex fabric"
+          ],
+          [
+            "If an object is already porous, use the pores to introduce a useful substance or function: Use a porous metal mesh to wick excess solder away from a joint, Store hydrogen in the pores of a palladium sponge (safer hydrogen storage), Desiccant in polystyrene packing materials, Medicated swabs/dressings"
+          ]
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Colour Changes",
+        "examples": [
+          [
+            "Change the colour of an object or its external environment: Use safe lights in a photographic darkroom, Colour-changing thermal paint to measure temperature, Light-sensitive glasses, Camouflage, Interference fringes on surfaces (as in butterfly wings), Colour-changing plastic/temperature sensitive for child feeding spoon"
+          ],
+          [
+            "Change the transparency of an object or its external environment: Use photolithography to change transparent material into a solid mask for semiconductor processing, Smoke-screen"
+          ],
+          [
+            "Improve observability of things difficult to see using coloured additives or luminescent elements: Fluorescent additives in UV spectroscopy, Use opposing colours to increase visibility (e.g., butchers use green decoration to make red appear redder)"
+          ],
+          [
+            "Change emissivity properties of an object subject to radiant heating: Use black and white panels for thermal management on space vehicles, Paint with high emissivity paint to enable temperature measurement with a thermal imager"
+          ]
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Homogeneity",
+        "examples": [
+          [
+            "Make objects interact with a given object of the same material (or with identical properties): Make a container from the same material as its contents to reduce chemical reactions, Friction welding without intermediary material, 'Liquid paper' for corrections, Compostable temporary plant pots, Use bio-compatible materials for transfusions/transplants, Make ice-cubes from the same fluid as the drink, Join wooden components using dowel joints, Graphite 'solid' pencil"
+          ]
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Discarding and Recovering",
+        "examples": [
+          [
+            "Make portions of an object that have fulfilled their functions vanish (by dissolving, evaporating, etc.) or modify them during operation: Use a dissolving capsule for medication, Ice structures used as a template for rammed earth (let the ice melt/sublime), Bio-degradable containers/bags, Casting processes (lost-wax, sand, etc.), Sacrificial anode"
+          ],
+          [
+            "Conversely, restore consumable parts of an object during operation: Self-sharpening blades (e.g., knives, lawn-mowers), Strimmer that dispenses more wire automatically after breakage, Self-tuning automobile engines, Propelling pencil, Automatic rifle"
+          ]
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Parameter Changes",
+        "examples": [
+          [
+            "Change an object's physical state (e.g., to a gas, liquid, or solid): Transition from mechanical to fluid or electrical drives, Vaporize (or freeze) mercury to ease placing very small amounts into a fluorescent light-bulb"
+          ],
+          [
+            "Change the concentration or consistency: Liquid versus bar or powder detergents, Abradable linings for gas-turbine engine seals"
+          ],
+          [
+            "Change the degree of flexibility: Use adjustable dampers to reduce noise by restricting container wall motion, Compliant brush seals instead of labyrinth seals"
+          ],
+          [
+            "Change the temperature: Raise temperature above the Curie point to change a ferromagnetic substance to paramagnetic, Lower temperature of medical specimens for preservation"
+          ],
+          [
+            "Change the pressure: Pressure cooker cooks faster without losing flavours, Electron beam welding in a vacuum"
+          ],
+          [
+            "Change other parameters: Use shape memory alloys/polymers, Use high conductivity materials (e.g., carbon fibre)"
+          ]
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Phase Transitions",
+        "examples": [
+          [
+            "Use phenomena occurring during phase transitions (e.g., volume changes, heat absorption/release): Latent heat effects in melting/boiling, Soak rocks in water then freeze to open fissures, Heat pumps utilizing vaporization and condensation in a closed cycle, Volume expansion during water-to-steam transition, Superconductivity, Phase change hand-warmers"
+          ]
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Thermal Expansion",
+        "examples": [
+          [
+            "Use thermal expansion (or contraction) of materials: Fit a tight joint by cooling the inner part and heating the outer part, Metal tie-bars to straighten buckling walls, Thermal switch/cut-out, Shape memory alloys/polymers, Shrink-wrapping"
+          ],
+          [
+            "If using thermal expansion, use multiple materials with different coefficients: Bi-metallic strips for thermostats, Two-way shape memory alloys, Passive blade tip clearance control in gas-turbine engines, Combine materials with positive and negative thermal expansion coefficients for zero or tailored expansion (e.g., cerro-tru alloy)"
+          ]
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Strong Oxidants",
+        "examples": [
+          [
+            "Replace common air with oxygen-enriched air: Scuba diving with Nitrox or non-air mixtures for extended endurance, Use nitrous oxide injection for power boost in high performance engines"
+          ],
+          [
+            "Replace enriched air with pure oxygen: Cut at a higher temperature using an oxy-acetylene torch, Control oxidation reactions more effectively in pure oxygen"
+          ],
+          [
+            "Expose air or oxygen to ionising radiation: Irradiate food to improve preservative qualities, Use ionised air to destroy bacteria and sterilise food, Deflect positive ions from ionised air with a magnetic field to reduce aerodynamic air resistance"
+          ],
+          [
+            "Use ionised oxygen: Speed up chemical reactions by ionising the gas before use, Separate oxygen from a mixed gas by ionising it (using a platinum activator)"
+          ],
+          [
+            "Replace ozonised (or ionised) oxygen with ozone: Oxidize metals in bleaching solutions to reduce cost relative to hydrogen peroxide, Use ozone to destroy micro-organisms and toxins in corn, Use ozone dissolved in water to remove organic contaminants from ship hulls"
+          ]
+        ]
+      },
+      {
+        "id": 39,
+        "name": "Inert Atmosphere",
+        "examples": [
+          [
+            "Replace a normal environment with an inert one: Prevent degradation of a hot metal filament using an argon atmosphere, MIG/TIG welding, Electron beam welding in a vacuum, Vacuum packaging, Food packaging in CO2 or nitrogen-rich atmosphere to prevent spoilage, CO2 fire extinguisher"
+          ],
+          [
+            "Add neutral parts or inert additives to an object: Naval aviation fuel additives to alter flash-point, Add fire retardant elements to titanium to reduce fire risk, Add foam to absorb sound vibrations (e.g., in hi-fi speakers), Fluidic dampers"
+          ]
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Composite Materials",
+        "examples": [
+          [
+            "Change from uniform to composite materials where each material is tuned to a particular function: Aircraft structures with low weight and high strength (fibres aligned per loading conditions, multiple layers in different directions), Composite golf club shaft for low weight, high flexibility, and high torsional stiffness, Concrete aggregate, Glass-reinforced plastic, Fibre-reinforced ceramics, Hard/soft/hard multi-layer coatings to improve erosion properties, Non-stick coatings on cooking pans, Oils with additives (e.g., sulphur to improve lubricity)"
+          ]
+        ]
+      }
+    ]
+  }
+  
