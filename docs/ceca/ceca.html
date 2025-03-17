@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>CECA - Cause-Effect Chains Analysis Tool</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="ceca.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="header-content">
+                <h1>CECA - Cause-Effect Chains Analysis</h1>
+                <p>Identify Key Disadvantages in your engineering system by building cause-effect chains</p>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <div class="content-container">
+                <!-- Algorithm Overview -->
+                <div class="algorithm-overview">
+                    <h3>CECA Process</h3>
+                    <div class="algorithm-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h5>Initial Disadvantage</h5>
+                                <p>Write down the Initial Disadvantage (the inverted goal of the project)</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h5>Identify Causes</h5>
+                                <p>Record causes by asking "Why?". Connect with arrows pointing to the disadvantage</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h5>AND/OR Relationships</h5>
+                                <p>For multiple causes, specify:</p>
+                                <div class="relationship-examples">
+                                    <div class="relationship-example">
+                                        <span class="relationship-type and">AND</span>
+                                        <span class="relationship-desc">All causes must be addressed</span>
+                                    </div>
+                                    <div class="relationship-example">
+                                        <span class="relationship-type or">OR</span>
+                                        <span class="relationship-desc">Any single cause is enough</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h5>Complete & Analyze</h5>
+                                <p>Repeat until the chain is complete. Key Disadvantages are found at the root</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="key-terms-box">
+                    <h4><i class="fas fa-info-circle"></i> Key Terms</h4>
+                    <div class="term-grid">
+                        <div class="term-item">
+                            <div class="term-label">Initial Disadvantage</div>
+                            <div class="term-definition">The disadvantage in the analyzed engineering system, the elimination of which is the goal of a project.</div>
+                        </div>
+                        <div class="term-item">
+                            <div class="term-label">Key Disadvantage</div>
+                            <div class="term-definition">A disadvantage to be eliminated to achieve the goal of the project. Usually, Key Disadvantages appear at the root of a Cause-Effect Chain.</div>
+                        </div>
+                        <div class="term-item">
+                            <div class="term-label">Cause-Effect Chain</div>
+                            <div class="term-definition">A sequence of disadvantages connected by cause-effect relationships that link the Initial Disadvantage with its fundamental cause.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="analysis-section">
+                    <div class="section-header">
+                        <h2>Analysis Canvas</h2>
+                        <p>Define the Initial Disadvantage, then add causes step-by-step to uncover Key Disadvantages</p>
+                    </div>
+
+                    <!-- Initial Disadvantage Input -->
+                    <div id="analysis">
+                        <div class="disadvantage" id="root-disadvantage">
+                            <!-- Root disadvantage will be rendered here dynamically -->
+                        </div>
+                    </div>
+
+                    <!-- Global Action Buttons - The single set of AND, OR, WHY buttons -->
+                    <div class="global-action-buttons">
+                        <button id="global-and-btn" class="quick-btn quick-and-btn" title="Split into two causes with AND relationship">
+                            <i class="fas fa-plus-circle"></i> AND
+                        </button>
+                        <button id="global-or-btn" class="quick-btn quick-or-btn" title="Split into two causes with OR relationship">
+                            <i class="fas fa-plus-circle"></i> OR
+                        </button>
+                        <button id="global-why-btn" class="quick-btn quick-why-btn" title="Ask 'Why?' and add a single cause">
+                            <i class="fas fa-question-circle"></i> WHY?
+                        </button>
+                    </div>
+
+                    <!-- Key Disadvantages Section -->
+                    <div id="key-disadvantages" class="mt-4">
+                        <h3><i class="fas fa-key"></i> Key Disadvantages</h3>
+                        <p class="help-text">These are the root causes that should be addressed to resolve the Initial Disadvantage</p>
+                        <ul id="key-list" class="list-group"></ul>
+                    </div>
+
+                    <!-- Controls -->
+                    <div class="button-container mt-4">
+                        <button id="export-png" class="btn btn-accent">
+                            <i class="fas fa-download btn-icon"></i> Export as PNG
+                        </button>
+                        <button id="reset" class="btn btn-light">
+                            <i class="fas fa-undo btn-icon"></i> Reset
+                        </button>
+                    </div>
+
+                    <div id="download-container" class="mt-3"></div>
+                </div>
+            </div>
+
+            <!-- Diagram Section for Export -->
+            <div id="capture-area" class="diagram-container">
+                <div class="diagram-header">
+                    <h3>CECA Cause-Effect Chain Analysis</h3>
+                    <p>Visual representation of disadvantages and their causes</p>
+                    
+                    <!-- Updated Legend Section with Simplified Labels -->
+                    <div class="legend-container">
+                        <div class="legend-item">
+                            <div class="box-sample initial-sample"></div>
+                            <span>Initial Disadvantage</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="box-sample key-sample"></div>
+                            <span>Key Disadvantage</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="box-sample regular-sample"></div>
+                            <span>Intermediate Disadvantage</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="operator-sample and-operator">AND</div>
+                            <span>All causes must be addressed</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="operator-sample or-operator">OR</div>
+                            <span>Any single cause is enough</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="diagram-box" class="diagram-box">
+                    <!-- Diagram will be generated here -->
+                </div>
+                <div class="timestamp">
+                    Generated: <span id="timestamp-display"></span>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-sitemap"></i>
+                    <span>CECA Tool</span>
+                </div>
+                <p>A systematic approach to identifying and resolving engineering system disadvantages</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="ceca.js"></script>
+</body>
+</html>
