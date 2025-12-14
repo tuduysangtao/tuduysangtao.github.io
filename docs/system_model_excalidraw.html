@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excalidraw Diagram Editor</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="navbar.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        
+        /* Navbar adjustments */
+        .navbar {
+            flex-shrink: 0;
+            position: relative; /* Override sticky/fixed if present in navbar.css for flow */
+            z-index: 10;
+        }
+
+        .app-container {
+            flex-grow: 1;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #app {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Excalidraw Customization overrides */
+        .excalidraw .App-menu_top .buttonList {
+            display: flex; /* Ensure tool buttons are visible */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">TRIZ 39 45 50</a></li>
+            <li><a href="matrix.html">40 Thủ Thuật</a></li>
+            <li><a href="9w.html">Màn Hình 9 Hệ</a></li>
+            <li><a href="5w.html">5Whys</a></li>
+            <li><a href="kimcuong.html">Kim Cương Đôi</a></li>
+            <li><a href="ariz.html">Kim Cương Ba</a></li>
+            <li><a href="table_40.html">Matrix 39</a></li>
+            <li><a href="system_model.html">Vẽ Hệ Thống</a></li>
+            <li><a href="system_model_excalidraw.html" class="active">Vẽ (Excalidraw)</a></li>
+        </ul>
+    </nav>
+
+    <div class="app-container">
+        <div id="app"></div>
+    </div>
+
+    <!-- React and Excalidraw via ESM -->
+    <script type="importmap">
+        {
+            "imports": {
+                "react": "https://esm.sh/react@18.3.1",
+                "react/jsx-runtime": "https://esm.sh/react@18.3.1/jsx-runtime",
+                "react-dom": "https://esm.sh/react-dom@18.3.1",
+                "react-dom/client": "https://esm.sh/react-dom@18.3.1/client",
+                "@excalidraw/excalidraw": "https://esm.sh/@excalidraw/excalidraw@0.17.6?external=react,react-dom"
+            }
+        }
+    </script>
+    
+    <script>
+        // Polyfill for process/env needed by some React libs
+        window.process = { env: { NODE_ENV: 'production' } };
+    </script>
+
+    <script type="module">
+        import React from "react";
+        import { createRoot } from "react-dom/client";
+        import * as ExcalidrawModule from "@excalidraw/excalidraw";
+
+        console.log("Excalidraw Module:", ExcalidrawModule);
+
+        // Heuristic to find the component
+        let ExcalidrawComp = ExcalidrawModule.Excalidraw;
+        if (!ExcalidrawComp && ExcalidrawModule.default) {
+            if (typeof ExcalidrawModule.default === 'function') {
+                ExcalidrawComp = ExcalidrawModule.default;
+            } else if (ExcalidrawModule.default.Excalidraw) {
+                ExcalidrawComp = ExcalidrawModule.default.Excalidraw;
+            }
+        }
+
+        const App = () => {
+            if (!ExcalidrawComp) {
+                return React.createElement(
+                    "div", 
+                    { style: { padding: 20, color: 'red' } }, 
+                    React.createElement("h3", {}, "Excalidraw Load Error"),
+                    React.createElement("pre", {}, 
+                        `Module Keys: ${Object.keys(ExcalidrawModule).join(', ')}\n` +
+                        `Default Keys: ${ExcalidrawModule.default ? Object.keys(ExcalidrawModule.default).join(', ') : 'null'}`
+                    )
+                );
+            }
+
+            return React.createElement(
+                "div",
+                { style: { height: "100%", width: "100%" } },
+                React.createElement(ExcalidrawComp)
+            );
+        };
+
+        const rootElement = document.getElementById("app");
+        const root = createRoot(rootElement);
+        root.render(React.createElement(App));
+    </script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
