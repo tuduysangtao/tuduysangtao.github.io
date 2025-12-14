@@ -649,3 +649,81 @@ textarea::placeholder {
         page-break-inside: avoid;
     }
 }
+
+/* Add these styles to your existing nine_w.css file */
+
+.image-upload-container {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.image-upload-label {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.image-upload-label:hover {
+    background-color: #e0e0e0;
+}
+
+.image-upload {
+    display: none;
+}
+
+.image-preview {
+    margin: 10px auto;
+    max-width: 100%;
+    min-height: 10px;
+    text-align: center;
+}
+
+.image-preview img {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.image-preview .image-actions {
+    margin-top: 5px;
+}
+
+.image-preview .remove-image {
+    background: #ff5252;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 3px 8px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+/* Adjust cell content to accommodate images */
+.grid-cell .cell-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Make sure the textarea comes after the image */
+.grid-cell textarea {
+    order: 3;
+}
+
+.grid-cell .word-count {
+    order: 4;
+}
+
+.grid-cell .image-upload-container {
+    order: 2;
+}
+
+.grid-cell .cell-label, 
+.grid-cell .template-btn {
+    order: 1;
+}

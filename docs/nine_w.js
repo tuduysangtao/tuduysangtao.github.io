@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
             wordCountElement.textContent = wordCount + ' words';
         }
 
-        updateProgressBar();
+        updateProgress();
     }
 
     // Attach word counter to all textareas
@@ -56,23 +56,44 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Update progress bar
-    function updateProgressBar() {
-        const textareas = document.querySelectorAll('textarea');
+    function updateProgress() {
+        // Get all textareas
+        const textareas = document.querySelectorAll('.grid-cell textarea');
         let filledCount = 0;
-
+        
+        // Count filled textareas
         textareas.forEach(textarea => {
             if (textarea.value.trim().length > 0) {
                 filledCount++;
             }
         });
-
-        const percentage = Math.round((filledCount / textareas.length) * 100);
-        document.getElementById('progress-bar').style.width = percentage + '%';
+        
+        // Count cells with images
+        const imagePreviews = document.querySelectorAll('.image-preview');
+        imagePreviews.forEach(preview => {
+            if (preview.querySelector('img')) {
+                // If this cell's textarea wasn't already counted
+                const cellId = preview.id.replace('preview-', '');
+                const textarea = document.getElementById(cellId.includes('_') ? 
+                    cellId.split('_')[1] + '_' + cellId.split('_')[0] : 
+                    cellId);
+                
+                if (textarea && textarea.value.trim().length === 0) {
+                    filledCount++;
+                }
+            }
+        });
+        
+        // Calculate percentage (9 cells total)
+        const percentage = Math.min(Math.round((filledCount / 9) * 100), 100);
+        
+        // Update progress bar
         document.getElementById('completion-percentage').textContent = percentage + '%';
+        document.getElementById('progress-bar').style.width = percentage + '%';
     }
 
     // Initial progress update
-    updateProgressBar();
+    updateProgress();
 
     // Template buttons
     document.querySelectorAll('.template-btn').forEach(button => {
@@ -129,171 +150,72 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Handle Clear All button
     document.getElementById("clear_btn").addEventListener("click", function () {
-        if (confirm("Are you sure you want to clear all entries? This cannot be undone.")) {
-            document.querySelectorAll('textarea').forEach(textarea => {
-                textarea.value = "";
-                updateWordCount(textarea);
+        if (confirm('Are you sure you want to clear all content? This cannot be undone.')) {
+            // Clear all textareas
+            document.querySelectorAll('.grid-cell textarea').forEach(textarea => {
+                textarea.value = '';
             });
+            
+            // Clear all image previews
+            document.querySelectorAll('.image-preview').forEach(preview => {
+                preview.innerHTML = '';
+            });
+            
+            // Reset all file inputs
+            document.querySelectorAll('.image-upload').forEach(input => {
+                input.value = '';
+            });
+            
+            // Update word counts
+            document.querySelectorAll('.word-count').forEach(counter => {
+                counter.textContent = '0 words';
+            });
+            
+            // Update progress
+            updateProgress();
         }
     });
 
     // Export as PNG functionality
-    document.getElementById("export_png_btn").addEventListener("click", function () {
-        exportMatrix();
-    });
-
-    // PDF export functionality has been removed
-
-    // Function to export the matrix as PNG
-    function exportMatrix() {
-        try {
-            // Show loading indicator
-            const downloadContainer = document.getElementById("download-container");
-            downloadContainer.innerHTML = `
-                        <div class="loading-indicator">
-                            <div class="spinner"></div>
-                            <span>Generating PNG...</span>
-                        </div>
-                    `;
-
-            // Create a temporary div with professional styling for export
-            const tempDiv = document.createElement('div');
-            tempDiv.id = 'export-container';
-            tempDiv.style.backgroundColor = 'white';
-            tempDiv.style.padding = '40px';
-            tempDiv.style.maxWidth = '1200px';
-            tempDiv.style.position = 'absolute';
-            tempDiv.style.left = '-9999px';
-            tempDiv.style.top = '-9999px';
-            document.body.appendChild(tempDiv);
-
-            // Add title and description
-            const header = document.createElement('div');
-            header.innerHTML = `
-                        <h1 style="text-align: center; color: #2b2d42; font-family: Arial, sans-serif; margin-bottom: 5px;">System Analysis Matrix</h1>
-                        <p style="text-align: center; color: #8d99ae; font-family: Arial, sans-serif; margin-bottom: 30px;">Strategic analysis across dimensions and time</p>
-                    `;
-            tempDiv.appendChild(header);
-
-            // Create a professionally styled table
-            const table = document.createElement('table');
-            table.style.width = '100%';
-            table.style.borderCollapse = 'collapse';
-            table.style.fontFamily = 'Arial, sans-serif';
-            table.style.marginBottom = '30px';
-
-            // Create header row
-            const headerRow = document.createElement('tr');
-
-            // Empty cell for the corner
-            const cornerCell = document.createElement('th');
-            cornerCell.style.width = '150px';
-            cornerCell.style.backgroundColor = '#f8f9fa';
-            cornerCell.style.border = '1px solid #dee2e6';
-            cornerCell.style.padding = '15px';
-            headerRow.appendChild(cornerCell);
-
-            // Add column headers (Past, Present, Future)
-            ['Past', 'Present', 'Future'].forEach(header => {
-                const th = document.createElement('th');
-                th.textContent = header;
-                th.style.backgroundColor = '#2b2d42';
-                th.style.color = 'white';
-                th.style.padding = '15px';
-                th.style.border = '1px solid #dee2e6';
-                th.style.textAlign = 'center';
-                th.style.fontWeight = 'bold';
-                headerRow.appendChild(th);
-            });
-
-            table.appendChild(headerRow);
-
-            // Add rows for each system level
-            const rowLabels = ['Super System', 'System', 'Subsystem'];
-            const cellIds = [
-                ['past_super', 'present_super', 'future_super'],
-                ['past_system', 'present_system', 'future_system'],
-                ['past_subsystem', 'present_subsystem', 'future_subsystem']
-            ];
-
-            rowLabels.forEach((label, rowIndex) => {
-                const tr = document.createElement('tr');
-
-                // Row header
-                const th = document.createElement('th');
-                th.textContent = label;
-                th.style.backgroundColor = '#f8f9fa';
-                th.style.border = '1px solid #dee2e6';
-                th.style.padding = '15px';
-                th.style.textAlign = 'right';
-                th.style.fontWeight = 'bold';
-                th.style.color = '#2b2d42';
-                tr.appendChild(th);
-
-                // Data cells
-                cellIds[rowIndex].forEach((id, colIndex) => {
-                    const td = document.createElement('td');
-                    td.style.border = '1px solid #dee2e6';
-                    td.style.padding = '15px';
-                    td.style.verticalAlign = 'top';
-                    td.style.backgroundColor = 'white';
-
-                    // Alternate row shading for better readability
-                    if (rowIndex % 2 === 1) {
-                        td.style.backgroundColor = '#f8f9fa';
-                    }
-
-                    // Add cell content with formatting
-                    const content = document.getElementById(id).value || '';
-                    const formattedContent = content.replace(/\n/g, '<br>');
-                    td.innerHTML = formattedContent;
-
-                    tr.appendChild(td);
-                });
-
-                table.appendChild(tr);
-            });
-
-            tempDiv.appendChild(table);
-
-            // Add timestamp and footer
-            const footer = document.createElement('div');
-            footer.innerHTML = `
-                        <p style="text-align: right; color: #8d99ae; font-family: Arial, sans-serif; font-size: 12px;">Generated on: ${new Date().toLocaleString()}</p>
-                    `;
-            tempDiv.appendChild(footer);
-
-            // Use html2canvas to create image
-            html2canvas(tempDiv, {
-                scale: 2,
+    document.getElementById("export_png_btn").addEventListener("click", function() {
+        // Show loading indicator or message
+        const errorContainer = document.getElementById('error-container');
+        errorContainer.style.display = 'block';
+        errorContainer.innerHTML = '<p>Generating image... Please wait.</p>';
+        
+        // Use setTimeout to allow the UI to update before heavy processing
+        setTimeout(() => {
+            // Get the matrix element
+            const matrix = document.getElementById('matrix');
+            
+            // Use html2canvas with proper settings to include images
+            html2canvas(matrix, {
+                allowTaint: true,
                 useCORS: true,
-                backgroundColor: "#ffffff",
-                logging: false
+                scale: 2, // Higher quality
+                logging: false,
+                onclone: function(clonedDoc) {
+                    // Make any adjustments to the cloned document if needed
+                    const clonedMatrix = clonedDoc.getElementById('matrix');
+                    clonedMatrix.style.padding = '20px';
+                    clonedMatrix.style.backgroundColor = '#ffffff';
+                }
             }).then(canvas => {
-                // Remove the temporary div
-                document.body.removeChild(tempDiv);
-
-                // Convert canvas to PNG
-                const dataURL = canvas.toDataURL("image/png");
-                const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
-
                 // Create download link
-                const downloadLink = document.createElement("a");
-                downloadLink.href = dataURL;
-                downloadLink.download = "system_analysis_" + timestamp + ".png";
-                downloadLink.innerHTML = '<i class="fas fa-download"></i> Download PNG';
-                downloadLink.className = "download-btn";
-
-                // Clear loading and add download link
-                downloadContainer.innerHTML = '';
-                downloadContainer.appendChild(downloadLink);
-            }).catch(error => {
-                showError('<i class="fas fa-exclamation-triangle"></i> Error generating export: ' + error.message);
+                const link = document.createElement('a');
+                link.download = 'system-analysis-matrix.png';
+                link.href = canvas.toDataURL('image/png');
+                link.click();
+                
+                // Hide loading indicator
+                errorContainer.style.display = 'none';
+            }).catch(err => {
+                // Show error message
+                errorContainer.innerHTML = '<p>Error generating image. Please try again.</p>';
+                console.error('Error in html2canvas', err);
             });
-        } catch (error) {
-            showError('<i class="fas fa-exclamation-triangle"></i> Error: ' + error.message);
-        }
-    }
+        }, 100);
+    });
 
     // Function to show error messages
     function showError(message) {
@@ -324,4 +246,73 @@ document.addEventListener("DOMContentLoaded", function () {
     downloadContainer.parentNode.insertBefore(saveNote, downloadContainer.nextSibling);
 
     // Keyboard shortcuts are disabled in this environment to avoid conflicts with browser functions
+
+    // Set up image upload functionality
+    setupImageUploads();
 });
+
+function setupImageUploads() {
+    // Get all image upload inputs
+    const imageInputs = document.querySelectorAll('.image-upload');
+    
+    // Add event listeners to each input
+    imageInputs.forEach(input => {
+        input.addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            const cellId = this.getAttribute('data-cell');
+            const previewDiv = document.getElementById(`preview-${cellId}`);
+            
+            if (file) {
+                // Check if it's an image file
+                if (!file.type.match('image.*')) {
+                    alert('Please select an image file');
+                    return;
+                }
+                
+                // Size check (optional)
+                if (file.size > 5000000) { // 5MB limit
+                    alert('Image is too large. Please select an image under 5MB.');
+                    return;
+                }
+                
+                // Read and preview the image
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    // Clear previous preview
+                    previewDiv.innerHTML = '';
+                    
+                    // Create image element
+                    const img = document.createElement('img');
+                    img.src = e.target.result;
+                    img.className = 'preview-image';
+                    
+                    // Create remove button
+                    const removeBtn = document.createElement('button');
+                    removeBtn.innerHTML = 'Remove';
+                    removeBtn.className = 'remove-image';
+                    removeBtn.addEventListener('click', function() {
+                        previewDiv.innerHTML = '';
+                        // Clear the file input
+                        document.getElementById(`image-${cellId}`).value = '';
+                        // Update progress
+                        updateProgress();
+                    });
+                    
+                    // Create actions div
+                    const actionsDiv = document.createElement('div');
+                    actionsDiv.className = 'image-actions';
+                    actionsDiv.appendChild(removeBtn);
+                    
+                    // Add elements to preview
+                    previewDiv.appendChild(img);
+                    previewDiv.appendChild(actionsDiv);
+                    
+                    // Update progress
+                    updateProgress();
+                };
+                
+                reader.readAsDataURL(file);
+            }
+        });
+    });
+}
